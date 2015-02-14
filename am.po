@@ -436,7 +436,7 @@ msgstr "Двойная ; в списке переменных"
 
 #, c-format
 msgid "E738: Can't list variables for %s"
-msgstr "E738: Невозможно отобразить переменные для %s"
+msgstr "E738: Հնարավոր չէ ցուցադրել %s֊ի փոփոխականնները"
 
 msgid "E689: Can only index a List or Dictionary"
 msgstr "E689: Индексирование возможно только списка или словаря"
@@ -492,7 +492,7 @@ msgid "E804: Cannot use '%' with Float"
 msgstr "E804: Невозможно использовать '%' с числом с плавающей точкой"
 
 msgid "E110: Missing ')'"
-msgstr "E110: Բացակա ')'"
+msgstr "E110: Բաց թողնված ')'"
 
 msgid "E695: Cannot index a Funcref"
 msgstr "E695: Невозможно индексировать ссылку на функцию"
@@ -507,11 +507,11 @@ msgstr "E113: Неизвестная опция: %s"
 
 #, c-format
 msgid "E114: Missing quote: %s"
-msgstr "E114: Пропущена кавычка: %s"
+msgstr "E114: Բաց թողնված չակերտ: %s"
 
 #, c-format
 msgid "E115: Missing quote: %s"
-msgstr "E115: Пропущена кавычка: %s"
+msgstr "E115: Բաց թողնված չակերտ: %s"
 
 #, c-format
 msgid "E696: Missing comma in List: %s"
@@ -1077,35 +1077,35 @@ msgid "E155: Unknown sign: %s"
 msgstr "E155: Неизвестный значок: %s"
 
 msgid "E159: Missing sign number"
-msgstr "E159: Пропущен номер значка"
+msgstr "E159: Բաց թողնված թվի նշան"
 
 #, c-format
 msgid "E158: Invalid buffer name: %s"
-msgstr "E158: Неправильное имя буфера: %s"
+msgstr "E158: Սխալ բուֆերի անուն: %s"
 
 #, c-format
 msgid "E157: Invalid sign ID: %ld"
-msgstr "E157: Неправильный ID значка: %ld"
+msgstr "E157: Սխալ նշանի համար: %ld"
 
 msgid " (NOT FOUND)"
-msgstr " (НЕ НАЙДЕНО)"
+msgstr " (ՉԻ ԳՏՎԵԼ"
 
 msgid " (not supported)"
-msgstr " (не поддерживается)"
+msgstr " (չի աջակցվում)"
 
 msgid "[Deleted]"
-msgstr "[Удалено]"
+msgstr "[Ջնջված է]"
 
 msgid "Entering Debug mode.  Type \"cont\" to continue."
 msgstr "Включён режим отладки. Для продолжения наберите \"cont\""
 
 #, c-format
 msgid "line %ld: %s"
-msgstr "строка %ld: %s"
+msgstr "տող %ld: %s"
 
 #, c-format
 msgid "cmd: %s"
-msgstr "команда: %s"
+msgstr "հրաման: %s"
 
 #, c-format
 msgid "Breakpoint in \"%s%s\" line %ld"
@@ -1120,7 +1120,7 @@ msgstr "Точки остановки не определены"
 
 #, c-format
 msgid "%3d  %s %s  line %ld"
-msgstr "%3d  %s %s стр. %ld"
+msgstr "%3d  %s %s տող %ld"
 
 msgid "E750: First use \":profile start {fname}\""
 msgstr "E750: Первое использование \":profile start {имя-файла}\""
@@ -1130,7 +1130,7 @@ msgid "Save changes to \"%s\"?"
 msgstr "Պահպանե՞լ փոփոխությունները \"%s\" ֆայլում"
 
 msgid "Untitled"
-msgstr "Без имени"
+msgstr "Անանուն"
 
 #, c-format
 msgid "E162: No write since last change for buffer \"%s\""
@@ -1151,7 +1151,7 @@ msgstr "E165: Անցումը հնարավոր չէ, սա վերջին ֆայլն
 
 #, c-format
 msgid "E666: compiler not supported: %s"
-msgstr "E666: Компилятор не поддерживается: %s"
+msgstr "E666: Կազմարարը չի աջակցվում: %s"
 
 #, c-format
 msgid "Searching for \"%s\" in \"%s\""
@@ -2032,7 +2032,7 @@ msgid "No abbreviation found"
 msgstr "Сокращения не найдены"
 
 msgid "No mapping found"
-msgstr "Привязки не найдены"
+msgstr "Վերաբեռնումը չի գտնվել"
 
 msgid "E228: makemap: Illegal mode"
 msgstr "E228: makemap: недопустимый режим"
@@ -2405,7 +2405,7 @@ msgid "Print job sent."
 msgstr "Задание на печать отправлено."
 
 msgid "Add a new database"
-msgstr "Добавить новую базу данных"
+msgstr "Ավելացնել նոր տվյալների բազա"
 
 msgid "Query for a pattern"
 msgstr "Запрос по шаблону"
@@ -2414,13 +2414,13 @@ msgid "Show this message"
 msgstr "Показать это сообщение"
 
 msgid "Kill a connection"
-msgstr "Убить соединение"
+msgstr "Ընդհատել կապը"
 
 msgid "Reinit all connections"
 msgstr "Заново инициализировать все соединения"
 
 msgid "Show connections"
-msgstr "Показать соединения"
+msgstr "Ցուցադրել կապւ"
 
 #, c-format
 msgid "E560: Usage: cs[cope] %s"
@@ -2490,7 +2490,7 @@ msgid "E259: no matches found for cscope query %s of %s"
 msgstr "E259: Не найдено соответствий по запросу cscope %s для %s"
 
 msgid "cscope commands:\n"
-msgstr "Команды cscope:\n"
+msgstr "cscope հրամանները:\n"
 
 #, c-format
 msgid "%-5s: %s%*s (Usage: %s)"
@@ -2508,18 +2508,18 @@ msgid ""
 "       t: Find this text string\n"
 msgstr ""
 "\n"
-"       c: Найти функции вызывающие эту функцию\n"
-"       d: Найти функции вызываемые этой функцией\n"
+"       c: Փնտրել այս ֆունկցիան կանչող ֆունկցիանները\n"
+"       d: Փնտրեկ այս ֆունկցիայից կանչվող ֆունկցիաները\n"
 "       e: Найти этот шаблон egrep\n"
-"       f: Найти этот файл\n"
+"       f: Փնտրել այս ֆայլւ\n"
 "       g: Найти это определение\n"
 "       i: Найти файлы включающие (#include) этот файл\n"
-"       s: Найти этот C-символ\n"
-"       t: Найти эту текстовую строку\n"
+"       s: Փնտրելայս C-նշանը\n"
+"       t: Փնտրել այս տեքստը\n"
 
 #, c-format
 msgid "E625: cannot open cscope database: %s"
-msgstr "E625: Невозможно открыть базу данных cscope: %s"
+msgstr "E625: Անհնար է բացել cscope տվյալների բազան: %s"
 
 msgid "E626: cannot get cscope database information"
 msgstr "E626: Информация о базе данных cscope не доступна"
@@ -2548,7 +2548,7 @@ msgid ""
 "   #   line"
 msgstr ""
 "\n"
-"   #   строка"
+"   #   տող"
 
 msgid "filename / context / line\n"
 msgstr "имя файла / контекст / строка\n"
@@ -2656,16 +2656,16 @@ msgstr ""
 "Ruby"
 
 msgid "E267: unexpected return"
-msgstr "E267: Неожиданный return"
+msgstr "E267: Անսպասելի return"
 
 msgid "E268: unexpected next"
-msgstr "E268: Неожиданный next"
+msgstr "E268: Անսպասելի next"
 
 msgid "E269: unexpected break"
-msgstr "E269: Неожиданный break"
+msgstr "E269: Անսպասելի break"
 
 msgid "E270: unexpected redo"
-msgstr "E270: Неожиданный redo"
+msgstr "E270: Անսպասելի redo"
 
 msgid "E271: retry outside of rescue clause"
 msgstr "E271: retry вне оператора rescue"
@@ -2942,17 +2942,17 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Использование:"
+"Օգտագործում:"
 
 msgid " vim [arguments] "
-msgstr " vim [параметры] "
+msgstr " vim [պարամետեր] "
 
 msgid ""
 "\n"
 "   or:"
 msgstr ""
 "\n"
-"   или:"
+"   կամ:"
 
 msgid ""
 "\n"
@@ -2968,7 +2968,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Параметры:\n"
+"Արգումենտներ:\n"
 
 msgid "--\t\t\tOnly file names after this"
 msgstr "--\t\t\tДалее указываются только имена файлов"
@@ -3758,7 +3758,7 @@ msgid "While opening file \""
 msgstr "   բացելու դեպքում: \""
 
 msgid "      NEWER than swap file!\n"
-msgstr "                    Более СВЕЖИЙ, чем своп-файл!\n"
+msgstr "                    Ավելի ՆՈՐ, քան սվեփ ֆայլը!\n"
 
 #. Some of these messages are long to allow translation to
 #. * other languages.
@@ -4321,7 +4321,7 @@ msgid "E617: Cannot be changed in the GTK+ 2 GUI"
 msgstr "E617: Не может быть изменено в графическом интерфейсе GTK+ 2"
 
 msgid "E524: Missing colon"
-msgstr "E524: Բացակա վերջակետ"
+msgstr "E524: Բաց թողնված վերջակետ"
 
 msgid "E525: Zero length string"
 msgstr "E525: Строка с нулевой длиной"
@@ -4331,7 +4331,7 @@ msgid "E526: Missing number after <%s>"
 msgstr "E526: Пропущено число после <%s>"
 
 msgid "E527: Missing comma"
-msgstr "E527: Բացակայող ստորակետ"
+msgstr "E527: Բաց թողնված ստորակետ"
 
 msgid "E528: Must specify a ' value"
 msgstr "E528: Необходимо указать значение для '"
@@ -6834,11 +6834,11 @@ msgstr ""
 
 #, c-format
 msgid "unable to convert %s to vim dictionary"
-msgstr "Невозможно преобразовать %s в словарь VIM"
+msgstr "Անհնար է փոխել %s ֊ը VIM բառարանի"
 
 #, c-format
 msgid "unable to convert %s to vim structure"
-msgstr "Невозможно преобразовать %s в структуру VIM"
+msgstr "Անհնար է փոխել%s ֊ը VIM ստրուկտուրայի"
 
 msgid "internal error: NULL reference passed"
 msgstr " Ներքին համակարգային սխալ: տրվել է NULL հղում"
