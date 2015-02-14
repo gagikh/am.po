@@ -29,10 +29,10 @@ msgid "E817: Blowfish big/little endian use wrong"
 msgstr "E817: Blowfish֊ին տրված մեծ/փոքր վերջավորության կարգը սխալ է"
 
 msgid "E818: sha256 test failed"
-msgstr "E818: sha256 թեսթը անհաջող է ավարտվաել"
+msgstr "E818: sha256 թեսթը անհաջող է ավարտվել"
 
 msgid "E819: Blowfish test failed"
-msgstr "E819: Blowfish թեսթը անհաջող է ավարտվաել"
+msgstr "E819: Blowfish թեսթը անհաջող է ավարտվել"
 
 msgid "[Location List]"
 msgstr "[Տեղորոշման ցանկ]"
@@ -41,74 +41,74 @@ msgid "[Quickfix List]"
 msgstr "[Արագ կարգավորման ցանկ]"
 
 msgid "E855: Autocommands caused command to abort"
-msgstr "E855: Ինքնահրամմանները ստիպել են հրամանին անհաջող ավարտվաել"
+msgstr "E855: Ինքնահրամմանները ստիպել են հրամանին անհաջող ավարտվել"
 
 msgid "E82: Cannot allocate any buffer, exiting..."
-msgstr "E82: Հնարավոր չէ առանձնացնել գոնե մեկ բուֆֆերի հիշողություն, ավարտ..."
+msgstr "E82: Հնարավոր չէ առանձնացնել գոնե մեկ բուֆերի հիշողություն, ավարտ..."
 
 msgid "E83: Cannot allocate buffer, using other one..."
-msgstr "E83: Հնարավոր չէ առանձնացնել բուֆֆերի հիշողություն, ուրիշ մեկն է օգտագործվում"
+msgstr "E83: Հնարավոր չէ առանձնացնել բուֆերի հիշողություն, ուրիշ մեկն է օգտագործվում"
 
 msgid "E515: No buffers were unloaded"
-msgstr "E515: Ոչ մի բուֆֆեր չի բեռնաթափվել"
+msgstr "E515: Ոչ մի բուֆեր չի բեռնաթափվել"
 
 msgid "E516: No buffers were deleted"
-msgstr "E516: Ոչ մի բուֆֆեր չի ջնջվել"
+msgstr "E516: Ոչ մի բուֆեր չի ջնջվել"
 
 msgid "E517: No buffers were wiped out"
-msgstr "E517: Ոչ մի բուֆֆեր չի մաքրվել"
+msgstr "E517: Ոչ մի բուֆեր չի մաքրվել"
 
 msgid "1 buffer unloaded"
-msgstr "Մեկ բուֆֆեր բեռնաթափվել է"
+msgstr "Մեկ բուֆեր բեռնաթափվել է"
 
 #, c-format
 msgid "%d buffers unloaded"
-msgstr "%d բուֆֆերներ բեռնաթափվել են"
+msgstr "%d բուֆերներ բեռնաթափվել են"
 
 msgid "1 buffer deleted"
-msgstr "Մեկ բուֆֆեր ջնջվել է"
+msgstr "Մեկ բուֆեր ջնջվել է"
 
 #, c-format
 msgid "%d buffers deleted"
-msgstr "%d բուֆֆերներ ջնջվել են" 
+msgstr "%d բուֆերներ ջնջվել են" 
 
 msgid "1 buffer wiped out"
-msgstr "Մեկ բուֆֆեր մաքրվել է"
+msgstr "Մեկ բուֆեր մաքրվել է"
 
 #, c-format
 msgid "%d buffers wiped out"
-msgstr "%d բուֆֆերներ մաքրվել են"
+msgstr "%d բուֆերներ մաքրվել են"
 
 msgid "E84: No modified buffer found"
-msgstr "E84: Փոփոխության ենթարկված բուֆֆեր չկա"
+msgstr "E84: Փոփոխության ենթարկված բուֆեր չկա"
 
 #. back where we started, didn't find anything.
 msgid "E85: There is no listed buffer"
-msgstr "E85: Ցնակում ընդգրկված բուֆֆերներ չկան"
+msgstr "E85: Ցնակում ընդգրկված բուֆերներ չկան"
 
 #, c-format
 msgid "E86: Buffer %ld does not exist"
-msgstr "E86: %ld ֊ բուֆֆերը գոյություն չունի"
+msgstr "E86: %ld ֊ բուֆերը գոյություն չունի"
 
 msgid "E87: Cannot go beyond last buffer"
-msgstr "E87: Սա վերջին բուֆֆերն է"
+msgstr "E87: Սա վերջին բուֆերն է"
 
 msgid "E88: Cannot go before first buffer"
-msgstr "E88: Սա առաջին բուֆֆերն է"
+msgstr "E88: Սա առաջին բուֆերն է"
 
 #, c-format
 msgid "E89: No write since last change for buffer %ld (add ! to override)"
-msgstr "E89: %ld բուֆֆերի փոփոխությունները չեն ամրագրվել, (ամրագրելու համար ավելացրեք !)"
+msgstr "E89: %ld բուֆերի փոփոխությունները չեն ամրագրվել, (ամրագրելու համար ավելացրեք !)"
 
 msgid "E90: Cannot unload last buffer"
-msgstr "E90: Հնարավոր չէ բեռնաթափվել վերջին բուֆֆերը"
+msgstr "E90: Հնարավոր չէ բեռնաթափվել վերջին բուֆերը"
 
 msgid "W14: Warning: List of file names overflow"
 msgstr "W14: Զգուշացում: ֆայլերի ցանկը հատել է թույլատրելի սահմանը"
 
 #, c-format
 msgid "E92: Buffer %ld not found"
-msgstr "E92: %ld բուֆֆերը չի գտնվել"
+msgstr "E92: %ld բուֆերը չի գտնվել"
 
 #, c-format
 msgid "E93: More than one match for %s"
@@ -116,14 +116,14 @@ msgstr "E93: Մի քանի համընկնումներ %s ֊ի համար"
 
 #, c-format
 msgid "E94: No matching buffer for %s"
-msgstr "E94: Չկա համապատասխան բուֆֆեր %s ֊ի համար"
+msgstr "E94: Չկա համապատասխան բուֆեր %s ֊ի համար"
 
 #, c-format
 msgid "line %ld"
 msgstr "տող %ld"
 
 msgid "E95: Buffer with this name already exists"
-msgstr "E95: Նմանատիպ անունով բուֆֆեր արդեն գոյություն ունի"
+msgstr "E95: Նմանատիպ անունով բուֆեր արդեն գոյություն ունի"
 
 msgid " [Modified]"
 msgstr " [Փոփոխված]"
@@ -204,7 +204,7 @@ msgstr "    տող=%ld  համար=%d  անուն=%s"
 
 #, c-format
 msgid "E96: Can not diff more than %ld buffers"
-msgstr "E96: Հնարավոր չէ համեմատել %ld ֊ից շատ բուֆֆերներ"
+msgstr "E96: Հնարավոր չէ համեմատել %ld ֊ից շատ բուֆերներ"
 
 msgid "E810: Cannot read or write temp files"
 msgstr "E810: Հնարավոր չէ գրել կամ կարդալ Ժամանակավոր ֆայլերում"
@@ -222,24 +222,24 @@ msgid "E98: Cannot read diff output"
 msgstr "E98: Հնարավոր չէ կարդալ համեմատման ելքը"
 
 msgid "E99: Current buffer is not in diff mode"
-msgstr "E99: Տվյալ բուֆֆերը չի գտվում համեմատման կարգավիճակում"
+msgstr "E99: Տվյալ բուֆերը չի գտվում համեմատման կարգավիճակում"
 
 msgid "E793: No other buffer in diff mode is modifiable"
-msgstr "E793: Փոփոխելի բուֆֆերներ այլևս չկան"
+msgstr "E793: Փոփոխելի բուֆերներ այլևս չկան"
 
 msgid "E100: No other buffer in diff mode"
-msgstr "E100:  Համեմատման բուֆֆերներ այլևս չկան"
+msgstr "E100:  Համեմատման բուֆերներ այլևս չկան"
 
 msgid "E101: More than two buffers in diff mode, don't know which one to use"
-msgstr "E101: Տրված են մի քանի համեմատման բուֆֆերներ, չգիտեմ որն օգտագործել"
+msgstr "E101: Տրված են մի քանի համեմատման բուֆերներ, չգիտեմ որն օգտագործել"
 
 #, c-format
 msgid "E102: Can't find buffer \"%s\""
-msgstr "E102: Հնարավոր չէ գտնել \"%s\" բուֆֆերը"
+msgstr "E102: Հնարավոր չէ գտնել \"%s\" բուֆերը"
 
 #, c-format
 msgid "E103: Buffer \"%s\" is not in diff mode"
-msgstr "E103: \"%s\" բուֆֆերը չի գտնվում համեմատման ռեժիմում"
+msgstr "E103: \"%s\" բուֆերը չի գտնվում համեմատման ռեժիմում"
 
 msgid "E787: Buffer changed unexpectedly"
 msgstr "E787: Բուֆֆերն անսպասելի փոփոխվել է"
@@ -3575,7 +3575,7 @@ msgid "and run diff with the original file to check for changes)"
 msgstr "файлом при помощи программы diff)"
 
 msgid "Recovery completed. Buffer contents equals file contents."
-msgstr "Վերականգնումն ավարտված է. Ֆայլի պարունակությունն ու բուֆֆերը համարժեք են։"
+msgstr "Վերականգնումն ավարտված է. Ֆայլի պարունակությունն ու բուֆերը համարժեք են։"
 
 msgid ""
 "\n"
@@ -6595,13 +6595,13 @@ msgid "E363: pattern uses more memory than 'maxmempattern'"
 msgstr "E363: Шаблон использует больше памяти чем 'maxmempattern'"
 
 msgid "E749: empty buffer"
-msgstr "E749: Դատարկ բուֆֆեր"
+msgstr "E749: Դատարկ բուֆեր"
 
 msgid "E682: Invalid search pattern or delimiter"
 msgstr "E682: Неправильная строка поиска или разделитель"
 
 msgid "E139: File is loaded in another buffer"
-msgstr "E139: Ֆայլը բեռնված է այլ բուֆֆերում"
+msgstr "E139: Ֆայլը բեռնված է այլ բուֆերում"
 
 #, c-format
 msgid "E764: Option '%s' is not set"
@@ -6614,7 +6614,7 @@ msgid "search hit TOP, continuing at BOTTOM"
 msgstr "Փնտրումը սկսվելու է սկզբից"
 
 msgid "search hit BOTTOM, continuing at TOP"
-msgstr "Փնտրումը սկսվելու է սկզբից"
+msgstr "Փնտրումը սկսվելու է վերջից"
 
 #, c-format
 msgid "Need encryption key for \"%s\""
