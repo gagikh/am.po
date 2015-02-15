@@ -742,7 +742,7 @@ msgstr "E125: Չթույլատրված արգումենտ: %s"
 
 #, c-format
 msgid "E853: Duplicate argument name: %s"
-msgstr "E853: Կրկնվախ արգումենտի անուն: %s"
+msgstr "E853: Կրկնված արգումենտի անուն: %s"
 
 msgid "E126: Missing :endfunction"
 msgstr "E126: Բացակայող :endfunction"
@@ -794,7 +794,7 @@ msgid "continuing in %s"
 msgstr "շարունակվում է %s"
 
 msgid "E133: :return not inside a function"
-msgstr "E133: :return ոչ ֆունկցիայից"
+msgstr "E133: :return ոչ ֆունկցիայի ներսից"
 
 msgid ""
 "\n"
@@ -1011,53 +1011,53 @@ msgstr "E478: Մի անհանգստացեք, ամեն ինչ լավ է :)!"
 
 #, c-format
 msgid "E661: Sorry, no '%s' help for %s"
-msgstr "E661:Ներողություն, '%s' для %s отсутствует"
+msgstr "E661: Ներողություն, '%s' օգնության էջը չկա %s֊համար"
 
 #, c-format
 msgid "E149: Sorry, no help for %s"
-msgstr "E149: К сожалению справка для %s отсутствует"
+msgstr "E149: Ներողություն, '%s' մասին ոչինչ չկա"
 
 #, c-format
 msgid "Sorry, help file \"%s\" not found"
-msgstr "Извините, файл справки \"%s\" не найден"
+msgstr "Ներողություն, '%s' օգնության էջը չկա"
 
 #, c-format
 msgid "E150: Not a directory: %s"
-msgstr "E150: %s не является каталогом"
+msgstr "E150: %s֊ը թղթապանակ չէ"
 
 #, c-format
 msgid "E152: Cannot open %s for writing"
-msgstr "E152: Невозможно открыть %s для записи"
+msgstr "E152: Հնարավոր չէ բացել %s֊ը գրելու համար"
 
 #, c-format
 msgid "E153: Unable to open %s for reading"
-msgstr "E153: Невозможно открыть %s для чтения"
+msgstr "E153: Հնարավոր չէ բացել %s֊ը կարդալու համար"
 
 #, c-format
 msgid "E670: Mix of help file encodings within a language: %s"
-msgstr "E670: Файлы справки используют разные кодировки для одного языка: %s"
+msgstr "E670: Օգնական ֆայլը օգտագործում է տարբեր կոդավորումներ մի լեզվի համար: %s"
 
 #, c-format
 msgid "E154: Duplicate tag \"%s\" in file %s/%s"
-msgstr "E154: Повторяющаяся метка \"%s\" в файле %s/%s"
+msgstr "E154: Կրկնված թեգ \"%s\" %s/%s֊ֆայլում"
 
 #, c-format
 msgid "E160: Unknown sign command: %s"
-msgstr "E160: Неизвестная команда значка %s"
+msgstr "E160: Անծանոթ նշանի հրաման %s"
 
 msgid "E156: Missing sign name"
-msgstr "E156: Пропущено имя значка"
+msgstr "E156: Բացակայող նշանի անուն"
 
 msgid "E612: Too many signs defined"
-msgstr "E612: Определено слишком много значков"
+msgstr "E612: Սահմանվել են մի քանի նշաններ"
 
 #, c-format
 msgid "E239: Invalid sign text: %s"
-msgstr "E239: Неправильный текст значка: %s"
+msgstr "E239: Անհայտ տեքստային նշան: %s"
 
 #, c-format
 msgid "E155: Unknown sign: %s"
-msgstr "E155: Неизвестный значок: %s"
+msgstr "E155: Անհայտ նշան: %s"
 
 msgid "E159: Missing sign number"
 msgstr "E159: Բաց թողնված թվի նշան"
@@ -1080,7 +1080,7 @@ msgid "[Deleted]"
 msgstr "[Ջնջված է]"
 
 msgid "Entering Debug mode.  Type \"cont\" to continue."
-msgstr "Включён режим отладки. Для продолжения наберите \"cont\""
+msgstr "Մուտք կոդի զննման ռեժիմ. Շարունակելու համար կատարել \"cont\" հրամանը"
 
 #, c-format
 msgid "line %ld: %s"
@@ -1092,21 +1092,21 @@ msgstr "հրաման: %s"
 
 #, c-format
 msgid "Breakpoint in \"%s%s\" line %ld"
-msgstr "Точка остановки в \"%s%s\" стр. %ld"
+msgstr "Վերադարձի կետը՝ \"%s%s\" տող %ld"
 
 #, c-format
 msgid "E161: Breakpoint not found: %s"
-msgstr "E161: Точка остановки не найдена: %s"
+msgstr "E161: Վերադարձի կետը չի հայտնաբերվել: %s"
 
 msgid "No breakpoints defined"
-msgstr "Точки остановки не определены"
+msgstr "Վերադարձի կետեր չեն սահամանվել"
 
 #, c-format
 msgid "%3d  %s %s  line %ld"
 msgstr "%3d  %s %s տող %ld"
 
 msgid "E750: First use \":profile start {fname}\""
-msgstr "E750: Первое использование \":profile start {имя-файла}\""
+msgstr "E750: Առաջին օգտագործում \":profile start {ֆայլի անուն}\""
 
 #, c-format
 msgid "Save changes to \"%s\"?"
@@ -1120,8 +1120,7 @@ msgid "E162: No write since last change for buffer \"%s\""
 msgstr "E162: \"%s\" Բուֆֆերում կան չամրագրված փոփոխություններ"
 
 msgid "Warning: Entered other buffer unexpectedly (check autocommands)"
-msgstr ""
-"Предупреждение: Неожиданный переход в другой буфер (проверьте автокоманды)"
+msgstr "Զգուշացում: Անսպասելու անցում է կատարվել դեպի այլ բուֆեր (ստուգեք ինքնահրամանննրը)"
 
 msgid "E163: There is only one file to edit"
 msgstr "E163: Խմբագրելու համար կա միայն մեկ ֆայլ"
@@ -1138,61 +1137,60 @@ msgstr "E666: Կազմարարը չի աջակցվում: %s"
 
 #, c-format
 msgid "Searching for \"%s\" in \"%s\""
-msgstr "Поиск \"%s\" в \"%s\""
+msgstr "Փնտրում \"%s\" \"%s\"֊ում"
 
 #, c-format
 msgid "Searching for \"%s\""
-msgstr "Поиск \"%s\""
+msgstr "Փնտրում \"%s\""
 
 #, c-format
 msgid "not found in 'runtimepath': \"%s\""
-msgstr "не найдено в 'runtimepath': \"%s\""
+msgstr "'runtimepath'֊ում չի գտնվել: \"%s\""
 
 msgid "Source Vim script"
-msgstr "Выполнить сценарий Vim"
+msgstr "Կցել Vim սկրիպտ"
 
 #, c-format
 msgid "Cannot source a directory: \"%s\""
-msgstr "Нельзя считать каталог: \"%s\""
+msgstr "Անհնար է կցել թղթապանակ: \"%s\""
 
 #, c-format
 msgid "could not source \"%s\""
-msgstr "невозможно считать \"%s\""
+msgstr "Անհնար է կցել \"%s\""
 
 #, c-format
 msgid "line %ld: could not source \"%s\""
-msgstr "строка %ld: невозможно считать \"%s\""
+msgstr "տող %ld: Անհնար է կցել \"%s\""
 
 #, c-format
 msgid "sourcing \"%s\""
-msgstr "считывание сценария \"%s\""
+msgstr "\"%s\"֊ի կցում"
 
 #, c-format
 msgid "line %ld: sourcing \"%s\""
-msgstr "строка %ld: считывание \"%s\""
+msgstr "տող %ld: \"%s\"֊ի կցում"
 
 #, c-format
 msgid "finished sourcing %s"
-msgstr "считывание сценария %s завершено"
+msgstr "%s֊ի կցումը ավարտվել է"
 
 msgid "modeline"
-msgstr "режимная строка"
+msgstr "տողային ռեժիմ"
 
 msgid "--cmd argument"
-msgstr "--cmd параметр"
+msgstr "--cmd արգումենտ"
 
 msgid "-c argument"
-msgstr "-c параметр"
+msgstr "-c արգումենտ"
 
 msgid "environment variable"
-msgstr "переменная окружения"
+msgstr "շրջապատման արգումենտ"
 
 msgid "error handler"
-msgstr "обработчик ошибки"
+msgstr "սխալի մշակիչ"
 
 msgid "W15: Warning: Wrong line separator, ^M may be missing"
-msgstr ""
-"W15: Предупреждение: неправильный разделитель строки. Возможно пропущено ^M"
+msgstr "W15: Զգուշացում: Սխալ տրված տողի բաժանիչ. Հնարավոր է ^M֊ը բաց է թողնված"
 
 msgid "E167: :scriptencoding used outside of a sourced file"
 msgstr "E167: :scriptencoding հրամանը օգտագործվում է կցվող ֆայլից դուրս"
@@ -1209,17 +1207,17 @@ msgid "E197: Cannot set language to \"%s\""
 msgstr "E197: Հնարավոր չէ փոխել լեզուն \"%s\""
 
 msgid "Entering Ex mode.  Type \"visual\" to go to Normal mode."
-msgstr "Переход в режим Ex. Для перехода в Обычный режим наберите \"visual\""
+msgstr "Մուտք Կատարման ռեժիմ. Նորմալ ռեժիմ անցնելու համար կատարել \"visual\" հրամանը"
 
 msgid "E501: At end-of-file"
 msgstr "E501: Ֆայլի վերջում"
 
 msgid "E169: Command too recursive"
-msgstr "E169: Слишком рекурсивная команда"
+msgstr "E169: Հրամանը շատ ռեկուրսիվ է"
 
 #, c-format
 msgid "E605: Exception not caught: %s"
-msgstr "E605: Исключительная ситуация не обработана: %s"
+msgstr "E605: Բացառման հրամանը չի բռնվել: %s"
 
 msgid "End of sourced file"
 msgstr "Կցված ֆայլի վերջում"
@@ -1228,337 +1226,332 @@ msgid "End of function"
 msgstr "Ֆունկցիայի վերջը"
 
 msgid "E464: Ambiguous use of user-defined command"
-msgstr "E464: Неоднозначное использование команды пользователя"
+msgstr "E464: Օգտատիրոջ սահմանած հրամաի սխալ օգտագործում"
 
 msgid "E492: Not an editor command"
 msgstr "E492: Անծանոթ հրաման"
 
 msgid "E493: Backwards range given"
-msgstr "E493: Задан обратный диапазон"
+msgstr "E493: Տրված է հակադարձ միջակայք"
 
 msgid "Backwards range given, OK to swap"
-msgstr "Задан обратный диапазон, меняем границы местами"
+msgstr "Տրված է հակադարձ միջակայք, անցնել սվեփ"
 
 msgid "E494: Use w or w>>"
-msgstr "E494: Используйте w или w>>"
+msgstr "E494: Օգտագործել w կամ w>>"
 
 msgid "E319: Sorry, the command is not available in this version"
-msgstr "E319: Извините, эта команда недоступна в данной версии"
+msgstr "E319: Ներողություն, այս հրամանը թույլատրված չէ ներկա վերսիայում"
 
 msgid "E172: Only one file name allowed"
-msgstr "E172: Разрешено использовать только одно имя файла"
+msgstr "E172: Միայն մեկ ֆայլի անուն է թույլատրվում"
 
 msgid "1 more file to edit.  Quit anyway?"
-msgstr "1 файл ожидает редактирования. Выйти?"
+msgstr "Մեկից շատ խմբագրվող ֆայլեր. Վերջացնե՞լ"
 
 #, c-format
 msgid "%d more files to edit.  Quit anyway?"
-msgstr "Есть неотредактированные файлы (%d). Выйти?"
+msgstr "%d֊ից շատ խմբագրվող ֆայլեր. Վերջացնե՞լ?"
 
 msgid "E173: 1 more file to edit"
-msgstr "E173: 1 файл ожидает редактирования."
+msgstr "E173: Մեկ խմբագրելի ֆայլ."
 
 #, c-format
 msgid "E173: %ld more files to edit"
-msgstr "E173: Есть неотредактированные файлы (%ld)."
+msgstr "E173: %ld֊ից շատ խմբագրելի ֆայլեր."
 
 msgid "E174: Command already exists: add ! to replace it"
-msgstr "E174: Команда уже существует. Добавьте ! для замены."
+msgstr "E174: Հրամանն արդեն գոյություն ունի. Փոխարինման համար ավելացրեք !"
 
 msgid ""
 "\n"
 "    Name        Args Range Complete  Definition"
 msgstr ""
 "\n"
-"    Имя      Парам. Диап. Дополн.    Определение"
+"    Имя      Արգումենտներ. Միջակայք. Վերջացնել.    Սահմանում․"
 
 msgid "No user-defined commands found"
-msgstr "Команды, определённые пользователем, не обнаружены."
+msgstr "Գտնվել են օգտատիրոջ սահմանած հրամաններ"
 
 msgid "E175: No attribute specified"
-msgstr "E175: Параметр не задан"
+msgstr "E175: պարամետեր տրված չէ"
 
 msgid "E176: Invalid number of arguments"
-msgstr "E176: Неправильное количество параметров"
+msgstr "E176: Արգումենտների սխալ քանակություն"
 
 msgid "E177: Count cannot be specified twice"
-msgstr "E177: Число-приставку нельзя указывать дважды"
+msgstr "E177: Քանակը չի կարելի տալ կրկնակի անգամ"
 
 msgid "E178: Invalid default value for count"
-msgstr "E178: Неправильное значение числа-приставки по умолчанию"
+msgstr "E178: Քանակի ախալ լռելիությամբ արժեք"
 
 msgid "E179: argument required for -complete"
-msgstr "E179: Для -complete требуется указать параметр"
+msgstr "E179: -complete հրամանի համար Անրաժեշտ է արգումենտ"
 
 #, c-format
 msgid "E181: Invalid attribute: %s"
-msgstr "E181: Неправильный атрибут: %s"
+msgstr "E181: Սխալ ֆունկցիա: %s"
 
 msgid "E182: Invalid command name"
-msgstr "E182: Неправильное имя команды"
+msgstr "E182: Սխալ հրամանի անուն"
 
 msgid "E183: User defined commands must start with an uppercase letter"
-msgstr "E183: Команда пользователя должна начинаться с заглавной буквы"
+msgstr "E183: Օգտատիրոջ սահմանած ֆունկցիաները պետք է սկսվեն մեծատառով"
 
 msgid "E841: Reserved name, cannot be used for user defined command"
-msgstr ""
-"E841: Зарезервированное имя не может использоваться для команд пользователя"
+msgstr "E841: Ռեզերվացված անուն, չի կարելի օգտագործել օգտատիրոջ սահմանած հրամաններում"
 
 #, c-format
 msgid "E184: No such user-defined command: %s"
-msgstr "E184: Нет такой команды пользователя: %s"
+msgstr "E184: Չկա նման օգտատիրոջ սահմանած հրաման: %s"
 
 #, c-format
 msgid "E180: Invalid complete value: %s"
-msgstr "E180: Неправильное значение дополнения: %s"
+msgstr "E180: Սխալ ավտոլրացման արժեք : %s"
 
 msgid "E468: Completion argument only allowed for custom completion"
-msgstr ""
-"E468: Параметр автодополнения можно использовать только с особым дополнением"
+msgstr "E468: Ավտոլրացման արգումեն թույլատրվում է միայն սհամանված ավտոլրացումների համար"
 
 msgid "E467: Custom completion requires a function argument"
-msgstr "E467: Особое дополнение требует указания параметра функции"
+msgstr "E467: սահմանած ավտոլրացումը պահանջում է ֆունկցիայի արգումենտ"
 
 msgid "unknown"
-msgstr "неизвестно"
+msgstr "անծանոթ"
 
 #, c-format
 msgid "E185: Cannot find color scheme '%s'"
-msgstr "E185: Невозможно найти цветовую схему '%s'"
+msgstr "E185: '%s' գունային սխեման չի գտնվել"
 
 msgid "Greetings, Vim user!"
-msgstr "Приветствуем вас, пользователь Vim!"
+msgstr "Ողջույն Vim֊ի օգտատեր!"
 
 msgid "E784: Cannot close last tab page"
-msgstr "E784: Нельзя закрыть последнюю вкладку"
+msgstr "E784: Հնարավոր չէ փակել վերջին բացված թաբը"
 
 msgid "Already only one tab page"
-msgstr "На экране всего одна вкладка"
+msgstr "Մնացել է միայն մեկ բացված թաբ"
 
 msgid "Edit File in new window"
-msgstr "Редактировать файл в новом окне"
+msgstr "Խմբագրել ֆայլը նոր պատուհանում"
 
 #, c-format
 msgid "Tab page %d"
-msgstr "Вкладка %d"
+msgstr "Թաբ էջ %d"
 
 msgid "No swap file"
-msgstr "Без своп-файла"
+msgstr "Առանց սվեփ ֆայլ"
 
 msgid "Append File"
-msgstr "Добавить файл"
+msgstr "Կցել ֆայլին"
 
 msgid "E747: Cannot change directory, buffer is modified (add ! to override)"
-msgstr ""
-"E747: Смена каталога невозможна, буфер изменён (добавьте !, чтобы обойти "
-"проверку)"
+msgstr "E747: Հնարավոր չէ փոխել թղթապանակը, կա փոփոխված buffer (անցման համար ավելցանել !)"
 
 msgid "E186: No previous directory"
-msgstr "E186: Нет предыдущего каталога"
+msgstr "E186: Չկա նախկին թղթապանակ"
 
 msgid "E187: Unknown"
-msgstr "E187: Неизвестно"
+msgstr "E187: Անծանոթ"
 
 msgid "E465: :winsize requires two number arguments"
-msgstr "E465: Команда :winsize требует указания двух числовых параметров"
+msgstr "E465: :winsize հրամանը պահանջում է արգումենտ"
 
 #, c-format
 msgid "Window position: X %d, Y %d"
-msgstr "Положение окна: X %d, Y %d"
+msgstr "Նոր պատուհան: X %d, Y %d"
 
 msgid "E188: Obtaining window position not implemented for this platform"
-msgstr "E188: В данной системе определение положения окна не работает"
+msgstr "E188: Պատուհանի չափեր վերցնելն իրականացված է այս պլատֆորմի համար"
 
 msgid "E466: :winpos requires two number arguments"
-msgstr "E466: Команда :winpos требует указания двух числовых параметров"
+msgstr "E466: :winpos հրամանը պահանջում է երկու թվային արգումենտներ"
 
 msgid "Save Redirection"
-msgstr "Перенаправление записи"
+msgstr "ՈՒղղղորդման պահպանում"
 
 msgid "Save View"
-msgstr "Сохранение вида"
+msgstr "Դիտման պահպանում"
 
 msgid "Save Session"
-msgstr "Сохранение сеанса"
+msgstr "Սեսսիայի պահպանում"
 
 msgid "Save Setup"
-msgstr "Сохранение настроек"
+msgstr "Կարգավորման պահպանում"
 
 #, c-format
 msgid "E739: Cannot create directory: %s"
-msgstr "E739: Невозможно создать каталог: %s"
+msgstr "E739: Հնարավոր չէ ստեղծել թղթապանակ: %s"
 
 #, c-format
 msgid "E189: \"%s\" exists (add ! to override)"
-msgstr "E189: \"%s\" существует (добавьте !, чтобы обойти проверку)"
+msgstr "E189: \"%s\" արդեն գոյություն ունի (անցման համար ավելացնել !)"
 
 #, c-format
 msgid "E190: Cannot open \"%s\" for writing"
-msgstr "E190: Невозможно открыть для записи \"%s\""
+msgstr "E190: Հնարավոր չէ գրելու համար բացել \"%s\"֊ը"
 
 #. set mark
 msgid "E191: Argument must be a letter or forward/backward quote"
-msgstr "E191: Параметр должен быть прямой/обратной кавычкой или буквой"
+msgstr "E191: արգումենտը պետք է լինի տառ կամ բացվող/փակվող չակերտ"
 
 msgid "E192: Recursive use of :normal too deep"
-msgstr "E192: Слишком глубокая рекурсия при использовании команды :normal"
+msgstr "E192: :normal հրամանի ռեկուրսիվ կանչը շատ խորն է"
 
 msgid "E809: #< is not available without the +eval feature"
-msgstr "E809: #< не доступно без особенности +eval"
+msgstr "E809: #< թույլատրելի չէ առանց +eval ի ֆունկցիայի"
 
 msgid "E194: No alternate file name to substitute for '#'"
-msgstr "E194: Нет соседнего имени файла для замены '#'"
+msgstr "E194: '#' ֊ը փոխարինելու համար այլ անուն չկա"
 
 msgid "E495: no autocommand file name to substitute for \"<afile>\""
-msgstr "E495: Нет автокомандного имени файла для замены \"<afile>\""
+msgstr "E495: փոխարինման համար չկա ֆայլի անունով ինքնահրաման \"<afile>\""
 
 msgid "E496: no autocommand buffer number to substitute for \"<abuf>\""
-msgstr "E496: Нет автокомандного номера буфера для замены \"<abuf>\""
+msgstr "E496: փոխարինման համար չկա բուֆերի անունով ինքնահրաման \"<abuf>\""
 
 msgid "E497: no autocommand match name to substitute for \"<amatch>\""
-msgstr "E497: Нет автокомандного имени соответствия для замены \"<amatch>\""
+msgstr "E497: փոխարինման համար չկա համընկնման անունով ինքնահրաման \"<amatch>\""
 
 msgid "E498: no :source file name to substitute for \"<sfile>\""
-msgstr "E498: Нет имени файла :source для замены \"<sfile>\""
+msgstr "E498: փոխարինման համար չկա :source ֆայլի անունով ինքնահրաման \"<sfile>\""
 
 msgid "E842: no line number to use for \"<slnum>\""
-msgstr "E842: Нет номера строки для использования \"<slnum>\""
+msgstr "E842: տողի համարը տրված չէ \"<slnum>\""
 
 #, no-c-format
 msgid "E499: Empty file name for '%' or '#', only works with \":p:h\""
-msgstr "E499: Пустое имя файла для '%' или '#', возможно только c \":p:h\""
+msgstr "E499: Դատարկ ֆայլի անուն '%'֊ի կամ '#'֊ի համար, աշխատում է միայն \":p:h\"֊ի հետ"
 
 msgid "E500: Evaluates to an empty string"
-msgstr "E500: Результатом выражения является пустая строка"
+msgstr "E500: Արտահայտոթյան արժեքը դատարկ տող է"
 
 msgid "E195: Cannot open viminfo file for reading"
-msgstr "E195: Невозможно открыть файл viminfo для чтения"
+msgstr "E195: Կարալու համար հնարավոր չ բացել viminfo ֆայլը"
 
 msgid "E196: No digraphs in this version"
-msgstr "E196: В этой версии диграфы не работают"
+msgstr "E196: Այս վերսիայում digraph֊ներ չկան"
 
 msgid "E608: Cannot :throw exceptions with 'Vim' prefix"
-msgstr ""
-"E608: Невозможно выполнить команду :throw для исключений с приставкой 'Vim'"
+msgstr "E608: Անհնար է նետել :throw 'Vim' պրեֆիքսով"
 
 #. always scroll up, don't overwrite
 #, c-format
 msgid "Exception thrown: %s"
-msgstr "Исключительная ситуация: %s"
+msgstr "Բացառում է նետվել: %s"
 
 #, c-format
 msgid "Exception finished: %s"
-msgstr "Завершена обработка исключительной ситуации: %s"
+msgstr "Բացառումը ավարտվել է: %s"
 
 #, c-format
 msgid "Exception discarded: %s"
-msgstr "Исключительная ситуация проигнорирована: %s"
+msgstr "Բացառումը անտեսվել է: %s"
 
 #, c-format
 msgid "%s, line %ld"
-msgstr "%s, строка %ld"
+msgstr "%s, տող %ld"
 
 #. always scroll up, don't overwrite
 #, c-format
 msgid "Exception caught: %s"
-msgstr "Обработка исключительной ситуации: %s"
+msgstr "Բացառում է առաջացել: %s"
 
 #, c-format
 msgid "%s made pending"
-msgstr "%s выполняет ожидание"
+msgstr "%s սպասում է"
 
 #, c-format
 msgid "%s resumed"
-msgstr "%s возобновлено"
+msgstr "%s բաց է թողնված"
 
 #, c-format
 msgid "%s discarded"
-msgstr "%s пропущено"
+msgstr "%s անտեսված է"
 
 msgid "Exception"
-msgstr "Исключительная ситуация"
+msgstr "Բացառման իրավիճակ"
 
 msgid "Error and interrupt"
-msgstr "Ошибка и прерывание"
+msgstr "Սխալ և ընդհատում"
 
 msgid "Error"
-msgstr "Ошибка"
+msgstr "Սխալ"
 
 #. if (pending & CSTP_INTERRUPT)
 msgid "Interrupt"
 msgstr "Ընդհատում"
 
 msgid "E579: :if nesting too deep"
-msgstr "E579: Слишком глубоко вложенный :if"
+msgstr "E579: :if֊ը շատ է ներդրված"
 
 msgid "E580: :endif without :if"
-msgstr "E580: :endif без :if"
+msgstr "E580: :endif առանց :if"
 
 msgid "E581: :else without :if"
-msgstr "E581: :else без :if"
+msgstr "E581: :else առանց :if"
 
 msgid "E582: :elseif without :if"
-msgstr "E582: :elseif без :if"
+msgstr "E582: :elseif առանց :if"
 
 msgid "E583: multiple :else"
-msgstr "E583: Обнаружено несколько :else"
+msgstr "E583: բազմակի :else"
 
 msgid "E584: :elseif after :else"
-msgstr "E584: :elseif после :else"
+msgstr "E584: :elseif :else֊ից հետո"
 
 msgid "E585: :while/:for nesting too deep"
-msgstr "E585: Слишком глубокое вложение :while или :for"
+msgstr "E585: :while/:for֊ը շատ է ներդրված"
 
 msgid "E586: :continue without :while or :for"
-msgstr "E586: :continue без :while или :for"
+msgstr "E586: :continue առանց :while կամ :for"
 
 msgid "E587: :break without :while or :for"
-msgstr "E587: :break без :while или :for"
+msgstr "E587: :break առանց :while կամ :for"
 
 msgid "E732: Using :endfor with :while"
-msgstr "E732: Использование :endfor с :while"
+msgstr "E732: :endfor :while֊ի հետ"
 
 msgid "E733: Using :endwhile with :for"
-msgstr "E733: Использование :endwhile с :for"
+msgstr "E733: :endwhile :for֊ի հետ"
 
 msgid "E601: :try nesting too deep"
-msgstr "E601: Слишком глубоко вложенный :try"
+msgstr "E601: :try֊ը շատ է ներդրված"
 
 msgid "E603: :catch without :try"
-msgstr "E603: :catch без :try"
+msgstr "E603: :catch առանց :try"
 
 #. Give up for a ":catch" after ":finally" and ignore it.
 #. * Just parse.
 msgid "E604: :catch after :finally"
-msgstr "E604: :catch без :finally"
+msgstr "E604: :catch առանց :finally"
 
 msgid "E606: :finally without :try"
-msgstr "E606: :finally без :try"
+msgstr "E606: :finally առանց :try"
 
 #. Give up for a multiple ":finally" and ignore it.
 msgid "E607: multiple :finally"
-msgstr "E607: Обнаружено несколько :finally"
+msgstr "E607: բազմակի :finally"
 
 msgid "E602: :endtry without :try"
-msgstr "E602: :endtry без :try"
+msgstr "E602: :endtry առանց :try"
 
 msgid "E193: :endfunction not inside a function"
-msgstr "E193: Команда :endfunction может использоваться только внутри функции"
+msgstr "E193: :endfunction հրամանը կանչվէլ է ֆունկցիայի ներսում"
 
 msgid "E788: Not allowed to edit another buffer now"
 msgstr "E788: Сейчас не допускается редактирование другого буфера"
 
 msgid "E811: Not allowed to change buffer information now"
-msgstr "E811: Сейчас не допускается изменение информации о буфере"
+msgstr "E811: Հնարավոր չէ փոփոխել բուֆորի ինֆորմացիան"
 
 msgid "tagname"
-msgstr "имя метки"
+msgstr "թեգի անուն"
 
 msgid " kind file\n"
-msgstr " тип файла\n"
+msgstr " ֆայլի տիպ\n"
 
 msgid "'history' option is zero"
-msgstr "значение опции 'history' равно нулю"
+msgstr "'history'ֆունկցիան դատարկ է տրված"
 
 #, c-format
 msgid ""
@@ -1566,28 +1559,28 @@ msgid ""
 "# %s History (newest to oldest):\n"
 msgstr ""
 "\n"
-"# %s, история (начиная от свежего к старому):\n"
+"# %s, պատմություն (նորից դեպի հին):\n"
 
 msgid "Command Line"
-msgstr "Командная строка"
+msgstr "Հրամանյին տող"
 
 msgid "Search String"
-msgstr "Строка поиска"
+msgstr "Փնտրման տող"
 
 msgid "Expression"
-msgstr "Выражение"
+msgstr "Արտահայտություն"
 
 msgid "Input Line"
-msgstr "Строка ввода"
+msgstr "Զետեղման տող"
 
 msgid "E198: cmd_pchar beyond the command length"
-msgstr "E198: cmd_pchar больше длины команды"
+msgstr "E198: cmd_pchar անցել է հրամանի երկարությունը"
 
 msgid "E199: Active window or buffer deleted"
-msgstr "E199: Удалено активное окно или буфер"
+msgstr "E199: Ակտիվ պատուհանը կամ բուֆերը ջնջնվել է"
 
 msgid "E812: Autocommands changed buffer or buffer name"
-msgstr "E812: Автокоманды изменили буфер или имя буфера"
+msgstr "E812: Ինքնահրամանները փոփոխել են բուֆերը կամ բուֆերի անունը"
 
 msgid "Illegal file name"
 msgstr "Չթույլատրված ֆայլի անուն"
@@ -1614,80 +1607,68 @@ msgid "[Permission Denied]"
 msgstr "[Թույլատրված չէ]"
 
 msgid "E200: *ReadPre autocommands made the file unreadable"
-msgstr "E200: В результате выполнения автокоманд *ReadPre файл стал нечитаемым"
+msgstr "E200: *ReadPre ինքնահրամաննները ֆայլը դարձրել են անընթեռնելի"
 
 msgid "E201: *ReadPre autocommands must not change current buffer"
-msgstr "E201: Автокоманды *ReadPre не должны изменять активный буфер"
+msgstr "E201: ReadPre ինքնահրամաննները չեն կարող փոխել տվյալ բուֆերը"
 
 msgid "Vim: Reading from stdin...\n"
-msgstr "Vim: Чтение из стандартного потока ввода stdin...\n"
+msgstr "Vim: Ընթերցում ստանդարտ մուտքից...\n"
 
 msgid "Reading from stdin..."
-msgstr "Чтение из стандартного потока ввода stdin..."
+msgstr "Ընթերցում ստանդարտ մուտքից..."
 
 #. Re-opening the original file failed!
 msgid "E202: Conversion made file unreadable!"
-msgstr "E202: В результате преобразования файл стал нечитаемым!"
+msgstr "E202: Փոխակերպումը ֆայլը դարձրել է անընթեռնելի!"
 
-msgid "[fifo/socket]"
-msgstr "[fifo/socket]"
-
-msgid "[fifo]"
-msgstr "[fifo]"
-
-msgid "[socket]"
-msgstr "[socket]"
 
 msgid "[character special]"
 msgstr "[հատուկ սիմվոլային]"
 
 msgid "[CR missing]"
-msgstr "[пропущены символы CR]"
+msgstr "[Բացակայող CR]"
 
 msgid "[long lines split]"
-msgstr "[длинные строки разбиты]"
+msgstr "[երկար տողերի բաժանում]"
 
 msgid "[NOT converted]"
-msgstr "[БЕЗ преобразований]"
+msgstr "[ՉԻ փոխակերպվել]"
 
 msgid "[converted]"
-msgstr "[перекодировано]"
-
-msgid "[blowfish]"
-msgstr "[blowfish]"
+msgstr "[փոխակերպվել է]"
 
 msgid "[crypted]"
 msgstr "[կոդավորված]"
 
 #, c-format
 msgid "[CONVERSION ERROR in line %ld]"
-msgstr "[ОШИБКА ПРЕОБРАЗОВАНИЯ в строке %ld]"
+msgstr "[ՓՈԽԱԿԵՐՊՄԱՆ ՍԽԱԼ %ld տողում]"
 
 #, c-format
 msgid "[ILLEGAL BYTE in line %ld]"
-msgstr "[НЕДОПУСТИМЫЙ БАЙТ в строке %ld]"
+msgstr "[ԱՆԹՈՒՅԼԱՏՐԵԼԻ ԲԱՅՔ %ld տողում]"
 
 msgid "[READ ERRORS]"
 msgstr "[ԿԱՐԴԱԼՈՒ ՍԽԱԼ]"
 
 msgid "Can't find temp file for conversion"
-msgstr "Временный файл для перекодирования не найден"
+msgstr "Փոխակերպման Ժամանակավոր ֆայլը չի գտնվել"
 
 msgid "Conversion with 'charconvert' failed"
-msgstr "Преобразование с помощью 'charconvert' не выполнено"
+msgstr "Փոխակերօում անհաջող է ավարտվել'charconvert' ֊ի հետ"
 
 msgid "can't read output of 'charconvert'"
-msgstr "невозможно прочитать вывод 'charconvert'"
+msgstr "անհնար է ընթերցել 'charconvert'֊ի ելքը"
 
 msgid "E821: File is encrypted with unknown method"
-msgstr "E821: Файл зашифрован неизвестным методом"
+msgstr "E821: Ֆայլը կոդավորված է անծանոթ մեթոդներով"
 
 msgid "E676: No matching autocommands for acwrite buffer"
-msgstr "E676: Нет подходящих автокоманд для буфера acwrite"
+msgstr "E676: Ինքնահրաման չի գտնվել acwrite֊ի համար"
 
 msgid "E203: Autocommands deleted or unloaded buffer to be written"
-msgstr ""
-"E203: Буфер, который требовалось записать, удалён или выгружен автокомандой"
+msgstr "E203: Буфер, который требовалось записать, удалён или выгружен автокомандой"
 
 msgid "E204: Autocommand changed number of lines in unexpected way"
 msgstr "E204: Количество строк изменено автокомандой неожиданным образом"
@@ -6539,7 +6520,7 @@ msgid "E488: Trailing characters"
 msgstr "E488: Ավելորդ նշաններ"
 
 msgid "E78: Unknown mark"
-msgstr "E78: Անհաըտ նշում"
+msgstr "E78: Անհայտ նշում"
 
 msgid "E79: Cannot expand wildcards"
 msgstr "E79: Невозможно выполнить подстановку по маске"
@@ -6806,7 +6787,7 @@ msgid "did not switch to the specified tab page"
 msgstr "Невозможно переключиться на указанную вкладку"
 
 msgid "failed to run the code"
-msgstr "Невозможно выполнить код"
+msgstr "Հնարավոր չեղավ կատարել կոդը"
 
 msgid "E858: Eval did not return a valid python object"
 msgstr "E858: Eval не возвратил допустимого объекта Python"
