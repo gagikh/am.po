@@ -1668,55 +1668,49 @@ msgid "E676: No matching autocommands for acwrite buffer"
 msgstr "E676: Ինքնահրաման չի գտնվել acwrite֊ի համար"
 
 msgid "E203: Autocommands deleted or unloaded buffer to be written"
-msgstr "E203: Буфер, который требовалось записать, удалён или выгружен автокомандой"
+msgstr "E203: Բուֆֆերը կամ ջնջվել է կամ բեռնաթափվել է ինքնահրամաննների միջոցով"
 
 msgid "E204: Autocommand changed number of lines in unexpected way"
-msgstr "E204: Количество строк изменено автокомандой неожиданным образом"
+msgstr "E204: Ինքնահրամանը անսպասելի փոխել է տողերը"
 
 msgid "NetBeans disallows writes of unmodified buffers"
-msgstr "NetBeans не позволяет выполнять запись неизменённых буферов"
+msgstr "NetBeans֊ը չի թույլատրում գրել չփոփոխված բուֆերում"
 
 msgid "Partial writes disallowed for NetBeans buffers"
-msgstr "Частичная запись буферов NetBeans не допускается"
+msgstr "Մասնակի արտագրումը չի թույլատրում NetBeans բուֆերների համար"
 
 msgid "is not a file or writable device"
-msgstr "не является файлом или устройством, доступным для записи"
+msgstr "ֆայլ չէ կամ գրելի սարք"
 
 msgid "writing to device disabled with 'opendevice' option"
-msgstr "запись в устройство отключена при опции 'opendevice'"
+msgstr "սարքում գրելը արգելված է 'opendevice'֊ի միջոցով"
 
 msgid "is read-only (add ! to override)"
-msgstr "открыт только для чтения (добавьте !, чтобы обойти проверку)"
+msgstr "միայն ընթերցելի է (ամրագրելու համար ավելացրեք !)"
 
 msgid "E506: Can't write to backup file (add ! to override)"
-msgstr ""
-"E506: Запись в резервный файл невозможна (добавьте !, чтобы обойти проверку)"
+msgstr "E506: Հնարավոր չէ գրել պահպանման ֆայլում (ամրագրելու համար ավելացրեք !)"
 
 msgid "E507: Close error for backup file (add ! to override)"
-msgstr ""
-"E507: Ошибка закрытия резервного файла (добавьте !, чтобы обойти проверку)"
+msgstr "E507: Պահպանման ֆայլի փակման սխալ файла (ամրագրելու համար ավելացրեք !)"
 
 msgid "E508: Can't read file for backup (add ! to override)"
-msgstr ""
-"E508: Невозможно прочитать резервный файл (добавьте !, чтобы обойти проверку)"
+msgstr "E508: Հնարավոր չէ պահպանման համար կարդալ ֆայլը (ամրագրելու համար ավելացրեք !)"
 
 msgid "E509: Cannot create backup file (add ! to override)"
-msgstr ""
-"E509: Невозможно создать резервный файл (добавьте !, чтобы обойти проверку)"
+msgstr "E509: Հնարավոր չէ ստեղծել պահպանման ֆայլը (ամրագրելու համար ավելացրեք !)"
 
 msgid "E510: Can't make backup file (add ! to override)"
-msgstr ""
-"E510: Невозможно создать резервный файл (добавьте !, чтобы обойти проверку)"
+msgstr "E510: Հնարավոր չէ ստեղծել պահպան ֆայլ (ամրագրելու համար ավելացրեք !)"
 
 msgid "E460: The resource fork would be lost (add ! to override)"
-msgstr "E460: Ветвь ресурса будет потеряна (добавьте !, чтобы обойти проверку)"
+msgstr "E460: Ճյուղավորման ռեսուրսը կարող է անտեսվել (ամրագրելու համար ավելացրեք !)"
 
 msgid "E214: Can't find temp file for writing"
-msgstr "E214: Временный файл для записи не найден"
+msgstr "E214: Ժամանակովր ֆայլը գտնված չի գրելու համար"
 
 msgid "E213: Cannot convert (add ! to write without conversion)"
-msgstr ""
-"E213: Перекодировка невозможна (добавьте ! для записи без перекодировки)"
+msgstr "E213: Հնարավոր չէ փոխարկել (ամրագրելու համար ավելացրեք !)"
 
 msgid "E166: Can't open linked file for writing"
 msgstr "E166: Գրելու համար հնարավոր չէ բացել կապված ֆայլը"
@@ -1725,29 +1719,26 @@ msgid "E212: Can't open file for writing"
 msgstr "E212: Գրելու համար հնարավոր չէ բացել ֆայլը"
 
 msgid "E667: Fsync failed"
-msgstr "E667: Не удалось выполнить функцию fsync()"
+msgstr "E667: fsync() ֊ը անհաջող է ավարտվել"
 
 msgid "E512: Close failed"
-msgstr "E512: Операция закрытия не удалась"
+msgstr "E512: Փակումն անհաջող է ավարտվել"
 
 msgid "E513: write error, conversion failed (make 'fenc' empty to override)"
-msgstr ""
-"E513: Ошибка записи, преобразование не удалось (очистите 'fenc', чтобы "
-"обойти)"
+msgstr "E513: Գրելու սխալ, փոխակերպումը անհաջող է ավարտվել (մաքրել 'fenc'֊ը)"
 
 #, c-format
 msgid ""
 "E513: write error, conversion failed in line %ld (make 'fenc' empty to "
 "override)"
 msgstr ""
-"E513: Ошибка записи, преобразование не удалось на строке %ld (очистите "
-"'fenc', чтобы обойти)"
+"E513: Գրելու սխա;, փոխակերպում անհաջող է ավարտվել %ld տողում (մաքրել 'fenc'֊ը)"
 
 msgid "E514: write error (file system full?)"
-msgstr "E514: Ошибка записи (нет свободного места?)"
+msgstr "E514: Գրելու սխալ (ֆայլերի համակարգում գրելու տեղ չի մնացե՞լ)"
 
 msgid " CONVERSION ERROR"
-msgstr " ОШИБКА ПРЕОБРАЗОВАНИЯ"
+msgstr " ՓՈԽԱԿԵՐՊՄԱՆ ՍԽԱԼ"
 
 #, c-format
 msgid " in line %ld;"
@@ -1760,36 +1751,35 @@ msgid "[New]"
 msgstr "[Նոր]"
 
 msgid " [a]"
-msgstr " [д]"
+msgstr " [կ]"
 
 msgid " appended"
 msgstr " ավելացված է"
 
 msgid " [w]"
-msgstr " [з]"
+msgstr " [գ]"
 
 msgid " written"
 msgstr " ամրագրված է"
 
 msgid "E205: Patchmode: can't save original file"
-msgstr "E205: Режим заплатки: невозможно сохранение исходного файла"
+msgstr "E205: Patchmode: հնարավոր չէ պահպանել նախնական ֆայլը"
 
 msgid "E206: patchmode: can't touch empty original file"
-msgstr ""
-"E206: Режим заплатки: невозможно сменить параметры пустого исходного файла"
+msgstr "E206: Patchmode: հնարավոր չէ թարմացնել/դիպչել նախնական ֆայլը"
 
 msgid "E207: Can't delete backup file"
-msgstr "E207: Невозможно удалить резервный файл"
+msgstr "E207: Հնարավոր չէ ջնջել պահպանման ֆայլը"
 
 msgid ""
 "\n"
 "WARNING: Original file may be lost or damaged\n"
 msgstr ""
 "\n"
-"ПРЕДУПРЕЖДЕНИЕ: Исходный файл может быть утрачен или повреждён\n"
+"Զգուշացում: նախնական ֆայլը հնարավոր է վնասված է\n"
 
 msgid "don't quit the editor until the file is successfully written!"
-msgstr "не выходите из редактора, пока файл не будет успешно записан!"
+msgstr "մի փակեք խմբագրիչը քանի դեռ պահպանումն ավարտված չէ!"
 
 msgid "1 line, "
 msgstr "1 տող, "
@@ -1803,7 +1793,7 @@ msgstr "1 նշան"
 
 #, c-format
 msgid "%lld characters"
-msgstr "символов: %lld"
+msgstr "%lld նշաններ"
 
 #. Explicit typecast avoids warning on Mac OS X 10.6
 #, c-format
@@ -1811,110 +1801,106 @@ msgid "%ld characters"
 msgstr "%ld հատ նշաններ"
 
 msgid "[Incomplete last line]"
-msgstr "[Незавершённая последняя строка]"
+msgstr "[Չվերջացած վերջին տող]"
 
 #. don't overwrite messages here
 #. must give this prompt
 #. don't use emsg() here, don't want to flush the buffers
 msgid "WARNING: The file has been changed since reading it!!!"
-msgstr "ПРЕДУПРЕЖДЕНИЕ: Файл изменён с момента чтения!!!"
+msgstr "Զգուշացում: ֆայլը փոփոխվել է դեռ չկարդացված !!!"
 
 msgid "Do you really want to write to it"
-msgstr "Серьёзно хотите записать в этот файл"
+msgstr "Իրո՞ք ուզում եք գրել"
 
 #, c-format
 msgid "E208: Error writing to \"%s\""
-msgstr "E208: Ошибка записи в \"%s\""
+msgstr "E208: Սխալ \"%s\" գրոլու ընթացքում"
 
 #, c-format
 msgid "E209: Error closing \"%s\""
-msgstr "E209: Ошибка закрытия \"%s\""
+msgstr "E209: Սխալ \"%s\" փակելու ընթացքում"
 
 #, c-format
 msgid "E210: Error reading \"%s\""
-msgstr "E210: Ошибка чтения \"%s\""
+msgstr "E210: Սխալ \"%s\" կարդալու ընթացքում"
 
 msgid "E246: FileChangedShell autocommand deleted buffer"
-msgstr "E246: Буфер удалён при выполнении автокоманды FileChangedShell"
+msgstr "E246: Բուֆերը ջնջվել է FileChangedShell ինքնահրամանի կատարման արդյունքում"
 
 #, c-format
 msgid "E211: File \"%s\" no longer available"
-msgstr "E211: Файл \"%s\" больше не доступен"
+msgstr "E211: \"%s\" ֆայլն արդեն հասնելի չէ"
 
 #, c-format
 msgid ""
 "W12: Warning: File \"%s\" has changed and the buffer was changed in Vim as "
 "well"
 msgstr ""
-"W12: Предупреждение: файл \"%s\" и буфер Vim были изменены независимо друг "
-"от друга"
+"W12: Զգուշացում: \"%s\" ֆայլն ու բուֆերը փոփխվել են միմյանցից անկախ"
 
 msgid "See \":help W12\" for more info."
-msgstr "См. \":help W12\" для дополнительной информации."
+msgstr "Տես. \":help W12\" հավելյալ տեղեկատվությոան համար"
 
 #, c-format
 msgid "W11: Warning: File \"%s\" has changed since editing started"
-msgstr ""
-"W11: Предупреждение: файл \"%s\" был изменён после начала редактирования"
+msgstr "W11: Զգուշացում: \"%s\" ֆայլը փոփխվել է խմբագրման սկսվելու ժամանակ"
 
 msgid "See \":help W11\" for more info."
-msgstr "См. \":help W11\" для дополнительной информации."
+msgstr "Տես. \":help W11\" հավելյալ տեղեկատվությոան համար."
 
 #, c-format
 msgid "W16: Warning: Mode of file \"%s\" has changed since editing started"
-msgstr ""
-"W16: Предупреждение: режим доступа к файлу \"%s\" был изменён после начала "
+msgstr "W16: Զգուշացում: \"%s\" ֆայլին դիմելու մոդը փոփխվել է խմբագրման սկսվելու ժամանակ"
 "редактирования"
 
 msgid "See \":help W16\" for more info."
-msgstr "См. \":help W16\" для дополнительной информации."
+msgstr "См. \":help W16\" հավելյալ տեղեկատվությոան համար."
 
 #, c-format
 msgid "W13: Warning: File \"%s\" has been created after editing started"
-msgstr ""
-"W13: Предупреждение: файл \"%s\" был создан после начала редактирования"
+msgstr "W13: Զգուշացում: \"%s\" ֆայլին ստեղծել է խմբագրման սկսվելուց հետո"
 
 msgid "Warning"
-msgstr "Предупреждение"
+msgstr "Զգուշացում"
 
 msgid ""
 "&OK\n"
 "&Load File"
 msgstr ""
-"&OK\n"
-"&L Բեռնել ֆայլ"
+"&Լավ\n"
+"&Բեռնել ֆայլ"
 
 #, c-format
 msgid "E462: Could not prepare for reloading \"%s\""
-msgstr "E462: Невозможно подготовиться к перезагрузке \"%s\""
+msgstr "E462: Հնարավոր չէ պատրաստել \"%s\" վերաբեռնելու համար"
 
 #, c-format
 msgid "E321: Could not reload \"%s\""
-msgstr "E321: Невозможно выполнить перезагрузку \"%s\""
+msgstr "E321: Հնարավոր չէ վերաբեռնել \"%s\""
 
 msgid "--Deleted--"
 msgstr "--Ջնջված է--"
 
 #, c-format
 msgid "auto-removing autocommand: %s <buffer=%d>"
-msgstr "авто-удаление автокоманды: %s <буффер=%d>"
+msgstr "ինքնա֊ջնջող ինքնահրաման: %s <բուֆեր=%d>"
 
 #. the group doesn't exist
 #, c-format
 msgid "E367: No such group: \"%s\""
-msgstr "E367: Группа \"%s\" не существует"
+msgstr "E367: Խումբը գոյություն չունի։ \"%s\""
 
 #, c-format
 msgid "E215: Illegal character after *: %s"
-msgstr "E215: Недопустимые символы после *: %s"
+msgstr "E215: Չթույլատրված նշան * նշանից հետո: %s"
 
 #, c-format
 msgid "E216: No such event: %s"
-msgstr "E216: Несуществующее событие: %s"
+msgstr "E216: Իրադարձությունը գոյություն չունի: %s"
 
 #, c-format
 msgid "E216: No such group or event: %s"
-msgstr "E216: Несуществующая группа или событие: %s"
+msgstr "E216: Իրադարձությունը կամ խումբը գոյություն չունի: %s"
 
 #. Highlight title
 msgid ""
@@ -1926,20 +1912,20 @@ msgstr ""
 
 #, c-format
 msgid "E680: <buffer=%d>: invalid buffer number "
-msgstr "E680: <buffer=%d>: неправильный номер буфера "
+msgstr "E680: <buffer=%d>: սխալ բուֆերի համար"
 
 msgid "E217: Can't execute autocommands for ALL events"
-msgstr "E217: Невозможно выполнить автокоманды для ВСЕХ событий"
+msgstr "E217: Հնարավոր չէ կատարել ինքնահրամաննները բոլոր Իրադարձությունների համար"
 
 msgid "No matching autocommands"
-msgstr "Нет подходящих автокоманд"
+msgstr "Չկա համապատասխան ինքնահրաման"
 
 msgid "E218: autocommand nesting too deep"
-msgstr "E218: слишком глубоко вложенные автокоманды"
+msgstr "E218: ինքնահրամնը շատ է ներդրված"
 
 #, c-format
 msgid "%s Auto commands for \"%s\""
-msgstr "%s Автокоманды для \"%s\""
+msgstr "%s Ինքնահրամաններ \"%s\"֊ի համար"
 
 #, c-format
 msgid "Executing %s"
@@ -1956,96 +1942,93 @@ msgid "E220: Missing }."
 msgstr "E220: Բաց թողնված }."
 
 msgid "E490: No fold found"
-msgstr "E490: Складок не обнаружено"
+msgstr "E490: Փաթաթը չի գտնվել"
 
 msgid "E350: Cannot create fold with current 'foldmethod'"
-msgstr ""
-"E350: Складка не может быть создана с текущим значением опции 'foldmethod'"
+msgstr "E350: Հնարավոր չէ ստեղծել փաթաթ 'foldmethod'֊ով"
 
 msgid "E351: Cannot delete fold with current 'foldmethod'"
-msgstr ""
-"E351: Складка не может быть удалена с текущим значением опции 'foldmethod'"
+msgstr "E351: Հնարավոր չէ ջնջել փաթաթ 'foldmethod'֊ով"
 
 #, c-format
 msgid "+--%3ld lines folded "
-msgstr "+--%3ld строк в складке"
+msgstr "+--%3ld տողեր փաթավել են"
 
 msgid "E222: Add to read buffer"
-msgstr "E222: Добавление в буфер чтения"
+msgstr "E222: Ավելացնել կարդալու բուֆեր"
 
 msgid "E223: recursive mapping"
-msgstr "E223: Рекурсивная привязка"
+msgstr "E223: ռեկուրսիվ համապատասխանեցում"
 
 #, c-format
 msgid "E224: global abbreviation already exists for %s"
-msgstr "E224: Уже есть глобальное сокращение для %s"
+msgstr "E224: գլոբալ հապավումն արդեն գոյություն ունի %s֊ի համար"
 
 #, c-format
 msgid "E225: global mapping already exists for %s"
-msgstr "E225: Уже есть глобальная привязка для %s"
+msgstr "E225: գլոբալ համապատասխանեցումն արդեն գոյություն ունի %s֊ի համար"
 
 #, c-format
 msgid "E226: abbreviation already exists for %s"
-msgstr "E226: Уже есть сокращение для %s"
+msgstr "E226: հապավումն արդեն գոյություն ունի %s֊ի համար"
 
 #, c-format
 msgid "E227: mapping already exists for %s"
-msgstr "E227: Уже есть привязка для %s"
+msgstr "E227: համապատասխանեցումն արդեն գոյություն ունի %s֊ի համար"
 
 msgid "No abbreviation found"
-msgstr "Сокращения не найдены"
+msgstr "Հապավումը չի գտնվել"
 
 msgid "No mapping found"
-msgstr "Վերաբեռնումը չի գտնվել"
+msgstr "համապատասխանեցումը չի գտնվել"
 
 msgid "E228: makemap: Illegal mode"
-msgstr "E228: makemap: недопустимый режим"
+msgstr "E228: makemap: չթույլատրված ռեժիմ"
 
 msgid "E851: Failed to create a new process for the GUI"
 msgstr "E851: Հնարավոր չէ ստեղծել նոր պրոցես գրաֆիկական ինտերֆեյսի համար"
 
 msgid "E852: The child process failed to start the GUI"
-msgstr "E852: Процессу-потомку не удалось запустить граф. интерфейс"
+msgstr "E852: Ճուտ պրոցեսին չի հաջողվել սկսել  գրաֆիկական ինտերֆեյսը"
 
 msgid "E229: Cannot start the GUI"
-msgstr "E229: Невозможно перейти в режим графического интерфейса"
+msgstr "E229: Հնարավոր չէ սկսել  գրաֆիկական ինտերֆեյսը"
 
 #, c-format
 msgid "E230: Cannot read from \"%s\""
-msgstr "E230: Невозможно выполнить чтение \"%s\""
+msgstr "E230: Հնարավոր չէ կարդալ \"%s\"֊ից"
 
 msgid "E665: Cannot start GUI, no valid font found"
-msgstr ""
-"E665: Невозможно перейти в режим граф. интерфейса, неправильно заданы шрифты"
+msgstr "E665: Հնարավոր չէ սկսել  գրաֆիկական ինտերֆեյսը, համապատասխան տառատեսակ չի գտնվել"
 
 msgid "E231: 'guifontwide' invalid"
-msgstr "E231: Неправильное значение опции 'guifontwide'"
+msgstr "E231: 'guifontwide'֊ի արժեքը սխալ է"
 
 msgid "E599: Value of 'imactivatekey' is invalid"
-msgstr "E599: Неправильное значение опции 'imactivatekey'"
+msgstr "E599: 'imactivatekey'֊ի արժեքը սխալ է"
 
 #, c-format
 msgid "E254: Cannot allocate color %s"
-msgstr "E254: Невозможно назначить цвет %s"
+msgstr "E254: Հնարավոր չէ առաջացնել %s գույնը"
 
 msgid "No match at cursor, finding next"
 msgstr "Нет совпадения под курсором, поиск следующего"
 
 msgid "<cannot open> "
-msgstr "<нельзя открыть> "
+msgstr "<հանարավոր չէ բացել> "
 
 #, c-format
 msgid "E616: vim_SelFile: can't get font %s"
-msgstr "E616: vim_SelFile: шрифт %s не найден"
+msgstr "E616: vim_SelFile: տառատեսակ %s֊ը չի գտնվել"
 
 msgid "E614: vim_SelFile: can't return to current directory"
-msgstr "E614: vim_SelFile: возврат в текущий каталог невозможен"
+msgstr "E614: vim_SelFile: հնարավոր չէ վերադառնալ աշխատանքային թղթապանակ"
 
 msgid "Pathname:"
-msgstr "Путь к файлу:"
+msgstr "Ֆայլի ճանապարհ:"
 
 msgid "E615: vim_SelFile: can't get current directory"
-msgstr "E615: vim_SelFile: не могу найти текущий каталог"
+msgstr "E615: vim_SelFile: հնարավոր չէ գտնել աշխատանքային թղթապանակը"
 
 msgid "OK"
 msgstr "Այո"
@@ -2054,15 +2037,13 @@ msgid "Cancel"
 msgstr "Չեղարկել"
 
 msgid "Scrollbar Widget: Could not get geometry of thumb pixmap."
-msgstr "Полоса прокрутки: не могу определить геометрию ползунка"
+msgstr "Scrollbar Widget: Հնարավոր չէ որոշել thumb pixmap֊ը"
 
 msgid "Vim dialog"
-msgstr "Диалоговое окно Vim"
+msgstr "Vim դիալոգ"
 
 msgid "E232: Cannot create BalloonEval with both message and callback"
-msgstr ""
-"E232: \"Пузырь\" для вычислений, включающий и сообщение, и обратный вызов, "
-"не может быть создан"
+msgstr "E232: Հնարավոր չէ ստեղծել հաղորդագրությամբ և հետադարձ կանչով BalloonEval"
 
 msgid ""
 "&Yes\n"
@@ -2074,7 +2055,7 @@ msgstr ""
 "&Թողնել"
 
 msgid "Input _Methods"
-msgstr "Методы Ввода"
+msgstr "Զետեղման եղանակ"
 
 msgid "VIM - Search and Replace..."
 msgstr "VIM — Փնտրում և փոխարինում..."
@@ -2083,32 +2064,32 @@ msgid "VIM - Search..."
 msgstr "VIM — Փնտրում..."
 
 msgid "Find what:"
-msgstr "Что ищем:"
+msgstr "Ինչ փնտրել:"
 
 msgid "Replace with:"
-msgstr "На что заменяем:"
+msgstr "Ինչով փոխարինել:"
 
 #. whole word only button
 msgid "Match whole word only"
-msgstr "Только точные соответствия"
+msgstr "համապատասխանեցնել ամբողջ բառը"
 
 #. match case button
 msgid "Match case"
-msgstr "Регистрозависимые соответствия"
+msgstr "համապատասխանեցում"
 
 msgid "Direction"
-msgstr "Направление"
+msgstr "Ուղղություն"
 
 #. 'Up' and 'Down' buttons
 msgid "Up"
-msgstr "Вверх"
+msgstr "Վերև"
 
 msgid "Down"
-msgstr "Вниз"
+msgstr "Ներքև"
 
 #. 'Find Next' button
 msgid "Find Next"
-msgstr "Найти следующее"
+msgstr "Փնտրել հաջորդը"
 
 #. 'Replace' button
 msgid "Replace"
@@ -2119,37 +2100,37 @@ msgid "Replace All"
 msgstr "Փոխարինել բոլորը"
 
 msgid "Vim: Received \"die\" request from session manager\n"
-msgstr "Vim: Получен запрос на прекращение работы от диспетчера сеансов\n"
+msgstr "Vim: Սեսսիայի զեկավարությունից ստացվել է մահվան պահանջ\n"
 
 msgid "Close"
 msgstr "Փակել"
 
 msgid "New tab"
-msgstr "Новая вкладка"
+msgstr "Նոր թաբ"
 
 msgid "Open Tab..."
-msgstr "Открыть вкладку..."
+msgstr "Բացել թաբ..."
 
 msgid "Vim: Main window unexpectedly destroyed\n"
-msgstr "Vim: Основное окно было неожиданно закрыто\n"
+msgstr "Vim: Գլղավոր պատուհանը անսպասելի քանդվել է\n"
 
 msgid "&Filter"
-msgstr "&Фильтр"
+msgstr "&Ֆիլտր"
 
 msgid "&Cancel"
 msgstr "&Թողնել"
 
 msgid "Directories"
-msgstr "Каталоги"
+msgstr "Թղթապանակ"
 
 msgid "Filter"
-msgstr "Фильтр"
+msgstr "Ֆիլտր"
 
 msgid "&Help"
 msgstr "&Օգնություն"
 
 msgid "Files"
-msgstr "Файлы"
+msgstr "Ֆայլեր"
 
 msgid "&OK"
 msgstr "&Այո"
@@ -2158,36 +2139,36 @@ msgid "Selection"
 msgstr "Նշել"
 
 msgid "Find &Next"
-msgstr "Найти &следующее"
+msgstr "Փնտրել հաջորդը"
 
 msgid "&Replace"
 msgstr "Փոխարինել"
 
 msgid "Replace &All"
-msgstr "Заменить &все"
+msgstr "Փոխարինել բոլորը"
 
 msgid "&Undo"
-msgstr "Թողնել"
+msgstr "Չեղարկել"
 
 #, c-format
 msgid "E671: Cannot find window title \"%s\""
-msgstr "E671: Окно с заголовком \"%s\" не обнаружено"
+msgstr "E671: Պատուհանի անունը չի գտնվել \"%s\""
 
 #, c-format
 msgid "E243: Argument not supported: \"-%s\"; Use the OLE version."
-msgstr "E243: Параметр не поддерживается: \"-%s\"; используйте версию OLE."
+msgstr "E243: Արգումենտը իրականցաված չէ: \"-%s\"; Օգտագործեէ OLE վերսիան։"
 
 msgid "E672: Unable to open window inside MDI application"
-msgstr "E672: Невозможно открыть окно внутри приложения MDI"
+msgstr "E672: Հնարավոր չէ բացել պատուհանը MDI ծրագրում"
 
 msgid "Close tab"
-msgstr "Закрыть вкладку"
+msgstr "Փակել թաբը"
 
 msgid "Open tab..."
-msgstr "Открыть вкладку..."
+msgstr "Բացել թաբը..."
 
 msgid "Find string (use '\\\\' to find  a '\\')"
-msgstr "Поиск строки (используйте '\\\\' для поиска '\\')"
+msgstr "Գտնել տողը ('\\'֊ի փնտրման համար օգտագործել '\\\\')"
 
 msgid "Find & Replace (use '\\\\' to find  a '\\')"
 msgstr "Փնտրում և փոխարինում ('\\' փնտրելու համար օգտագործել '\\\\')"
@@ -2195,123 +2176,113 @@ msgstr "Փնտրում և փոխարինում ('\\' փնտրելու համար
 #. We fake this: Use a filter that doesn't select anything and a default
 #. * file name that won't be used.
 msgid "Not Used"
-msgstr "Не используется"
+msgstr "Օգտագործված չէ"
 
 msgid "Directory\t*.nothing\n"
-msgstr "Каталог\t*.ничего\n"
+msgstr "Թղթապանակ\t*.ոչինչ\n"
 
 msgid "Vim E458: Cannot allocate colormap entry, some colors may be incorrect"
-msgstr ""
-"Vim E458: Невозможно выделить запись в таблице цвета, некоторые цвета могут "
-"отображаться неправильно"
+msgstr "Vim E458: Հնարավոր չէ ստեղծել colormap տիպի էլեմենտ, որոշ գույներ հնարավոր է սխալ լինեն"
 
 #, c-format
 msgid "E250: Fonts for the following charsets are missing in fontset %s:"
-msgstr "E250: В наборе шрифтов %s отсутствуют шрифты для следующих кодировок:"
+msgstr "E250: Հետևյալ նշանների բազմությունը բացակայում է %s տառատեսակների բազմության մեջ:"
 
 #, c-format
 msgid "E252: Fontset name: %s"
-msgstr "E252: Набор шрифтов: %s"
+msgstr "E252: Տառատեսակների բազմության անունը: %s"
 
 #, c-format
 msgid "Font '%s' is not fixed-width"
-msgstr "Шрифт '%s' не является моноширинным"
+msgstr "'%s' տառատեսակը ֆիքսված երկարությամբ չէ"
 
 #, c-format
 msgid "E253: Fontset name: %s"
-msgstr "E253: Набор шрифтов: %s"
-
-#, c-format
-msgid "Font0: %s"
-msgstr "Font0: %s"
-
-#, c-format
-msgid "Font1: %s"
-msgstr "Font1: %s"
+msgstr "E253: Տառատեսակների բազմության անունը: %s"
 
 #, c-format
 msgid "Font%ld width is not twice that of font0"
-msgstr "Ширина шрифта font%ld должна быть вдвое больше ширины шрифта font0"
+msgstr "font%ld֊ի երկարությունը font0 ֆոնտի երկարության կրկնակին չէ"
 
 #, c-format
 msgid "Font0 width: %ld"
-msgstr "Ширина шрифта font0: %ld"
+msgstr "font0֊ի երկարությունը: %ld"
 
 #, c-format
 msgid "Font1 width: %ld"
-msgstr "Ширина шрифта font1: %ld"
+msgstr "Font1 երկարությունը: %ld"
 
 msgid "Invalid font specification"
-msgstr "Неправильное определение шрифта"
+msgstr "Սխալ տառատեսակ"
 
 msgid "&Dismiss"
-msgstr "О&тклонить"
+msgstr "Թաքցնել"
 
 msgid "no specific match"
-msgstr "нет специального совпадения"
+msgstr "համապատասխանեցում չկա"
 
 msgid "Vim - Font Selector"
-msgstr "Vim — Выбор шрифта"
+msgstr "Vim — տառատեսակի ընտրող"
 
 msgid "Name:"
-msgstr "Название:"
+msgstr "Անվանում:"
 
 #. create toggle button
 msgid "Show size in Points"
-msgstr "Показывать размер в пунктах"
+msgstr "Ցուդադրել կետային չափը"
 
 msgid "Encoding:"
-msgstr "Кодировка:"
+msgstr "Կոդավորում:"
 
 msgid "Font:"
-msgstr "Шрифт:"
+msgstr "տառատեսակ:"
 
 msgid "Style:"
-msgstr "Стиль:"
+msgstr "Ստիլ:"
 
 msgid "Size:"
-msgstr "Размер:"
+msgstr "Չափ:"
 
 msgid "E256: Hangul automata ERROR"
-msgstr "E256: ОШИБКА автоматики Хангыл"
+msgstr "E256: Hangul ավտոմատի սխալ"
 
 msgid "E550: Missing colon"
-msgstr "E550: Пропущено двоеточие"
+msgstr "E550: բացակաայող չակերտ"
 
 msgid "E551: Illegal component"
-msgstr "E551: Недопустимый компонент"
+msgstr "E551: Սխալ բաղադրիչ"
 
 msgid "E552: digit expected"
-msgstr "E552: Требуется указать цифру"
+msgstr "E552: սպասվում է թիվ"
 
 #, c-format
 msgid "Page %d"
-msgstr "Страница %d"
+msgstr "Էջ %d"
 
 msgid "No text to be printed"
 msgstr "Печатать нечего"
 
 #, c-format
 msgid "Printing page %d (%d%%)"
-msgstr "Печать стр. %d (%d%%)"
+msgstr "Էջի տպագրում։ %d (%d%%)"
 
 #, c-format
 msgid " Copy %d of %d"
-msgstr " Копия %d из %d"
+msgstr " Պատճենել %d из %d"
 
 #, c-format
 msgid "Printed: %s"
-msgstr "Напечатано: %s"
+msgstr "Պատճենված: %s"
 
 msgid "Printing aborted"
-msgstr "Печать прекращена"
+msgstr "Պատճենումը ընդհատված է"
 
 msgid "E455: Error writing to PostScript output file"
-msgstr "E455: Ошибка записи в файл PostScript"
+msgstr "E455: Գրելու սխալ PostScript֊ի ելքում"
 
 #, c-format
 msgid "E624: Can't open file \"%s\""
-msgstr "E624: Невозможно открыть файл \"%s\""
+msgstr "E624: Հնարավոր չէ բացել ֆայլը \"%s\""
 
 #, c-format
 msgid "E457: Can't read PostScript resource file \"%s\""
