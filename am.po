@@ -367,7 +367,7 @@ msgid "E121: Undefined variable: %s"
 msgstr "E121: Չսահմանված փոփոխական: %s"
 
 msgid "E111: Missing ']'"
-msgstr "E111: Բաց թողնված ']'"
+msgstr "E111: Բացակայող ']'"
 
 #, c-format
 msgid "E686: Argument of %s must be a List"
@@ -405,7 +405,7 @@ msgid "E718: Funcref required"
 msgstr "E718: Անհրաժեշտ է Funcref"
 
 msgid "E719: Cannot use [:] with a Dictionary"
-msgstr "E719: Հնարավոր չէ բառարանի հետ օգտագործել [:]"
+msgstr "E719: Հնարավոր չէ [:]-ը բառարանի հետ օգտագործել"
 
 #, c-format
 msgid "E734: Wrong variable type for %s="
@@ -413,7 +413,7 @@ msgstr "E734: Փոփոխականի սխալ տիպ %s="
 
 #, c-format
 msgid "E130: Unknown function: %s"
-msgstr "E130: Անհայտ ֆունկցիա: %s"
+msgstr "E130: Անծանոթ ֆունկցիա: %s"
 
 #, c-format
 msgid "E461: Unknown function name: %s"
@@ -429,7 +429,7 @@ msgid "E688: More targets than List items"
 msgstr "E688: Ավելի շատ նշաններ քան ցանկի ելեմենտները"
 
 msgid "Double ; in list of variables"
-msgstr "Двойная ; փոփոխականնների ցանկում"
+msgstr "Կրկնակի ՝;՝ փոփոխականնների ցանկում"
 
 #, c-format
 msgid "E738: Can't list variables for %s"
@@ -448,14 +448,14 @@ msgid "E710: List value has more items than target"
 msgstr "E710: Ցանկի արժեքներն ունեն ավելի շատ էլեմենտներ քան նշաններ"
 
 msgid "E711: List value has not enough items"
-msgstr "E711: Ցանկի արժեքներն չունեն բավականաչափ էլեմենտներ"
+msgstr "E711: Ցանկի արժեքները չունեն բավականաչափ էլեմենտներ"
 
 msgid "E690: Missing \"in\" after :for"
 msgstr "E690: Բացկայող \"in\":for֊ից հետո"
 
 #, c-format
 msgid "E107: Missing parentheses: %s"
-msgstr "E107: Բացակայոց փակագծեր: %s"
+msgstr "E107: Բացակայող փակագծեր: %s"
 
 #, c-format
 msgid "E108: No such variable: \"%s\""
@@ -483,13 +483,13 @@ msgid "E693: Can only compare Funcref with Funcref"
 msgstr "E693: Ֆունկցիայի հղումը պետք է համեմատել միայն Ֆունկցիայի հղման հետ"
 
 msgid "E694: Invalid operation for Funcrefs"
-msgstr "E694:  Ֆունկցիայի հղման հետ չթույլատրված գործողություն"
+msgstr "E694: Ֆունկցիայի հղման հետ չթույլատրված գործողություն"
 
 msgid "E804: Cannot use '%' with Float"
 msgstr "E804: Անհնար է օգտագործել '%'֊ը սահող կետով թվերի հետ"
 
 msgid "E110: Missing ')'"
-msgstr "E110: Բաց թողնված ')'"
+msgstr "E110: Բացակայող ')'"
 
 msgid "E695: Cannot index a Funcref"
 msgstr "E695: Անհնար է Ինդեքսավորել ֆունկցիայի հղումը"
@@ -504,11 +504,11 @@ msgstr "E113: Անծանոթ ֆունկցիա: %s"
 
 #, c-format
 msgid "E114: Missing quote: %s"
-msgstr "E114: Բաց թողնված չակերտ: %s"
+msgstr "E114: Բացակայող չակերտ: %s"
 
 #, c-format
 msgid "E115: Missing quote: %s"
-msgstr "E115: Բաց թողնված չակերտ: %s"
+msgstr "E115: Բացակայող չակերտ: %s"
 
 #, c-format
 msgid "E696: Missing comma in List: %s"
@@ -516,7 +516,7 @@ msgstr "E696: Ցանկում բաց թողնված ստորակետ: %s"
 
 #, c-format
 msgid "E697: Missing end of List ']': %s"
-msgstr "E697: Բաց թողնված ']'ցանկի վերջում: %s"
+msgstr "E697: Բացակայող ']'ցանկի վերջում: %s"
 
 #, c-format
 msgid "E720: Missing colon in Dictionary: %s"
@@ -532,7 +532,7 @@ msgstr "E722: Բառարանում բաց թողնված ստորակետ %s"
 
 #, c-format
 msgid "E723: Missing end of Dictionary '}': %s"
-msgstr "E723: Բաց թողնված '}'ցանկի վերջում: %s"
+msgstr "E723: Բացակայող '}'ցանկի վերջում: %s"
 
 msgid "E724: variable nested too deep for displaying"
 msgstr "E724: Փոփխականը շատ է ներդրված ցուցադրման համար"
@@ -621,16 +621,16 @@ msgid "insert() argument"
 msgstr "insert() արգումենտ"
 
 msgid "E786: Range not allowed"
-msgstr "E786: միջակայք թույլատրված չէ"
+msgstr "E786: Միջակայք թույլատրված չէ"
 
 msgid "E701: Invalid type for len()"
 msgstr "E701: Սխալ տիպ len() ֆունկցիայի համար"
 
 msgid "E726: Stride is zero"
-msgstr "E726: քայլը զրո է"
+msgstr "E726: Քայլը զրո է"
 
 msgid "E727: Start past end"
-msgstr "E727: Սկիզբ վերջից հետո"
+msgstr "E727: Սկիզբ՝ վերջից հետո"
 
 msgid "<empty>"
 msgstr "<դատարկ>"
@@ -650,11 +650,11 @@ msgid "remove() argument"
 msgstr "remove() արգումենտ"
 
 msgid "E655: Too many symbolic links (cycle?)"
-msgstr "E655: Շատ սիմվոլիկ լինկեր (ցի՞կլ)"
+msgstr "E655: Շատ սիմվոլիկ հղումներ (ցի՞կլ)"
 
 #. Используется для получения "значение параметра p()" в E741 и E742
 msgid "reverse() argument"
-msgstr "reverse() argument"
+msgstr "reverse() արգումենտ"
 
 msgid "E258: Unable to send to client"
 msgstr "E258: Անհնար է ուղարկել ընդունողին"
@@ -670,7 +670,7 @@ msgid "(Invalid)"
 msgstr "(Սխալ)"
 
 msgid "E677: Error writing temp file"
-msgstr "E677: Սխալ է տեղի ունեցել ժամանակ ֆայլում գրելու ընթացքում"
+msgstr "E677: Սխալ է տեղի ունեցել ժամանակավոր ֆայլում գրելու ընթացքում"
 
 msgid "E805: Using a Float as a Number"
 msgstr "E805: Սահող կետով թիվ է օգտագործվել ամբողջի փոխարեն"
@@ -707,7 +707,7 @@ msgstr "E704: Funcref փոփոխականը պետք է սկսվի մեծատառ
 
 #, c-format
 msgid "E705: Variable name conflicts with existing function: %s"
-msgstr "E705: Փոփոխականի անունոն ֆունկցիա գոյություն ունի: %s"
+msgstr "E705: Փոփոխականի անունով ֆունկցիա արդեն գոյություն ունի: %s"
 
 #. Используется с %s = "параметера p"
 #, c-format
@@ -715,12 +715,12 @@ msgid "E741: Value is locked: %s"
 msgstr "E741: %s արժեքը բլոկավորված է"
 
 msgid "Unknown"
-msgstr "Անհայտ"
+msgstr "Անծանոթ"
 
 #. Используется с %s = "параметера p()"
 #, c-format
 msgid "E742: Cannot change value of %s"
-msgstr "E742: Անհնար է փոխել արժեք %s"
+msgstr "E742: Անհնար է փոխել %s֊ի արժեքը"
 
 msgid "E698: variable nested too deep for making a copy"
 msgstr "E698: Փոփխականը շատ է ներդրված պատճենելու համար"
@@ -731,7 +731,7 @@ msgstr "E123: Անծանոթ ֆունկցիա: %s"
 
 #, c-format
 msgid "E124: Missing '(': %s"
-msgstr "E124: Բաց թողնված '(': %s"
+msgstr "E124: Բացակայող '(': %s"
 
 msgid "E862: Cannot use g: here"
 msgstr "E862: Հնարավոր չէ այստեղ օգտագործել g:֊ն"
@@ -753,7 +753,7 @@ msgstr "E707: Ֆունկցիայի անունը համընկնում է փոփո
 
 #, c-format
 msgid "E127: Cannot redefine function %s: It is in use"
-msgstr "E127: Հնարավոր չէ վերասահմանել ֆունկցիան %s, այն օգտագործվում է"
+msgstr "E127: Հնարավոր չէ վերասահմանել %s ֆունկցիան, այն կատարման փուլում է"
 
 #, c-format
 msgid "E746: Function name does not match script file name: %s"
@@ -817,7 +817,7 @@ msgid "E134: Move lines into themselves"
 msgstr "E134: Строки перемещаются сами на себя"
 
 msgid "1 line moved"
-msgstr "Մեկ տեղ տեղափոխվել է"
+msgstr "Մեկ տող տեղափոխվել է"
 
 #, c-format
 msgid "%ld lines moved"
@@ -1053,14 +1053,14 @@ msgstr "E612: Սահմանվել են մի քանի նշաններ"
 
 #, c-format
 msgid "E239: Invalid sign text: %s"
-msgstr "E239: Անհայտ տեքստային նշան: %s"
+msgstr "E239: Անծանոթ տեքստային նշան: %s"
 
 #, c-format
 msgid "E155: Unknown sign: %s"
-msgstr "E155: Անհայտ նշան: %s"
+msgstr "E155: Անծանոթ նշան: %s"
 
 msgid "E159: Missing sign number"
-msgstr "E159: Բաց թողնված թվի նշան"
+msgstr "E159: Բացակայող թվի նշան"
 
 #, c-format
 msgid "E158: Invalid buffer name: %s"
@@ -1607,10 +1607,10 @@ msgid "[Permission Denied]"
 msgstr "[Թույլատրված չէ]"
 
 msgid "E200: *ReadPre autocommands made the file unreadable"
-msgstr "E200: *ReadPre ինքնահրամաննները ֆայլը դարձրել են անընթեռնելի"
+msgstr "E200: *ReadPre ինքնահրամանները ֆայլը դարձրել են անընթեռնելի"
 
 msgid "E201: *ReadPre autocommands must not change current buffer"
-msgstr "E201: ReadPre ինքնահրամաննները չեն կարող փոխել տվյալ բուֆերը"
+msgstr "E201: ReadPre ինքնահրամանները չեն կարող փոխել տվյալ բուֆերը"
 
 msgid "Vim: Reading from stdin...\n"
 msgstr "Vim: Ընթերցում ստանդարտ մուտքից...\n"
@@ -1836,21 +1836,21 @@ msgid ""
 "W12: Warning: File \"%s\" has changed and the buffer was changed in Vim as "
 "well"
 msgstr ""
-"W12: Զգուշացում: \"%s\" ֆայլն ու բուֆերը փոփխվել են միմյանցից անկախ"
+"W12: Զգուշացում: \"%s\" ֆայլն ու բուֆերը փոփոխվել են միմյանցից անկախ"
 
 msgid "See \":help W12\" for more info."
 msgstr "Տես. \":help W12\" հավելյալ տեղեկատվությոան համար"
 
 #, c-format
 msgid "W11: Warning: File \"%s\" has changed since editing started"
-msgstr "W11: Զգուշացում: \"%s\" ֆայլը փոփխվել է խմբագրման սկսվելու ժամանակ"
+msgstr "W11: Զգուշացում: \"%s\" ֆայլը փոփոխվել է խմբագրման սկսվելու ժամանակ"
 
 msgid "See \":help W11\" for more info."
 msgstr "Տես. \":help W11\" հավելյալ տեղեկատվությոան համար."
 
 #, c-format
 msgid "W16: Warning: Mode of file \"%s\" has changed since editing started"
-msgstr "W16: Զգուշացում: \"%s\" ֆայլին դիմելու մոդը փոփխվել է խմբագրման սկսվելու ժամանակ"
+msgstr "W16: Զգուշացում: \"%s\" ֆայլին դիմելու մոդը փոփոխվել է խմբագրման սկսվելու ժամանակ"
 "редактирования"
 
 msgid "See \":help W16\" for more info."
@@ -1858,7 +1858,7 @@ msgstr "См. \":help W16\" հավելյալ տեղեկատվությոան հա
 
 #, c-format
 msgid "W13: Warning: File \"%s\" has been created after editing started"
-msgstr "W13: Զգուշացում: \"%s\" ֆայլին ստեղծել է խմբագրման սկսվելուց հետո"
+msgstr "W13: Զգուշացում: \"%s\" ֆայլը ստեղծել է խմբագրման սկսվելուց հետո"
 
 msgid "Warning"
 msgstr "Զգուշացում"
@@ -1915,13 +1915,13 @@ msgid "E680: <buffer=%d>: invalid buffer number "
 msgstr "E680: <buffer=%d>: սխալ բուֆերի համար"
 
 msgid "E217: Can't execute autocommands for ALL events"
-msgstr "E217: Հնարավոր չէ կատարել ինքնահրամաննները բոլոր Իրադարձությունների համար"
+msgstr "E217: Հնարավոր չէ կատարել ինքնահրամանները բոլոր իրադարձությունների համար"
 
 msgid "No matching autocommands"
 msgstr "Չկա համապատասխան ինքնահրաման"
 
 msgid "E218: autocommand nesting too deep"
-msgstr "E218: ինքնահրամնը շատ է ներդրված"
+msgstr "E218: ինքնահրամանը շատ է ներդրված"
 
 #, c-format
 msgid "%s Auto commands for \"%s\""
@@ -1936,10 +1936,10 @@ msgid "autocommand %s"
 msgstr "Ինքնահրաման %s"
 
 msgid "E219: Missing {."
-msgstr "E219: Բաց թողնված {."
+msgstr "E219: Բացակայող {."
 
 msgid "E220: Missing }."
-msgstr "E220: Բաց թողնված }."
+msgstr "E220: Բացակայող }."
 
 msgid "E490: No fold found"
 msgstr "E490: Փաթաթը չի գտնվել"
@@ -1952,7 +1952,7 @@ msgstr "E351: Հնարավոր չէ ջնջել փաթաթ 'foldmethod'֊ով"
 
 #, c-format
 msgid "+--%3ld lines folded "
-msgstr "+--%3ld տողեր փաթավել են"
+msgstr "+--%3ld տողեր փաթաթվել են"
 
 msgid "E222: Add to read buffer"
 msgstr "E222: Ավելացնել կարդալու բուֆեր"
@@ -2286,19 +2286,19 @@ msgstr "E624: Հնարավոր չէ բացել ֆայլը \"%s\""
 
 #, c-format
 msgid "E457: Can't read PostScript resource file \"%s\""
-msgstr "E457: Невозможно прочитать файл ресурсов PostScript \"%s\""
+msgstr "E457: Հնարավոր չէ կարդալ \"%s\" PostScript֊ի ռեսուրս ֆայլը"
 
 #, c-format
 msgid "E618: file \"%s\" is not a PostScript resource file"
-msgstr "E618: Файл \"%s\" не является файлом ресурсов PostScript"
+msgstr "E618: \"%s\" ֆայլը PostScript֊ի ռեսուրս ֆայլ չի"
 
 #, c-format
 msgid "E619: file \"%s\" is not a supported PostScript resource file"
-msgstr "E619: Файл \"%s\" не является допустимым файлом ресурсов PostScript"
+msgstr "E619: \"%s\" ֆայլը PostScript֊ի աջակցվող ռեսուրս ֆայլ չի"
 
 #, c-format
 msgid "E621: \"%s\" resource file has wrong version"
-msgstr "E621: Файл ресурсов \"%s\" неизвестной версии"
+msgstr "E621: \"%s\" ռեսուրս ֆայլն ունի սխալ վերսա"
 
 msgid "E673: Incompatible multi-byte encoding and character set."
 msgstr "E673: Несовместимые многобайтовая кодировка и набор символов."
@@ -3919,7 +3919,7 @@ msgid "Type number and <Enter> (empty cancels): "
 msgstr "Введите номер и <Enter> (пусто для отмены): "
 
 msgid "1 more line"
-msgstr "Մեկ տեղ ավելացվել է"
+msgstr "Մեկ տող ավելացվել է"
 
 msgid "1 line less"
 msgstr "Մեկ տող ջնջվել է"
@@ -4161,7 +4161,7 @@ msgstr ""
 "--- Ռեգիստերներ ---"
 
 msgid "Illegal register name"
-msgstr "Անհայտ ռեգիստրի անուն"
+msgstr "Անծանոթ ռեգիստրի անուն"
 
 msgid ""
 "\n"
@@ -4172,7 +4172,7 @@ msgstr ""
 
 #, c-format
 msgid "E574: Unknown register type %d"
-msgstr "E574: Անհայտ ռեգիստրի տիպ %d"
+msgstr "E574: Անծանոթ ռեգիստրի տիպ %d"
 
 #, c-format
 msgid "%ld Cols; "
@@ -4213,7 +4213,7 @@ msgid "Thanks for flying Vim"
 msgstr "Благодарим за использование Vim"
 
 msgid "E518: Unknown option"
-msgstr "E518: Անհայտ ֆունկցիա"
+msgstr "E518: Անծանոթ ֆունկցիա"
 
 msgid "E519: Option not supported"
 msgstr "E519: Опция не поддерживается"
@@ -4256,17 +4256,17 @@ msgid "E617: Cannot be changed in the GTK+ 2 GUI"
 msgstr "E617: Не может быть изменено в графическом интерфейсе GTK+ 2"
 
 msgid "E524: Missing colon"
-msgstr "E524: Բաց թողնված վերջակետ"
+msgstr "E524: Բացակայող վերջակետ"
 
 msgid "E525: Zero length string"
-msgstr "E525: Строка с нулевой длиной"
+msgstr "E525: Դատարկ տող"
 
 #, c-format
 msgid "E526: Missing number after <%s>"
-msgstr "E526: Пропущено число после <%s>"
+msgstr "E526: Բացակայող թիվ՝ <%s>֊ից հետո"
 
 msgid "E527: Missing comma"
-msgstr "E527: Բաց թողնված ստորակետ"
+msgstr "E527: Բացակայող ստորակետ"
 
 msgid "E528: Must specify a ' value"
 msgstr "E528: Необходимо указать значение для '"
@@ -4331,7 +4331,7 @@ msgstr "E594: Անհրաժեշտ են գոնե %d սյուններ"
 
 #, c-format
 msgid "E355: Unknown option: %s"
-msgstr "E355: Անհայտ ֆունկցիա: %s"
+msgstr "E355: Անծանոթ ֆունկցիա: %s"
 
 #. There's another character after zeros or the string
 #. * is empty.  In both cases, we are trying to set a
@@ -6253,7 +6253,7 @@ msgstr "E472: Հրամանը ձախողվել է"
 
 #, c-format
 msgid "E234: Unknown fontset: %s"
-msgstr "E234: Անհայտ ֆոնտերի բաղմություն: %s"
+msgstr "E234: Անծանոթ ֆոնտերի բաղմություն: %s"
 
 #, c-format
 msgid "E235: Unknown font: %s"
@@ -6491,7 +6491,7 @@ msgid "E488: Trailing characters"
 msgstr "E488: Ավելորդ նշաններ"
 
 msgid "E78: Unknown mark"
-msgstr "E78: Անհայտ նշում"
+msgstr "E78: Անծանոթ նշում"
 
 msgid "E79: Cannot expand wildcards"
 msgstr "E79: Невозможно выполнить подстановку по маске"
@@ -6692,7 +6692,7 @@ msgid "unable to get option value"
 msgstr "Невозможно получить значение опции"
 
 msgid "internal error: unknown option type"
-msgstr " Ներքին համակարգային սխալ: անհայտ տարբերակման տիպ"
+msgstr " Ներքին համակարգային սխալ: անծանոթ տարբերակման տիպ"
 
 msgid "problem while switching windows"
 msgstr "Проблема при переключении окон"
