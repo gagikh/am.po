@@ -6,15 +6,15 @@
 # Gagik Hakobyan <hakgagik@yahoo,com> 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: vim_7.4_ru\n"
+"Project-Id-Version: vim_7.4_am\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-14 16:42+0400\n"
-"PO-Revision-Date: 2015-02-22 16:55+0400\n"
+"PO-Revision-Date: 2015-02-22 17:13+0400\n"
 "Last-Translator: Gagik Hakobyan <hakgagik@yahoo.com>\n"
 "Language-Team: \n"
 "Language: Armenian\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
@@ -3700,35 +3700,34 @@ msgid "read from Netbeans socket"
 msgstr "Ըթերցում՝ NetBeans socket֊ից"
 
 msgid "E658: NetBeans connection lost for buffer %ld"
-msgstr "E658: Потеряно соединение с NetBeans для буфера %ld"
+msgstr "E658: NetBeans կապակցումը անհետացել է %ld բուֆերի համար"
 
 msgid "E838: netbeans is not supported with this GUI"
-msgstr "E838: NetBeans не поддерживается с этим графическим интерфейсом"
+msgstr "E838: NetBeans֊ը չի աջակցվում այս գրաֆիկական ինտերֆեյսով"
 
 msgid "E511: netbeans already connected"
-msgstr "E511: уже соединён с NetBeans"
+msgstr "E511: NetBeans֊ն արդեն կապակցված է"
 
 msgid "E505: %s is read-only (add ! to override)"
-msgstr "E505: %s открыт только для чтения (добавьте !, чтобы обойти проверку)"
+msgstr "E505: %s֊ը միայն կարդալու համար է (ամրագրելու համար ավելացնել  !)"
 
 msgid "E349: No identifier under cursor"
 msgstr "E349: Կուրսորի դիրքում չկա փոփոխականի անուն"
 
 msgid "E774: 'operatorfunc' is empty"
-msgstr "E774: Значением опции 'operatorfunc' является пустая строка"
+msgstr "E774: 'operatorfunc'֊ի արժեքը դատարկ է"
 
 msgid "E775: Eval feature not available"
 msgstr "E775: eval ֆունկցիան ը հասանելի չէ"
 
 msgid "Warning: terminal cannot highlight"
-msgstr "Предупреждение: терминал не может выполнять подсветку"
+msgstr "Զգուծացում: տերմինալը գունավորում չի աջակցում"
 
 msgid "E348: No string under cursor"
-msgstr "E348: Нет строки в позиции курсора"
+msgstr "E348: Կուրսորի դիրքում տող չկա"
 
 msgid "E352: Cannot erase folds with current 'foldmethod'"
-msgstr ""
-"E352: Невозможно стереть складки с текущим значением опции 'foldmethod'"
+msgstr "E352: Հնարավոր չէ մաքրել փաթաթը 'foldmethod'֊ի տվյալ արժեքի դեպքում"
 
 msgid "E664: changelist is empty"
 msgstr "E664: Փոփոխուոթյունների ցանկը դատարկ է"
@@ -3743,28 +3742,28 @@ msgid "Type  :quit<Enter>  to exit Vim"
 msgstr "Vim֊ը ընդհատելու համար մուտքագրել :quit<Enter> հրամանը"
 
 msgid "1 line %sed 1 time"
-msgstr "Изменены отступы в 1 строке (%s 1 раз)"
+msgstr "1 տող %sed 1 անգամ"
 
 msgid "1 line %sed %d times"
-msgstr "Изменены отступы в 1 строке (%s %d раз)"
+msgstr "1 տող %sed %d անգամ"
 
 msgid "%ld lines %sed 1 time"
-msgstr "Изменены отступы, %ld строк (%s 1 раз)"
+msgstr "%ld տողեր %sed 1 անգամ"
 
 msgid "%ld lines %sed %d times"
-msgstr "Изменены отступы, %ld строк (%s %d раз)"
+msgstr "%ld տողեր %sed %d անգամ"
 
 msgid "%ld lines to indent... "
-msgstr "Изменяются отступы строках (%ld)..."
+msgstr "%ld տողեր խորացման համար․.."
 
 msgid "1 line indented "
-msgstr "Изменён отступ в одной строке "
+msgstr "մեկ տող խորացվել է"
 
 msgid "%ld lines indented "
-msgstr "Изменены отступы в строках (%ld) "
+msgstr "%ld տողեր խորացվել են"
 
 msgid "E748: No previously used register"
-msgstr "E748: Нет предыдущего использованного регистра"
+msgstr "E748: Չկան նախկինում օգտագորխված ռեգիստրներ"
 
 msgid "cannot yank; delete anyway"
 msgstr "պատճենել հնարավոր չէ, ամեն դեպքում ջնջել"
@@ -3815,49 +3814,47 @@ msgstr "Նշված է %s%ld %ld տողերից; %ld %ld բառերից; %ld %ld 
 msgid ""
 "Selected %s%ld of %ld Lines; %ld of %ld Words; %ld of %ld Chars; %ld of %ld "
 "Bytes"
-msgstr ""
-"Выделено %s%ld из %ld стр.; %ld из %ld слов; %ld из %ld симв.; %ld из %ld "
-"байт"
+msgstr "Նշված %s%ld֊ից %ld տողեր; %ld %ld բառեր; %ld %ld տառեր; %ld %ld բայթեր"
 
 msgid "Col %s of %s; Line %ld of %ld; Word %ld of %ld; Byte %ld of %ld"
-msgstr "Кол. %s из %s; стр. %ld из %ld; сл. %ld из %ld; байт %ld из %ld"
+msgstr "Սյուն %s %s֊ից; Տող %ld %ld֊ից; Բառեր %ld %ld֊ից; Բայթ %ld %ld֊ից"
 
 msgid ""
 "Col %s of %s; Line %ld of %ld; Word %ld of %ld; Char %ld of %ld; Byte %ld of "
 "%ld"
 msgstr ""
-"Кол. %s из %s; стр. %ld из %ld; сл. %ld из %ld; симв. %ld из %ld; байт %ld "
-"из %ld"
+"Սյուն %s %s֊ից; Տող %ld %ld֊ից; Բառեր %ld %ld֊ից; Տառեր %ld %ld֊ից; Բայթ %ld "
+"%ld֊ից"
 
 msgid "(+%ld for BOM)"
-msgstr "(+%ld с учётом BOM)"
+msgstr "(+%ld BOM֊ի համար)"
 
 msgid "%<%f%h%m%=Page %N"
-msgstr "%<%f%h%m%=Стр. %N"
+msgstr "%<%f%h%m%=Էջ %N"
 
 msgid "Thanks for flying Vim"
-msgstr "Благодарим за использование Vim"
+msgstr "Շնորհակալություն Vim֊ի օգտագործման համար"
 
 msgid "E518: Unknown option"
 msgstr "E518: Անծանոթ ֆունկցիա"
 
 msgid "E519: Option not supported"
-msgstr "E519: Опция не поддерживается"
+msgstr "E519: Ֆունկցիան չի աջակցվում"
 
 msgid "E520: Not allowed in a modeline"
-msgstr "E520: Не допускается в режимной строке"
+msgstr "E520: Չի թույլատրվում տողային ռեժիմում"
 
 msgid "E846: Key code not set"
-msgstr "E846: Код клавиши не установлен"
+msgstr "E846: Ստեղնի կոդը կարգավորված չէ"
 
 msgid "E521: Number required after ="
-msgstr "E521: После = требуется указать число"
+msgstr "E521: =֊ից հետո անհրաժեշտ է թիվ"
 
 msgid "E522: Not found in termcap"
-msgstr "E522: Не обнаружено в termcap"
+msgstr "E522:  termcap֊ում չի գտնվել"
 
 msgid "E539: Illegal character <%s>"
-msgstr "E539: Недопустимый символ <%s>"
+msgstr "E539: Չթույլատրված նշան <%s>"
 
 msgid "E529: Cannot set 'term' to empty string"
 msgstr "E529: Значение опции 'term' не может быть пустой строкой"
@@ -4185,13 +4182,13 @@ msgid "Vim: Caught %s event\n"
 msgstr "Vim: Перехвачено событие %s\n"
 
 msgid "close"
-msgstr "закрытие"
+msgstr "փակել"
 
 msgid "logoff"
 msgstr "անջատում"
 
 msgid "shutdown"
-msgstr "завершение"
+msgstr "ելք"
 
 msgid "E371: Command not found"
 msgstr "E371: Команда не найдена"
