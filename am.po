@@ -5,7 +5,7 @@
 # Do ":help credits" in Vim to see a list of people who contributed.
 #
 # Gagik Hakobyan <hakgagik@yahoo,com> 2015
-#
+
 msgid ""
 msgstr ""
 "Project-Id-Version: vim_7.4_ru\n"
@@ -26,10 +26,10 @@ msgid "E817: Blowfish big/little endian use wrong"
 msgstr "E817: Blowfish֊ին տրված մեծ/փոքր վերջավորության կարգը սխալ է"
 
 msgid "E818: sha256 test failed"
-msgstr "E818: sha256 թեսթը անհաջող է ավարտվել"
+msgstr "E818: sha256 թեսթն անհաջող է ավարտվել"
 
 msgid "E819: Blowfish test failed"
-msgstr "E819: Blowfish թեսթը անհաջող է ավարտվել"
+msgstr "E819: Blowfish թեսթն անհաջող է ավարտվել"
 
 msgid "[Location List]"
 msgstr "[Տեղորոշման ցանկ]"
@@ -2301,135 +2301,135 @@ msgid "E621: \"%s\" resource file has wrong version"
 msgstr "E621: \"%s\" ռեսուրս ֆայլն ունի սխալ վերսա"
 
 msgid "E673: Incompatible multi-byte encoding and character set."
-msgstr "E673: Несовместимые многобайтовая кодировка и набор символов."
+msgstr "E673: Անհամապատասխան բազմաբայթ կոդավորում և տառատեսակների բազմություն։"
 
 msgid "E674: printmbcharset cannot be empty with multi-byte encoding."
-msgstr "E674: printmbcharset не может быть пустым при многобайтовой кодировке."
+msgstr "E674: printmbcharset֊ը չի կարող դատարկ լինել բազմաբայթ կոդավորման հետ."
 
 msgid "E675: No default font specified for multi-byte printing."
-msgstr "E675: Нет определения шрифта по умолчанию для многобайтовой печати."
+msgstr "E675: բազմաբայթ կոդավորման հետ տրված չէ լռելիությամբ սահմանված տառատեսակը."
 
 msgid "E324: Can't open PostScript output file"
-msgstr "E324: Невозможно открыть файл PostScript"
+msgstr "E324: Հնարավոր չէ բացել PostScript ելքային ֆայլը"
 
 #, c-format
 msgid "E456: Can't open file \"%s\""
-msgstr "E456: Невозможно открыть файл \"%s\""
+msgstr "E456: Հնարավոր չէ բացել \"%s\" ֆայլը"
 
 msgid "E456: Can't find PostScript resource file \"prolog.ps\""
-msgstr "E456: Файл ресурсов PostScript \"prolog.ps\" не найден"
+msgstr "E456: PostScript֊ի \"prolog.ps\" ռեսուրսային ֆայլը չի գտնվել"
 
 msgid "E456: Can't find PostScript resource file \"cidfont.ps\""
-msgstr "E456: Файл ресурсов PostScript \"cidfont.ps\" не найден"
+msgstr "E456: PostScript֊ի \"cidfont.ps\" ռեսուրսային ֆայլը չի գտնվել"
 
 #, c-format
 msgid "E456: Can't find PostScript resource file \"%s.ps\""
-msgstr "E456: Файл ресурсов PostScript \"%s.ps\" не найден"
+msgstr "E456: PostScript֊ի \"%s.ps\" ռեսուրսային ֆայլը չի գտնվել"
 
 #, c-format
 msgid "E620: Unable to convert to print encoding \"%s\""
-msgstr "E620: Невозможно преобразовать в кодировку печать \"%s\""
+msgstr "E620: Հնարավոր չէ \"%s\"֊ը փթխակերպերլ պատճենման կոդավորման"
 
 msgid "Sending to printer..."
-msgstr "Отправка на печать..."
+msgstr "Ուղարկվում է պատճենահանողին..."
 
 msgid "E365: Failed to print PostScript file"
-msgstr "E365: Не удалось выполнить печать файла PostScript"
+msgstr "E365: Հնարավոր չէ պատճենել PostScript ֆայլը"
 
 msgid "Print job sent."
-msgstr "Задание на печать отправлено."
+msgstr "Պատճենման հրամանն ուղարկվել է։"
 
 msgid "Add a new database"
 msgstr "Ավելացնել նոր տվյալների բազա"
 
 msgid "Query for a pattern"
-msgstr "Запрос по шаблону"
+msgstr "Հարցում նմուշի համար"
 
 msgid "Show this message"
-msgstr "Показать это сообщение"
+msgstr "Ցուցադրել այս հաղորդագրությունը"
 
 msgid "Kill a connection"
 msgstr "Ընդհատել կապը"
 
 msgid "Reinit all connections"
-msgstr "Заново инициализировать все соединения"
+msgstr "Վերանախապատրաստել կապերը"
 
 msgid "Show connections"
-msgstr "Ցուցադրել կապւ"
+msgstr "Ցուցադրել կապերը"
 
 #, c-format
 msgid "E560: Usage: cs[cope] %s"
-msgstr "E560: Использование: cs[cope] %s"
+msgstr "E560: Օգտագործում: cs[cope] %s"
 
 msgid "This cscope command does not support splitting the window.\n"
-msgstr "Эта команда cscope не поддерживает разделение окна.\n"
+msgstr "Այս cscope հրամանը չի աջակցում պատուհանի բաժնումը.\n"
 
 msgid "E562: Usage: cstag <ident>"
-msgstr "E562: Использование: cstag <имя>"
+msgstr "E562: Օգտագործում: cstag <անուն>"
 
 msgid "E257: cstag: tag not found"
 msgstr "E257: cstag: Նշումը չի գտնվել"
 
 #, c-format
 msgid "E563: stat(%s) error: %d"
-msgstr "E563: Ошибка stat(%s): %d"
+msgstr "E563: stat(%s) սխալ: %d"
 
 msgid "E563: stat error"
-msgstr "E563: Ошибка stat"
+msgstr "E563: stat սխալ"
 
 #, c-format
 msgid "E564: %s is not a directory or a valid cscope database"
-msgstr "E564: %s не является каталогом или именем базы cscope"
+msgstr "E564: %s֊ը թղթապանակ կամ cscope֊ի տվյալների բազա չէ"
 
 #, c-format
 msgid "Added cscope database %s"
-msgstr "Добавлена база данных cscope %s"
+msgstr "Ավելացվել է %s cscope տվյալների բազան"
 
 #, c-format
 msgid "E262: error reading cscope connection %ld"
-msgstr "E262: Ошибка получения информации от соединения cscope %ld"
+msgstr "E262:  %ld cscope տվյալների բազայի կապի սխալ ընթերցում"
 
 msgid "E561: unknown cscope search type"
-msgstr "E561: Неизвестный тип поиска cscope"
+msgstr "E561: Անծանոթ cscope֊ի փնտրման տիպ"
 
 msgid "E566: Could not create cscope pipes"
-msgstr "E566: Невозможно создать трубу для cscope"
+msgstr "E566: Հնարավոր չէ ստեղծել cscope֊ի սրնգակապերը"
 
 msgid "E622: Could not fork for cscope"
-msgstr "E622: Невозможно выполнить fork() для cscope"
+msgstr "E622: Հնարավոր չէ եղանել cscope֊ի համար"
 
 msgid "cs_create_connection setpgid failed"
-msgstr "cs_create_connection: не удалось выполнить setpgid"
+msgstr "cs_create_connection: setpgid֊ն հնարավոր չի եղել կատարել"
 
 msgid "cs_create_connection exec failed"
-msgstr "cs_create_connection: не удалось выполнить exec"
+msgstr "cs_create_connection: exec֊ն հնարավոր չի եղել կատարել"
 
 msgid "cs_create_connection: fdopen for to_fp failed"
-msgstr "cs_create_connection: не удалось выполнить fdopen для to_fp"
+msgstr "cs_create_connection: fdopen֊ն հնարավոր չի կատարել to_fp֊ի համար"
 
 msgid "cs_create_connection: fdopen for fr_fp failed"
-msgstr "cs_create_connection: не удалось выполнить fdopen для fr_fp"
+msgstr "cs_create_connection: հնարավոր չի կատարել fr_fp֊ի համար"
 
 msgid "E623: Could not spawn cscope process"
-msgstr "E623: Не удалось запустить процесс cscope"
+msgstr "E623: Հնարավոր չի ազատել cscope պրոցեսը"
 
 msgid "E567: no cscope connections"
-msgstr "E567: Соединений с cscope не создано"
+msgstr "E567: cscope կապեր չկան"
 
 #, c-format
 msgid "E469: invalid cscopequickfix flag %c for %c"
-msgstr "E469: Неправильный флаг cscopequickfix %c для %c"
+msgstr "E469: Սխալ cscopequickfix %c֊ի նշում %c֊ի համար"
 
 #, c-format
 msgid "E259: no matches found for cscope query %s of %s"
-msgstr "E259: Не найдено соответствий по запросу cscope %s для %s"
+msgstr "E259: cscope %s համընկնում չի հայտնաբերվել %s֊ի համար"
 
 msgid "cscope commands:\n"
 msgstr "cscope հրամանները:\n"
 
 #, c-format
 msgid "%-5s: %s%*s (Usage: %s)"
-msgstr "%-5s: %s%*s (использование: %s)"
+msgstr "%-5s: %s%*s (Օգտագործում: %s)"
 
 msgid ""
 "\n"
@@ -2445,10 +2445,10 @@ msgstr ""
 "\n"
 "       c: Փնտրել այս ֆունկցիան կանչող ֆունկցիանները\n"
 "       d: Փնտրեկ այս ֆունկցիայից կանչվող ֆունկցիաները\n"
-"       e: Найти этот шаблон egrep\n"
-"       f: Փնտրել այս ֆայլւ\n"
-"       g: Найти это определение\n"
-"       i: Найти файлы включающие (#include) этот файл\n"
+"       e: Փնտրել այս egrep նմուշը\n"
+"       f: Փնտրել այս ֆայլը\n"
+"       g: Փնտրել այս սահմանումը\n"
+"       i: Փնտրել այս ֆայլը կցող(#include) ֆայլերը\n"
 "       s: Փնտրելայս C-նշանը\n"
 "       t: Փնտրել այս տեքստը\n"
 
@@ -2457,26 +2457,26 @@ msgid "E625: cannot open cscope database: %s"
 msgstr "E625: Անհնար է բացել cscope տվյալների բազան: %s"
 
 msgid "E626: cannot get cscope database information"
-msgstr "E626: Информация о базе данных cscope не доступна"
+msgstr "E626: Անհնար է ստանալ cscope տվյալների բազայի մասին տեղեկատվություն"
 
 msgid "E568: duplicate cscope database not added"
-msgstr "E568: Данная база данных cscope уже подсоединена"
+msgstr "E568: գոյություն ունեցող cscope տվյալների բազան չի ավելացել"
 
 #, c-format
 msgid "E261: cscope connection %s not found"
-msgstr "E261: Соединение с cscope %s не обнаружено"
+msgstr "E261: cscope %s կապը չի գտնվել"
 
 #, c-format
 msgid "cscope connection %s closed"
-msgstr "соединение с cscope %s закрыто"
+msgstr "cscope %s կապը չի փակվել է"
 
 #. should not reach here
 msgid "E570: fatal error in cs_manage_matches"
-msgstr "E570: Критическая ошибка в cs_manage_matches"
+msgstr "E570: օրհասական սխալ cs_manage_matches֊ում"
 
 #, c-format
 msgid "Cscope tag: %s"
-msgstr "Метка cscope: %s"
+msgstr "Cscope թեգ: %s"
 
 msgid ""
 "\n"
@@ -2486,109 +2486,103 @@ msgstr ""
 "   #   տող"
 
 msgid "filename / context / line\n"
-msgstr "имя файла / контекст / строка\n"
+msgstr "ֆայլի անուն / կոնտեքստ / տող\n"
 
 #, c-format
 msgid "E609: Cscope error: %s"
-msgstr "E609: Ошибка cscope: %s"
+msgstr "E609: Cscope սխալ: %s"
 
 msgid "All cscope databases reset"
-msgstr "Перезагрузка всех баз данных cscope"
+msgstr "Ողջ cscope տվյալների բազաների վերաբեռնում"
 
 msgid "no cscope connections\n"
-msgstr "соединения с cscope отсутствуют\n"
+msgstr "չկան cscope կապեր\n"
 
 msgid " # pid    database name                       prepend path\n"
-msgstr " # pid    база данных                         начальный путь\n"
+msgstr " # pid    տվյալների բազայի                   նախնական ճանապարհ\n"
 
 msgid "Lua library cannot be loaded."
-msgstr "Библиотека Lua не может быть загружена."
+msgstr "Հնարավոր չէ բեռնել Lua գրադարանը."
 
 msgid "cannot save undo information"
-msgstr "невозможно сохранить информацию об отмене операции"
+msgstr "հնարավոր չէ պահպանել արձակված տեղեկատվությոանը"
 
 msgid ""
 "E815: Sorry, this command is disabled, the MzScheme libraries could not be "
 "loaded."
-msgstr ""
-"E815: К сожалению эта команда не работает, поскольку не загружена библиотека "
-"MzScheme"
+msgstr "E815: Ներողություն, այ հրամանն անջատում է, հնարավոր չէ բեռնել MzScheme գրադարանը"
 
 msgid "invalid expression"
-msgstr "неправильное выражение"
+msgstr "սխալ արտահայտություն"
 
 msgid "expressions disabled at compile time"
-msgstr "выражения отключены при компиляции"
+msgstr "արտահայտոթյուններն անջատված են կառուցման ժամանակ"
 
 msgid "hidden option"
-msgstr "скрытая опция"
+msgstr "թաքցված ֆունկցիա"
 
 msgid "unknown option"
-msgstr "неизвестная опция"
+msgstr "անծանոթ ֆունկցիա"
 
 msgid "window index is out of range"
-msgstr "индекс окна за пределами диапазона"
+msgstr "պատուհանի համարն միջակայքից դուրս է եկել"
 
 msgid "couldn't open buffer"
-msgstr "невозможно открыть буфер"
+msgstr "հնարավոր չէ բացել բուֆերը"
 
 msgid "cannot delete line"
-msgstr "невозможно удалить строку"
+msgstr "հնարավոր չէ ջնջել տողը"
 
 msgid "cannot replace line"
-msgstr "невозможно заменить строку"
+msgstr "հնարավոր չէ փոխարինել տողը"
 
 msgid "cannot insert line"
-msgstr "невозможно вставить строку"
+msgstr "հնարավոր չէ զետեղել տողը"
 
 msgid "string cannot contain newlines"
-msgstr "строка не может содержать символ новой строки"
+msgstr "տողը չի կարող պարունակել տողանցումներ"
 
 msgid "error converting Scheme values to Vim"
-msgstr "невозможно преобразовать значения Scheme в Vim"
+msgstr "Scheme արժեքների փոխակերպման սխալ"
 
 msgid "Vim error: ~a"
-msgstr "ошибка Vim: ~a"
+msgstr "Vim սխալ: ~a"
 
 msgid "Vim error"
-msgstr "ошибка Vim"
+msgstr "Vim սխալ"
 
 msgid "buffer is invalid"
-msgstr "неправильный буфер"
+msgstr "բուֆերը սխալ է"
 
 msgid "window is invalid"
-msgstr "неправильное окно"
+msgstr "պատուհանը սխալ է"
 
 msgid "linenr out of range"
-msgstr "номер строки за пределами диапазона"
+msgstr "տողի համարը միջակայքից դուրս է եկել"
 
 msgid "not allowed in the Vim sandbox"
-msgstr "не допускается в песочнице Vim"
+msgstr "չի թույլատրվում Vim sandbox" 
 
 msgid "E836: This Vim cannot execute :python after using :py3"
-msgstr "E836: Данный Vim не может выполнить :python после использования :py3"
+msgstr "E836: Այս Vim֊ը չի կարող կատարել :python հրամանը :py3 հրամանի օգտագործումից հետո"
 
 msgid ""
 "E263: Sorry, this command is disabled, the Python library could not be "
 "loaded."
-msgstr ""
-"E263: К сожалению эта команда не работает, поскольку не загружена библиотека "
-"Python"
+msgstr "E263: Ներողություն, այս հրամանն անջատված է, Python գրադարանը հնարավոր չէ բեռնել"
 
 msgid "E659: Cannot invoke Python recursively"
-msgstr "E659: Невозможно выполнить рекурсивный вызов Python"
+msgstr "E659: Հնարավոր չէ ռեկուրսիվ կանչել Python֊ը"
 
 msgid "E837: This Vim cannot execute :py3 after using :python"
-msgstr "E837: Данный Vim не может выполнить :py3 после использования :python"
+msgstr "E837: Այս Vim֊ը չի կարող կատարել :py3 հրամանը :python հրամանի օգտագործումից հետո"
 
 msgid "E265: $_ must be an instance of String"
-msgstr "E265: $_ должен быть экземпляром или строкой"
+msgstr "E265: $_ պետք է լին տող"
 
 msgid ""
 "E266: Sorry, this command is disabled, the Ruby library could not be loaded."
-msgstr ""
-"E266: К сожалению эта команда не работает, поскольку не загружена библиотека "
-"Ruby"
+msgstr "E266: Ներողություն, այս հրամանն անջատված է, Ruby գրադարանը հնարավոր չէ բեռնել"
 
 msgid "E267: unexpected return"
 msgstr "E267: Անսպասելի return"
@@ -2603,144 +2597,142 @@ msgid "E270: unexpected redo"
 msgstr "E270: Անսպասելի redo"
 
 msgid "E271: retry outside of rescue clause"
-msgstr "E271: retry вне оператора rescue"
+msgstr "E271: retry rescue օպերատորից դուրս"
 
 msgid "E272: unhandled exception"
-msgstr "E272: Необработанное исключение"
+msgstr "E272: չմշակվախ բացառում"
 
 #, c-format
 msgid "E273: unknown longjmp status %d"
-msgstr "E273: Неизвестное состояние longjmp %d"
+msgstr "E273: անծանոթ longjmp ստատուս %d"
 
 msgid "Toggle implementation/definition"
-msgstr "Переключение между реализацией/определением"
+msgstr "Իրականացման/սահմանման անջատիչ"
 
 msgid "Show base class of"
-msgstr "Показать основной класс"
+msgstr "Ցուցադրել բազային կլասը"
 
 msgid "Show overridden member function"
-msgstr "Показать перегруженные функции"
+msgstr "Ցուցադրել վերաբեռնված անդամ֊ֆունկցիաները"
 
 msgid "Retrieve from file"
-msgstr "Получить из файла"
+msgstr "Ստանալ ֆայլից"
 
 msgid "Retrieve from project"
-msgstr "Получить из проекта"
+msgstr "Ստանալ նախագծից"
 
 msgid "Retrieve from all projects"
-msgstr "Получить из всех проектов"
+msgstr "Ստանալ բոլոր նախագծերից"
 
 msgid "Retrieve"
-msgstr "Получить"
+msgstr "Ստանալ"
 
 msgid "Show source of"
-msgstr "Показать исходный код"
+msgstr "Ցուցադրել ակունքային կոդը"
 
 msgid "Find symbol"
-msgstr "Найти символ"
+msgstr "Փնտրել նշանը"
 
 msgid "Browse class"
-msgstr "Просмотр класса"
+msgstr "Կլասսի դիտում"
 
 msgid "Show class in hierarchy"
-msgstr "Показать класс в иерархии"
+msgstr "Ցուցադրել կլասը ստորակարգության մեջ"
 
 msgid "Show class in restricted hierarchy"
-msgstr "Показать класс в ограниченной иерархии"
+msgstr "Ցուցադրել կլասը սահմանափակած ստորակարգության մեջ"
 
 msgid "Xref refers to"
-msgstr "Xref ссылается на"
+msgstr "Xref֊ը հղվում է"
 
 msgid "Xref referred by"
-msgstr "Ссылка на xref из"
+msgstr "Xref֊ը հղված է"
 
 msgid "Xref has a"
-msgstr "Xref имеет"
+msgstr "Xref֊ն ունի"
 
 msgid "Xref used by"
-msgstr "Xref используется"
+msgstr "Xref֊ը օգտագործված է"
 
 msgid "Show docu of"
-msgstr "Показать docu"
+msgstr "Ցուցադրել docu"
 
 msgid "Generate docu for"
-msgstr "Создать docu"
+msgstr "Ստեղծել docu"
 
 msgid ""
 "Cannot connect to SNiFF+. Check environment (sniffemacs must be found in "
 "$PATH).\n"
-msgstr ""
-"Невозможно подсоединиться к SNiFF+. Проверьте настройки окружения."
-"(sniffemacs должны быть указаны в переменной $PATH).\n"
+msgstr "Հնարավոր չէ կապվել SNiFF+. Ստուգել միջավայրը (sniffemacs֊ը պետք գտնվի $PATH֊ում).\n"
 
 msgid "E274: Sniff: Error during read. Disconnected"
-msgstr "E274: Sniff: Ошибка во время чтения. Отсоединение"
+msgstr "E274: Sniff: Սխալ կարդալու ընթացում, անջատված է"
 
 msgid "SNiFF+ is currently "
-msgstr "В настоящий момент SNiFF+ "
+msgstr "SNiFF+֊ը ներկայումս"
 
 msgid "not "
-msgstr "не "
+msgstr "ոչ "
 
 msgid "connected"
-msgstr "подсоединён"
+msgstr "միացած"
 
 #, c-format
 msgid "E275: Unknown SNiFF+ request: %s"
-msgstr "E275: Неизвестный запрос SNiFF+: %s"
+msgstr "E275: Անծանոթ SNiFF+ հարցում: %s"
 
 msgid "E276: Error connecting to SNiFF+"
-msgstr "E276: Ошибка соединения со SNiFF+"
+msgstr "E276: Սխալ SNiFF+֊ին կապակցման ժամանակ"
 
 msgid "E278: SNiFF+ not connected"
-msgstr "E278: SNiFF+ не подсоединён"
+msgstr "E278: SNiFF+֊ը կապակցված չէ"
 
 msgid "E279: Not a SNiFF+ buffer"
-msgstr "E279: Это не буфер SNiFF+"
+msgstr "E279: SNiFF+ բուֆեր չէ"
 
 msgid "Sniff: Error during write. Disconnected"
-msgstr "Sniff: Ошибка во время записи. Отсоединение"
+msgstr "Sniff: Սխալ գրելու ընթացքում, անջատված է"
 
 msgid "invalid buffer number"
-msgstr "неправильный номер буфера"
+msgstr "բուֆերի սխալ համար"
 
 msgid "not implemented yet"
-msgstr "пока не реализовано"
+msgstr "իրականացված չէ դեռևս"
 
 #. ???
 msgid "cannot set line(s)"
-msgstr "невозможно назначить строку или строки"
+msgstr "հնարավոր չէ նշանակել տողը(երը)"
 
 msgid "invalid mark name"
-msgstr "неправильное имя отметки"
+msgstr "սխալ նշակման անուն"
 
 msgid "mark not set"
-msgstr "отметка не установлена"
+msgstr "նշակումը սահմանած չէ"
 
 #, c-format
 msgid "row %d column %d"
-msgstr "ряд %d колонка %d"
+msgstr "տող %d սյուն %d"
 
 msgid "cannot insert/append line"
-msgstr "невозможно вставить или добавить строку"
+msgstr "հնարավոր չէ զետեղել/կցել տողը"
 
 msgid "line number out of range"
-msgstr "номер строки за пределами диапазона"
+msgstr "տողի համարը միջակայքից անցել է"
 
 msgid "unknown flag: "
-msgstr "неизвестный флаг: "
+msgstr "անծանոթ դրոշմանիշ: "
 
 msgid "unknown vimOption"
-msgstr "неизвестная vimOption"
+msgstr "անծանոթ vimOption"
 
 msgid "keyboard interrupt"
-msgstr "клавиатурное прерывание"
+msgstr "ստեղնաշարային ընդհատում"
 
 msgid "vim error"
-msgstr "ошибка VIM"
+msgstr "VIM սխալ"
 
 msgid "cannot create buffer/window command: object is being deleted"
-msgstr "невозможно создать команду буфера или окна: объект в процессе удаления"
+msgstr "հնարավորչէ կատարել բուֆերի/պատուհանի հարամանը: օբյեկտը ջնջվում է"
 
 msgid ""
 "cannot register callback command: buffer/window is already being deleted"
@@ -3870,8 +3862,8 @@ msgid ""
 "&Yes\n"
 "&No"
 msgstr ""
-"&Y Այո\n"
-"&N Ոչ"
+"&Այո\n"
+"&Ոչ"
 
 msgid ""
 "&Yes\n"
@@ -3880,20 +3872,20 @@ msgid ""
 "&Discard All\n"
 "&Cancel"
 msgstr ""
-"&Y Այո\n"
-"&N Ոչ\n"
-"&A Պապանել բոլորը\n"
-"&D Կորցնել բոլորը\n"
-"&C Ընդհատել"
+"&Այո\n"
+"&Ոչ\n"
+"&Պահպանել բոլորը\n"
+"&Կորցնել բոլորը\n"
+"&Ընդհատել"
 
 msgid "Select Directory dialog"
-msgstr "Выбор каталога"
+msgstr "Նշել թղթապանակը"
 
 msgid "Save File dialog"
-msgstr "Сохранение файла"
+msgstr "Ֆայլ պահպանելու դիալոգ"
 
 msgid "Open File dialog"
-msgstr "Открытие файла"
+msgstr "Ֆայլ բացելու դիալոգ"
 
 #. TODO: non-GUI file selector here
 msgid "E338: Sorry, no file browser in console mode"
