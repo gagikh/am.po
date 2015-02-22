@@ -1273,7 +1273,7 @@ msgid "No user-defined commands found"
 msgstr "Գտնվել են օգտատիրոջ սահմանած հրամաններ"
 
 msgid "E175: No attribute specified"
-msgstr "E175: պարամետեր տրված չէ"
+msgstr "E175: պարամետրը տրված չէ"
 
 msgid "E176: Invalid number of arguments"
 msgstr "E176: Արգումենտների սխալ քանակություն"
@@ -2259,7 +2259,7 @@ msgid "Page %d"
 msgstr "Էջ %d"
 
 msgid "No text to be printed"
-msgstr "Արտածվելիք տեքս չկա"
+msgstr "Արտածվելիք տեքստ չկա"
 
 #, c-format
 msgid "Printing page %d (%d%%)"
@@ -2771,14 +2771,14 @@ msgstr "E573: Սխալ սերվերի համար է օգտագործվել: %s"
 msgid "E251: VIM instance registry property is badly formed.  Deleted!"
 msgstr "E251: VIM registry ֆունկցիան սխալ է տրված. Ջնջված է!"
 
-msgid "Unknown option argument"
-msgstr "Անծանոթ ֆունկցիայի արգումենտ"
+msgid "Unknown option argument:"
+msgstr "Անծանոթ ֆունկցիայի արգումենտ:"
 
 msgid "Too many edit arguments"
 msgstr "Ասնպասելի շատ տրված խմբագրման արգումենտներ"
 
-msgid "Argument missing after"
-msgstr "Արգումենտը տրված չէ "
+msgid "Argument missing after:"
+msgstr "Արգումենտը տրված չէ:"
 
 msgid "Garbage after option argument"
 msgstr "Աղբ, ֆունկցիայի արգումենտից հետո"
@@ -2860,7 +2860,7 @@ msgstr ""
 "Օգտագործում:"
 
 msgid " vim [arguments] "
-msgstr " vim [պարամետեր] "
+msgstr " vim [պարամետր] "
 
 msgid ""
 "\n"
@@ -3501,16 +3501,16 @@ msgstr "Использование ключа шифрования из своп
 
 #. use msg() to start the scrolling properly
 msgid "Swap files found:"
-msgstr "Обнаружены своп-файлы:"
+msgstr "Հայտնավերված սվեփ ֆայլեր:"
 
 msgid "   In current directory:\n"
-msgstr "   В текущем каталоге:\n"
+msgstr "   Այս թղթապանակում:\n"
 
 msgid "   Using specified name:\n"
-msgstr "   С указанным именем:\n"
+msgstr "   Տրված անվանմամբ:\n"
 
 msgid "   In directory "
-msgstr "   В каталоге   "
+msgstr "   Թղթապանակ   "
 
 msgid "      -- none --\n"
 msgstr "      -- ոչ --\n"
@@ -3559,9 +3559,7 @@ msgstr "       հոսթ: "
 msgid ""
 "\n"
 "         host name: "
-msgstr ""
-"\n"
-"              հոսթ: "
+msgstr "\n              հոսթ: "
 
 msgid ""
 "\n"
@@ -3637,7 +3635,7 @@ msgstr "значение pe_line_count равно нулю"
 
 #, c-format
 msgid "E322: line number out of range: %ld past the end"
-msgstr "E322: Номер строки за пределами диапазона: %ld"
+msgstr "E322: տողի ինդեքսը անցել է թույլատրելի միջակայքը: %ld"
 
 #, c-format
 msgid "E323: line count wrong in block %ld"
@@ -6021,10 +6019,10 @@ msgid " f-b for $VIMRUNTIME: \""
 msgstr "   значение $VIMRUNTIME по умолчанию: \""
 
 msgid "Compilation: "
-msgstr "Параметры компиляции: "
+msgstr "Կառուցման պարամետրեր: "
 
 msgid "Compiler: "
-msgstr "Компилятор: "
+msgstr "Կառուցող: "
 
 msgid "Linking: "
 msgstr "Сборка: "
@@ -6087,10 +6085,10 @@ msgid "                              for Vim defaults   "
 msgstr "                                 для перехода в режим Vim       "
 
 msgid "Sponsor Vim development!"
-msgstr "Помогите в разработке Vim!"
+msgstr "Օգնեցեք բարելավել Vim֊ը!"
 
 msgid "Become a registered Vim user!"
-msgstr "Դարձեք Vim֊ի ռեգիստրացացված օգտատեր"
+msgstr "Դարձեք Vim֊ի ռեգիստրացված օգտատեր"
 
 msgid "type  :help sponsor<Enter>    for information "
 msgstr "տեղեկատվություն ստանալու համար տալ :help sponsor<Enter> հրամանը"
@@ -6243,14 +6241,14 @@ msgid "Interrupted"
 msgstr "Ընդհատված"
 
 msgid "E14: Invalid address"
-msgstr "E14: Սխապ հասցե"
+msgstr "E14: Սխալ հասցե"
 
 msgid "E474: Invalid argument"
-msgstr "E474: Սխալ պարամետեր"
+msgstr "E474: Սխալ պարամետր"
 
 #, c-format
 msgid "E475: Invalid argument: %s"
-msgstr "E475: Սխալ պարամետեր: %s"
+msgstr "E475: Սխալ պարամետր: %s"
 
 #, c-format
 msgid "E15: Invalid expression: %s"
@@ -6623,7 +6621,7 @@ msgid "list constructor does not accept keyword arguments"
 msgstr "Конструктор списка не допускает ключевые слова как аргументы"
 
 msgid "list index out of range"
-msgstr "Индекс списка за пределами диапазона"
+msgstr "ցանկի ինդեքսը անցել է թույլատրելի միջակայքը"
 
 #. No more suitable format specifications in python-2.3
 #, c-format
@@ -6631,7 +6629,7 @@ msgid "internal error: failed to get vim list item %d"
 msgstr " Ներքին համակարգային սխալ: հնարավոր չէր ցանկից վերադարձնել %d էլեմենտը"
 
 msgid "failed to add item to list"
-msgstr "Невозможно добавить элемент в список"
+msgstr "էլեմենտն հնարավոր է ավելացնել ցանկում"
 
 #, c-format
 msgid "internal error: no vim list item %d"
