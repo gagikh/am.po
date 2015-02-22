@@ -1,4 +1,3 @@
-
 # Armenian translation for Vim		vim:set foldmethod=marker:
 #
 # Do ":help uganda"  in Vim to read copying and usage conditions.
@@ -1117,7 +1116,7 @@ msgstr "Անանուն"
 
 #, c-format
 msgid "E162: No write since last change for buffer \"%s\""
-msgstr "E162: \"%s\" Բուֆֆերում կան չամրագրված փոփոխություններ"
+msgstr "E162: \"%s\" Բուֆերում կան չամրագրված փոփոխություններ"
 
 msgid "Warning: Entered other buffer unexpectedly (check autocommands)"
 msgstr "Զգուշացում: Անսպասելու անցում է կատարվել դեպի այլ բուֆեր (ստուգեք ինքնահրամանննրը)"
@@ -2247,7 +2246,7 @@ msgid "E256: Hangul automata ERROR"
 msgstr "E256: Hangul ավտոմատի սխալ"
 
 msgid "E550: Missing colon"
-msgstr "E550: բացակաայող չակերտ"
+msgstr "E550: Բացակայող չակերտ"
 
 msgid "E551: Illegal component"
 msgstr "E551: Սխալ բաղադրիչ"
@@ -2260,7 +2259,7 @@ msgid "Page %d"
 msgstr "Էջ %d"
 
 msgid "No text to be printed"
-msgstr "Печатать нечего"
+msgstr "Արտածվելիք տեքս չկա"
 
 #, c-format
 msgid "Printing page %d (%d%%)"
@@ -2610,7 +2609,7 @@ msgid "Toggle implementation/definition"
 msgstr "Իրականացման/սահմանման անջատիչ"
 
 msgid "Show base class of"
-msgstr "Ցուցադրել բազային կլասը"
+msgstr "Ցուցադրել բազային դասը"
 
 msgid "Show overridden member function"
 msgstr "Ցուցադրել վերաբեռնված անդամ֊ֆունկցիաները"
@@ -2634,13 +2633,13 @@ msgid "Find symbol"
 msgstr "Փնտրել նշանը"
 
 msgid "Browse class"
-msgstr "Կլասսի դիտում"
+msgstr "Դասի դիտում"
 
 msgid "Show class in hierarchy"
-msgstr "Ցուցադրել կլասը ստորակարգության մեջ"
+msgstr "Ցուցադրել դասը ստորակարգության մեջ"
 
 msgid "Show class in restricted hierarchy"
-msgstr "Ցուցադրել կլասը սահմանափակած ստորակարգության մեջ"
+msgstr "Ցուցադրել դասը սահմանափակած ստորակարգության մեջ"
 
 msgid "Xref refers to"
 msgstr "Xref֊ը հղվում է"
@@ -3258,7 +3257,7 @@ msgstr ""
 "# История местных отметок (от более свежих к старым):\n"
 
 msgid "Missing '>'"
-msgstr "Пропущена '>'"
+msgstr "Բացակայող '>'"
 
 msgid "E543: Not a valid codepage"
 msgstr "E543: Недопустимое имя кодировки"
@@ -3956,7 +3955,7 @@ msgid "Calling shell to execute: \"%s\""
 msgstr "Вызов оболочки для исполнения: \"%s\""
 
 msgid "E545: Missing colon"
-msgstr "E545: Пропущено двоеточие"
+msgstr "E545: Բացակայող վերջակետ"
 
 msgid "E546: Illegal mode"
 msgstr "E546: Недопустимый режим"
@@ -4662,7 +4661,7 @@ msgstr "E369: Недопустимый элемент в %s%%[]"
 
 #, c-format
 msgid "E769: Missing ] after %s["
-msgstr "E769: Пропущена ] после %s["
+msgstr "E769: Բացակայող ] после %s["
 
 #, c-format
 msgid "E53: Unmatched %s%%("
@@ -4684,7 +4683,7 @@ msgstr "E67: \\z1 и т.п. не могут быть использованы з
 
 #, c-format
 msgid "E69: Missing ] after %s%%["
-msgstr "E69: Пропущена ] после %s%%["
+msgstr "E69: Բացակայող ] после %s%%["
 
 #, c-format
 msgid "E70: Empty %s%%[]"
@@ -5403,11 +5402,11 @@ msgstr "E847: Слишком много синтаксических включ�
 
 #, c-format
 msgid "E789: Missing ']': %s"
-msgstr "E789: Пропущено ']': %s"
+msgstr "E789: Բացակայող ']': %s"
 
 #, c-format
 msgid "E398: Missing '=': %s"
-msgstr "E398: Пропущено '=': %s"
+msgstr "E398: Բացակայող '=': %s"
 
 #, c-format
 msgid "E399: Not enough arguments: syntax region %s"
@@ -6180,7 +6179,7 @@ msgid "Path length too long!"
 msgstr "Ճանապարհը շատ երկար է!"
 
 msgid "--No lines in buffer--"
-msgstr "-- Բուֆֆերում տողեր չկան --"
+msgstr "-- Բուֆերում տողեր չկան --"
 
 #.
 #. * The error messages that can be shared are included here.
