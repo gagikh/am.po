@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: vim_7.4_am\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-14 16:42+0400\n"
-"PO-Revision-Date: 2015-02-22 18:13+0400\n"
+"PO-Revision-Date: 2015-02-22 18:49+0400\n"
 "Last-Translator: Gagik Hakobyan <hakgagik@yahoo.com>\n"
 "Language-Team: \n"
 "Language: Armenian\n"
@@ -2960,10 +2960,10 @@ msgid "%d of %d edited"
 msgstr "%d֊ը %d֊ից խմբագրվել է"
 
 msgid "No display: Send expression failed.\n"
-msgstr "Էկրան չկա: Հնարավոր չէղավ ուղարկել Արտահայտոթյունը.\n"
+msgstr "Էկրան չկա: Հնարավոր չեղավ ուղարկել արտահայտությունը.\n"
 
 msgid ": Send expression failed.\n"
-msgstr ": Հնարավոր չէղավ ուղարկել Արտահայտոթյունը.\n"
+msgstr ": Հնարավոր չեղավ ուղարկել արտահայտությունը.\n"
 
 msgid "No marks set"
 msgstr "Նշումներ չկան"
@@ -3938,7 +3938,7 @@ msgstr "E590: Окно предпросмотра уже есть"
 
 msgid "W17: Arabic requires UTF-8, do ':set encoding=utf-8'"
 msgstr ""
-"W17: Арабский требует использования UTF-8, введите ':set encoding=utf-8'"
+"W17: Արաբերենը պահանջում է UTF-8, կատարել ':set encoding=utf-8' հրամանը"
 
 msgid "E593: Need at least %d lines"
 msgstr "E593: Нужно хотя бы %d строк"
@@ -3950,7 +3950,7 @@ msgid "E355: Unknown option: %s"
 msgstr "E355: Անծանոթ ֆունկցիա: %s"
 
 msgid "E521: Number required: &%s = '%s'"
-msgstr "E521: Требуется указать число: &%s = '%s'"
+msgstr "E521: Պահանջվում է թիվ: &%s = '%s'"
 
 msgid ""
 "\n"
@@ -3987,13 +3987,13 @@ msgid "E357: 'langmap': Matching character missing for %s"
 msgstr "E357: 'langmap':  %s ֊ի համար չկա համապատասխան սիմվոլ"
 
 msgid "E358: 'langmap': Extra characters after semicolon: %s"
-msgstr "E358: 'langmap': Лишние символы после точки с запятой: %s"
+msgstr "E358: 'langmap': Ստորակետից հետո տված ավելորդ նշաններ: %s"
 
 msgid "cannot open "
 msgstr "невозможно открыть "
 
 msgid "VIM: Can't open window!\n"
-msgstr "VIM: Невозможно открыть окно!\n"
+msgstr "VIM: Հնարավոր չէ բացել պատուհանը!\n"
 
 msgid "Need Amigados version 2.04 or later\n"
 msgstr "Необходима Amigados версии 2.04 или более поздней\n"
@@ -4017,7 +4017,7 @@ msgid "mch_get_shellsize: not a console??\n"
 msgstr "mch_get_shellsize: не в консоли??\n"
 
 msgid "E360: Cannot execute shell with -f option"
-msgstr "E360: Невозможно выполнить оболочку с параметром -f"
+msgstr "E360: Հնարավոր չէ կատարել թաղանթը -f արգումենտով"
 
 msgid "Cannot execute "
 msgstr "Անհնար է կատարել "
@@ -4063,13 +4063,13 @@ msgid "E245: Illegal char '%c' in font name \"%s\""
 msgstr "E245: Չթույլատրված '%c'  նշան՝ \"%s\" տառատեսակի անվանման մեջ"
 
 msgid "Vim: Double signal, exiting\n"
-msgstr "Vim: Двойной сигнал, завершение работы\n"
+msgstr "Vim: Կրկնակի ազդանշան, աշխատանքի ավարտում\n"
 
 msgid "Vim: Caught deadly signal %s\n"
-msgstr "Vim: Получен убийственный сигнал %s\n"
+msgstr "Vim: Ստացվել է մահացու ազդանշան %s\n"
 
 msgid "Vim: Caught deadly signal\n"
-msgstr "Vim: Получен убийственный сигнал\n"
+msgstr "Vim: Ստացվել է մահացու ազդանշան\n"
 
 msgid "Opening the X display took %ld msec"
 msgstr "Открытие дисплея X заняло %ld msec"
@@ -4144,7 +4144,7 @@ msgstr ""
 "Հրամանն ընդհատված է\n"
 
 msgid "XSMP lost ICE connection"
-msgstr "XSMP утеряно соединение ICE"
+msgstr "XSMP ICE կապակցման կորուստ"
 
 msgid "dlerror = \"%s\""
 msgstr "dlerror = \"%s\""
@@ -4153,16 +4153,16 @@ msgid "Opening the X display failed"
 msgstr "Неудачное открытие дисплея X"
 
 msgid "XSMP handling save-yourself request"
-msgstr "XSMP обрабатывает запрос самосохранения"
+msgstr "XSMP կատարում է ինքնապահպանում"
 
 msgid "XSMP opening connection"
-msgstr "XSMP открывает соединение"
+msgstr "XSMP֊ն կապակցում է բացում"
 
 msgid "XSMP ICE connection watch failed"
-msgstr "XSMP потеряно слежение за соединением ICE"
+msgstr "XSMP ICE կապակցման դիտարկումն անհաջող է ավարտվել"
 
 msgid "XSMP SmcOpenConnection failed: %s"
-msgstr "XSMP неудачно выполнено SmcOpenConnection: %s"
+msgstr "XSMP SmcOpenConnection անհաջող է ավարտվել: %s"
 
 msgid "At line"
 msgstr "Տողում"
@@ -4180,7 +4180,7 @@ msgid "shell returned %d"
 msgstr "завершение работы оболочки с кодом %d"
 
 msgid "Vim: Caught %s event\n"
-msgstr "Vim: Перехвачено событие %s\n"
+msgstr "Vim: Բռնվել է %s բացառումը\n"
 
 msgid "close"
 msgstr "փակել"
@@ -4192,43 +4192,43 @@ msgid "shutdown"
 msgstr "ելք"
 
 msgid "E371: Command not found"
-msgstr "E371: Команда не найдена"
+msgstr "E371: Հրամանը չի գտնվել"
 
 msgid ""
 "VIMRUN.EXE not found in your $PATH.\n"
 "External commands will not pause after completion.\n"
 "See  :help win32-vimrun  for more information."
 msgstr ""
-"VIMRUN.EXE не найден в пути, заданном в $PATH.\n"
-"Внешние команды не будут останавливаться после выполнения.\n"
-"Дополнительная информация в :help win32-vimrun"
+"VIMRUN.EXE֊ն չի հայտնաբերվել $PATH ճանապարհներում.\n"
+"Արտաքին հրամանները կանգ չեն առնի ավարտից հետո.\n"
+"Հավելյալ տեղեկատվության համար տես :help win32-vimrun։"
 
 msgid "Vim Warning"
 msgstr "Предупреждение Vim"
 
 msgid "E372: Too many %%%c in format string"
-msgstr "E372: В строке формата слишком много %%%c"
+msgstr "E372: Անսպասելի շատ %%%c֊եր"
 
 msgid "E373: Unexpected %%%c in format string"
-msgstr "E373: Неожиданный элемент %%%c в строке формата"
+msgstr "E373: Անսպասելի էլեմենտ %%%c"
 
 msgid "E374: Missing ] in format string"
-msgstr "E374: В строке формата пропущена ]"
+msgstr "E374: Բացակայող ]"
 
 msgid "E375: Unsupported %%%c in format string"
-msgstr "E375: %%%c не поддерживается в строке формата"
+msgstr "E375: %%%c֊ն չի աջակցվում"
 
 msgid "E376: Invalid %%%c in format string prefix"
-msgstr "E376: Недопустимый %%%c в приставке в строке формата"
+msgstr "E376: Չթույլատրված %%%c"
 
 msgid "E377: Invalid %%%c in format string"
-msgstr "E377: Недопустимый %%%c в строке формата"
+msgstr "E377: Չթույլատրված %%%c"
 
 msgid "E378: 'errorformat' contains no pattern"
-msgstr "E378: В значении опции 'errorformat' отсутствует шаблон"
+msgstr "E378: 'errorformat' ֊ը չի պարունակում նմուշներ"
 
 msgid "E379: Missing or empty directory name"
-msgstr "E379: Имя каталога не задано или равно пустой строке"
+msgstr "E379: Գոյություն չունեցող կամ դատարկ թղթապանակ"
 
 msgid "E553: No more items"
 msgstr "E553: Больше нет элементов"
@@ -4240,10 +4240,10 @@ msgid " (line deleted)"
 msgstr " (տողը ջնջվել է)"
 
 msgid "E380: At bottom of quickfix stack"
-msgstr "E380: Внизу стека быстрых исправлений"
+msgstr "E380: quickfix ստեկի ներքևում"
 
 msgid "E381: At top of quickfix stack"
-msgstr "E381: Наверху стека быстрых исправлений"
+msgstr "E381:  quickfix ստեկի վերևում"
 
 msgid "error list %d of %d; %d errors"
 msgstr "список ошибок %d из %d; %d ошибок"
@@ -4267,7 +4267,7 @@ msgid "E777: String or List expected"
 msgstr "E777: Требуется строка или список"
 
 msgid "E369: invalid item in %s%%[]"
-msgstr "E369: Недопустимый элемент в %s%%[]"
+msgstr "E369: Չթույլատրված էլեմենտ %s%%[]֊ում"
 
 msgid "E769: Missing ] after %s["
 msgstr "E769: Բացակայող ] после %s["
@@ -4300,7 +4300,7 @@ msgid "E50: Too many \\z("
 msgstr "E50: Слишком много \\z("
 
 msgid "E51: Too many %s("
-msgstr "E51: Слишком много %s("
+msgstr "E51:Անսպասելի շատ %s("
 
 msgid "E52: Unmatched \\z("
 msgstr "E52: Нет пары для \\z("
@@ -4476,7 +4476,7 @@ msgid "E385: search hit BOTTOM without match for: %s"
 msgstr "E385: Փնտրումն ավարտված է ֆայլի վերջում; %s֊ը չի գտնվել"
 
 msgid "E386: Expected '?' or '/'  after ';'"
-msgstr "E386: После ';' ожидается ввод '?' или '/'"
+msgstr "E386:  ';' ֊ից հետո սպասվում '?' կամ '/'"
 
 msgid " (includes previously listed match)"
 msgstr " (ընդգրկում է նախկինում ցուցադրված համապատասխանեցումը)"
@@ -4503,7 +4503,7 @@ msgid "Searching included file %s"
 msgstr "Поиск включённого файла %s"
 
 msgid "E387: Match is on current line"
-msgstr "E387: Соответствие в текущей строке"
+msgstr "E387: Համընկնում հերթական տողում"
 
 msgid "All included files were found"
 msgstr "Найдены все включённые файлы"
@@ -4512,7 +4512,7 @@ msgid "No included files"
 msgstr "Включённых файлов нет"
 
 msgid "E388: Couldn't find definition"
-msgstr "E388: Определение не найдено"
+msgstr "E388: Հնարավոր չէ գտնել սահմանումը"
 
 msgid "E389: Couldn't find pattern"
 msgstr "E389: Նմուշը չի գտնվել"
@@ -4637,8 +4637,8 @@ msgid ""
 "Affix also used for BAD/RARE/KEEPCASE/NEEDAFFIX/NEEDCOMPOUND/NOSUGGEST in %s "
 "line %d: %s"
 msgstr ""
-"Аффикс также используется для BAD/RARE/KEEPCASE/NEEDAFFIX/NEEDCOMPOUND/"
-"NOSUGGEST в %s, строка %d: %s"
+"Affix֊ը օգտագործվել է նաև BAD/RARE/KEEPCASE/NEEDAFFIX/NEEDCOMPOUND/NOSUGGEST֊"
+"ի համար՝ %s֊ում, տող %d: %s"
 
 msgid "Expected Y or N in %s line %d: %s"
 msgstr "Ожидалось Y или N в %s, строка %d: %s"
@@ -4830,10 +4830,10 @@ msgid "No Syntax items defined for this buffer"
 msgstr "Синтаксические элементы для данного буфера не определены"
 
 msgid "E390: Illegal argument: %s"
-msgstr "E390: Недопустимый параметр: %s"
+msgstr "E390: Չթույլատրված արգումենտ: %s"
 
 msgid "E391: No such syntax cluster: %s"
-msgstr "E391: Синтаксический кластер %s не найден"
+msgstr "E391: %s ուղղագրական համակարգը չի գտնվել"
 
 msgid "syncing on C-style comments"
 msgstr "Синхронизация по комментариям в стиле языка C"
@@ -4869,7 +4869,7 @@ msgstr ""
 "---Ուղղագրական էլեմենտներ ---"
 
 msgid "E392: No such syntax cluster: %s"
-msgstr "E392: Синтаксический кластер %s не найден"
+msgstr "E392: %s ուղղագրական համակարգը չի գտնվել"
 
 msgid "minimal "
 msgstr "минимум "
@@ -4884,19 +4884,19 @@ msgid " line breaks"
 msgstr "տողի ընդհատում"
 
 msgid "E395: contains argument not accepted here"
-msgstr "E395: Здесь нельзя использовать параметр contains"
+msgstr "E395: contains արգումենտը չի թույլատրվում այստեղ"
 
 msgid "E844: invalid cchar value"
 msgstr "E844: Недопустимое значение cchar"
 
 msgid "E393: group[t]here not accepted here"
-msgstr "E393: Здесь нельзя использовать group[t]here"
+msgstr "E393: group[t]֊ն չի թույլատրվում այստեղ"
 
 msgid "E394: Didn't find region item for %s"
-msgstr "E394: Элемент области для %s не найден"
+msgstr "E394: %s֊ի ռեգիոն էլեմենտը չի գտնվել"
 
 msgid "E397: Filename required"
-msgstr "E397: Требуется указать имя файла"
+msgstr "E397: Պահանջվում է ֆայլի անուն"
 
 msgid "E847: Too many syntax includes"
 msgstr "E847: Слишком много синтаксических включений"
@@ -4908,19 +4908,19 @@ msgid "E398: Missing '=': %s"
 msgstr "E398: Բացակայող '=': %s"
 
 msgid "E399: Not enough arguments: syntax region %s"
-msgstr "E399: Не хватает параметров: синтаксический регион %s"
+msgstr "E399: Անբավարար քանակությամբ արգումենտներ։  syntax region %s"
 
 msgid "E848: Too many syntax clusters"
 msgstr "E848: Слишком много синтаксических кластеров"
 
 msgid "E400: No cluster specified"
-msgstr "E400: Кластер не указан"
+msgstr "E400: Համակարգը տրված չէ"
 
 msgid "E401: Pattern delimiter not found: %s"
-msgstr "E401: Не найден разделитель шаблонов: %s"
+msgstr "E401: Օրինակի բաժանիչը գտնված չէ: %s"
 
 msgid "E402: Garbage after pattern: %s"
-msgstr "E402: Мусор после шаблона: %s"
+msgstr "E402: Աղբ՝ օրինակից հետո: %s"
 
 msgid "E403: syntax sync: line continuations pattern specified twice"
 msgstr ""
@@ -5002,7 +5002,7 @@ msgid "E669: Unprintable character in group name"
 msgstr "E669: Непечатный символ в имени группы"
 
 msgid "W18: Invalid character in group name"
-msgstr "W18: Недопустимый символ в имени группы"
+msgstr "W18: Սխալ նշան՝ խմբի անվանման մեջ"
 
 msgid "E849: Too many highlight and syntax groups"
 msgstr "E849: Слишком много групп подсветки и синтаксиса"
@@ -5020,7 +5020,7 @@ msgid "E426: tag not found: %s"
 msgstr "E426: Նշումը չի գտնվել: %s"
 
 msgid "file\n"
-msgstr "файл\n"
+msgstr "ֆայլ\n"
 
 msgid "E427: There is only one matching tag"
 msgstr "E427: Есть только одна совпадающая метка"
@@ -5105,7 +5105,7 @@ msgid "new shell started\n"
 msgstr "запуск новой оболочки\n"
 
 msgid "Vim: Error reading input, exiting...\n"
-msgstr "Vim: Ошибка чтения ввода, выход...\n"
+msgstr "Vim: Մուքի ընթերցման սխալ, ավարտում...\n"
 
 msgid "Used CUT_BUFFER0 instead of empty selection"
 msgstr "Вместо пустого выделения используется CUT_BUFFER0"
@@ -5687,7 +5687,7 @@ msgid "E17: \"%s\" is a directory"
 msgstr "E17: \"%s\" ֊ը ֆայլերի պահոց է"
 
 msgid "E364: Library call failed for \"%s()\""
-msgstr "E364: Неудачный вызов функции \"%s()\" из библиотеки"
+msgstr "E364: Անհաջող կանչ \"%s()\""
 
 msgid "E448: Could not load library function %s"
 msgstr "E448: Не удалось загрузить функцию %s из библиотеки"
@@ -5755,13 +5755,13 @@ msgid "E34: No previous command"
 msgstr "E34: Չկա նախորդող հրաման"
 
 msgid "E35: No previous regular expression"
-msgstr "E35: Нет предыдущего регулярного выражения"
+msgstr "E35: Չկա նախօրոք տրված ռեգուլյար արտահայտություն"
 
 msgid "E481: No range allowed"
 msgstr "E481: Использование диапазона не допускается"
 
 msgid "E36: Not enough room"
-msgstr "E36: Недостаточно места"
+msgstr "E36: Անբավարար տարածություն"
 
 msgid "E247: no registered server named \"%s\""
 msgstr "E247: Сервер \"%s\" не зарегистрирован"
@@ -5836,10 +5836,10 @@ msgid "E48: Not allowed in sandbox"
 msgstr "E48: Не допускается в песочнице"
 
 msgid "E523: Not allowed here"
-msgstr "E523: Здесь не разрешено"
+msgstr "E523: Այստեղ չի թույլատրվում"
 
 msgid "E359: Screen mode setting not supported"
-msgstr "E359: Данный режим экрана не поддерживается"
+msgstr "E359: Տրված էկրանի ռեժիմն աջակցված չէ"
 
 msgid "E49: Invalid scroll size"
 msgstr "E49: Недопустимый размер прокрутки"
@@ -5907,7 +5907,9 @@ msgid "E685: Internal error: %s"
 msgstr "E685:  Ներքին համակարգային սխալ: %s"
 
 msgid "E363: pattern uses more memory than 'maxmempattern'"
-msgstr "E363: Шаблон использует больше памяти чем 'maxmempattern'"
+msgstr ""
+"E363: Օրինակն օգտագործում է ավելի շատ հիշողություն քան տրված է "
+"'maxmempattern'֊ով"
 
 msgid "E749: empty buffer"
 msgstr "E749: Դատարկ բուֆեր"
@@ -6023,7 +6025,7 @@ msgid "internal error: failed to get vim list item %d"
 msgstr " Ներքին համակարգային սխալ: հնարավոր չէր ցանկից վերադարձնել %d էլեմենտը"
 
 msgid "failed to add item to list"
-msgstr "էլեմենտն հնարավոր է ավելացնել ցանկում"
+msgstr "էլեմենտն հնարավոր չէ ավելացնել ցանկում"
 
 msgid "internal error: no vim list item %d"
 msgstr " Ներքին համակարգային սխալ: չկա %d ցանկի էլէմենտը"
@@ -6074,7 +6076,7 @@ msgid "attempt to refer to deleted window"
 msgstr "Попытка сослаться на закрытое окно"
 
 msgid "readonly attribute: buffer"
-msgstr "Атрибут только для чтения: буфер"
+msgstr "ատրիբուտը միայն կարդալու համար է: buffer"
 
 msgid "cursor position outside buffer"
 msgstr "Позиция курсора находится вне буфера"
