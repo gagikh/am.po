@@ -281,9 +281,7 @@ msgid "Hit end of paragraph"
 msgstr "Պարագրաֆի վերջը"
 
 msgid "E839: Completion function changed window"
-msgid "E839: Ավտոմատ լրացման ֆունկցաին փոփթխել է պատուհանը"
-
-msgstr "E839: Ավտոմատ լրացման գործունեությունը փոփոխել է պատուհանը"
+msgstr "E839: Ավտոմատ լրացման ֆունկցաին փոփթխել է պատուհանը"
 
 msgid "E840: Completion function deleted text"
 msgstr "E840: Ավտոմատ լրացման գործունեությունը ջնջել է տեքստը"
