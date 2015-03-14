@@ -4,12 +4,13 @@
 # Do ":help credits" in Vim to see a list of people who contributed.
 #
 # Gagik Hakobyan <hakgagik@yahoo,com> 2015
+# option - կարգանշում
 msgid ""
 msgstr ""
 "Project-Id-Version: vim_7.4_am\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-14 16:42+0400\n"
-"PO-Revision-Date: 2015-03-14 21:51+0400\n"
+"PO-Revision-Date: 2015-03-14 22:37+0400\n"
 "Last-Translator: Gagik Hakobyan <hakgagik@yahoo.com>\n"
 "Language-Team: \n"
 "Language: Armenian\n"
@@ -792,7 +793,8 @@ msgid "E141: No file name for buffer %ld"
 msgstr "E141: %ld բուֆերի համար չկա ֆայլի անուն"
 
 msgid "E142: File not written: Writing is disabled by 'write' option"
-msgstr "E142: Ֆայլը պահպանված չէ: պահպանումը անջատված է 'write' կարգանշման միջոցով"
+msgstr ""
+"E142: Ֆայլը պահպանված չէ: պահպանումը անջատված է 'write' կարգանշման միջոցով"
 
 msgid ""
 "'readonly' option is set for \"%s\".\n"
@@ -5053,19 +5055,19 @@ msgid "Ignoring long line in tags file"
 msgstr "Игнорирование длинной строки в файле tags"
 
 msgid "E431: Format error in tags file \"%s\""
-msgstr "E431: Ошибка формата в файле меток \"%s\""
+msgstr "E431: Ֆորմատի սխալ \"%s\" նշումների ֆայլում"
 
 msgid "Before byte %ld"
 msgstr "Перед байтом %ld"
 
 msgid "E432: Tags file not sorted: %s"
-msgstr "E432: Файл меток не отсортирован: %s"
+msgstr "E432: Նշումների ֆայլը դասակարգված չէ: %s"
 
 msgid "E433: No tags file"
 msgstr "E433: Թեգերի ֆայլը չի գտնվել"
 
 msgid "E434: Can't find tag pattern"
-msgstr "E434: Не найден шаблон метки"
+msgstr "E434: Նշումը հնարավոր չէ գտնել"
 
 msgid "E435: Couldn't find tag, just guessing!"
 msgstr "E435: Նշումը չի գտնվել, փորձում եմ գուշակել!"
@@ -5089,10 +5091,10 @@ msgid "E559: Terminal entry not found in termcap"
 msgstr "E559: В termcap нет записи об этом терминале"
 
 msgid "E436: No \"%s\" entry in termcap"
-msgstr "E436: В termcap нет записи \"%s\""
+msgstr "E436:  \"%s\"֊ը termcap֊ում չկա"
 
 msgid "E437: terminal capability \"cm\" required"
-msgstr "E437: Требуется способность терминала \"cm\""
+msgstr "E437: Պահանջվում է \"cm\" տերմինալի առկայություն"
 
 msgid ""
 "\n"
@@ -5180,7 +5182,7 @@ msgid "E830: Undo number %ld not found"
 msgstr "E830: Не найдена Չեղարկել номер %ld"
 
 msgid "E438: u_undo: line numbers wrong"
-msgstr "E438: u_undo: неправильные номера строк"
+msgstr "E438: u_undo: տողի սխալ համար"
 
 msgid "more line"
 msgstr "տողեր ավելացել են"
@@ -5219,10 +5221,10 @@ msgid "E790: undojoin is not allowed after undo"
 msgstr "E790: Объединение отмен не допускается после отмены"
 
 msgid "E439: undo list corrupt"
-msgstr "E439: Повреждён список отмены"
+msgstr "E439: Չեղարկամ ցանկը վնասված է"
 
 msgid "E440: undo line missing"
-msgstr "E440: Потеряна строка отмены"
+msgstr "E440: Չեղարկման տողը բացակայում է"
 
 msgid ""
 "\n"
@@ -5524,10 +5526,12 @@ msgid "Become a registered Vim user!"
 msgstr "Դարձեք Vim֊ի ռեգիստրացված օգտատեր"
 
 msgid "type  :help sponsor<Enter>    for information "
-msgstr "հավելյալ տեղեկատվություն ստանալու համար տալ :help sponsor<Enter> հրամանը"
+msgstr ""
+"հավելյալ տեղեկատվություն ստանալու համար տալ :help sponsor<Enter> հրամանը"
 
 msgid "type  :help register<Enter>   for information "
-msgstr "հավելյալ տեղեկատվություն ստանալու համար տալ :help register<Enter> հրամանը"
+msgstr ""
+"հավելյալ տեղեկատվություն ստանալու համար տալ :help register<Enter> հրամանը"
 
 msgid "menu  Help->Sponsor/Register  for information    "
 msgstr "меню Справка->Помощь/Регистрация для получения информации       "
@@ -5815,7 +5819,7 @@ msgid "E776: No location list"
 msgstr "E776: Տեղակայման ցանկը բացակայում է"
 
 msgid "E43: Damaged match string"
-msgstr "E43: Повреждена строка соответствия"
+msgstr "E43: Համընկնման տողը վնասված է"
 
 msgid "E44: Corrupted regexp program"
 msgstr "E44: Программа обработки регулярных выражений повреждена"
