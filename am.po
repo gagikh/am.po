@@ -281,16 +281,18 @@ msgid "Hit end of paragraph"
 msgstr "Պարագրաֆի վերջը"
 
 msgid "E839: Completion function changed window"
+msgid "E839: Ավտոմատ լրացման ֆունկցաին փոփթխել է պատուհանը"
+
 msgstr "E839: Ավտոմատ լրացման գործունեությունը փոփոխել է պատուհանը"
 
 msgid "E840: Completion function deleted text"
 msgstr "E840: Ավտոմատ լրացման գործունեությունը ջնջել է տեքստը"
 
 msgid "'dictionary' option is empty"
-msgstr "'dictionary' ֆունկցիան անջատված է"
+msgstr "'dictionary' կարգանշանը դատարկ է"
 
 msgid "'thesaurus' option is empty"
-msgstr "'thesaurus' ֆունկցիան դատարկ է"
+msgstr "'thesaurus' կարգանշանը դատարկ է"
 
 msgid "Scanning dictionary: %s"
 msgstr "Բառարանի ընթերցում: %s"
@@ -456,10 +458,10 @@ msgid "E695: Cannot index a Funcref"
 msgstr "E695: Անհնար է Ինդեքսավորել ֆունկցիայի հղումը"
 
 msgid "E112: Option name missing: %s"
-msgstr "E112: Բացակայող ֆունկցիայի անունըժ: %s"
+msgstr "E112: Կարգանշանի անունը տրված չէ: %s"
 
 msgid "E113: Unknown option: %s"
-msgstr "E113: Անծանոթ ֆունկցիա: %s"
+msgstr "E113: Անծանոթ կարգանշան: %s"
 
 msgid "E114: Missing quote: %s"
 msgstr "E114: Բացակայող չակերտ: %s"
@@ -792,13 +794,13 @@ msgid "E141: No file name for buffer %ld"
 msgstr "E141: %ld բուֆերի համար չկա ֆայլի անուն"
 
 msgid "E142: File not written: Writing is disabled by 'write' option"
-msgstr "E142: Ֆայլը պահպանված չէ: պահպանումը անջատված է 'write'֊ի միջոցով"
+msgstr "E142: Ֆայլը պահպանված չէ: պահպանումը անջատված է 'write' կարգանշման միջոցով"
 
 msgid ""
 "'readonly' option is set for \"%s\".\n"
 "Do you wish to write anyway?"
 msgstr ""
-"\"%s\" ֊ի համար 'readonly' ֆունկցիան միացված է.\n"
+"\"%s\" ֊ի համար 'readonly' կարգանշումը միացված է.\n"
 "Պահպանել?"
 
 msgid ""
@@ -1109,7 +1111,7 @@ msgid "No user-defined commands found"
 msgstr "Գտնվել են օգտատիրոջ սահմանած հրամաններ"
 
 msgid "E175: No attribute specified"
-msgstr "E175: պարամետրը տրված չէ"
+msgstr "E175: բնորոշիչ տրված չէ"
 
 msgid "E176: Invalid number of arguments"
 msgstr "E176: Արգումենտների սխալ քանակություն"
@@ -1124,7 +1126,7 @@ msgid "E179: argument required for -complete"
 msgstr "E179: -complete հրամանի համար Անրաժեշտ է արգումենտ"
 
 msgid "E181: Invalid attribute: %s"
-msgstr "E181: Սխալ ֆունկցիա: %s"
+msgstr "E181: Սխալ բնորոշիչ: %s"
 
 msgid "E182: Invalid command name"
 msgstr "E182: Սխալ հրամանի անուն"
@@ -1358,7 +1360,7 @@ msgid " kind file\n"
 msgstr " ֆայլի տիպ\n"
 
 msgid "'history' option is zero"
-msgstr "'history'ֆունկցիան դատարկ է տրված"
+msgstr "'history'կարգանշումը դատարկ է"
 
 msgid "Command Line"
 msgstr "Հրամանյին տող"
@@ -1391,7 +1393,7 @@ msgid "is not a file"
 msgstr "ֆայլ չէ"
 
 msgid "is a device (disabled with 'opendevice' option)"
-msgstr "սարք է (անջատված է 'opendevice' ֆունկցիայով)"
+msgstr "սարք է (անջատված է 'opendevice' կարգանշումը)"
 
 msgid "[New File]"
 msgstr "[Նոր ֆայլ]"
@@ -1490,7 +1492,7 @@ msgid "is not a file or writable device"
 msgstr "ֆայլ չէ կամ գրելի սարք"
 
 msgid "writing to device disabled with 'opendevice' option"
-msgstr "սարքում գրելը արգելված է 'opendevice'֊ի միջոցով"
+msgstr "սարքում գրելը արգելված է 'opendevice' կարգանշման միջոցով"
 
 msgid "is read-only (add ! to override)"
 msgstr "միայն ընթերցելի է (ամրագրելու համար ավելացրեք !)"
@@ -2280,10 +2282,10 @@ msgid "expressions disabled at compile time"
 msgstr "արտահայտոթյուններն անջատված են կառուցման ժամանակ"
 
 msgid "hidden option"
-msgstr "թաքցված ֆունկցիա"
+msgstr "թաքցված կարգանշում"
 
 msgid "unknown option"
-msgstr "անծանոթ ֆունկցիա"
+msgstr "անծանոթ կարգանշում"
 
 msgid "window index is out of range"
 msgstr "պատուհանի համարն միջակայքից դուրս է եկել"
@@ -2543,7 +2545,7 @@ msgid "E251: VIM instance registry property is badly formed.  Deleted!"
 msgstr "E251: VIM registry ֆունկցիան սխալ է տրված. Ջնջված է!"
 
 msgid "Unknown option argument:"
-msgstr "Անծանոթ ֆունկցիայի արգումենտ:"
+msgstr "Անծանոթ կարգանշման արգումենտ:"
 
 msgid "Too many edit arguments"
 msgstr "Ասնպասելի շատ տրված խմբագրման արգումենտներ"
@@ -2552,7 +2554,7 @@ msgid "Argument missing after:"
 msgstr "Արգումենտը տրված չէ:"
 
 msgid "Garbage after option argument"
-msgstr "Աղբ, ֆունկցիայի արգումենտից հետո"
+msgstr "Աղբ, կարգանշման արգումենտից հետո"
 
 msgid "Too many \"+command\", \"-c command\" or \"--cmd command\" arguments"
 msgstr "Ասնպասելի շատ տրված \"+command\", \"-c command\" կամ \"--cmd command\""
@@ -3836,10 +3838,10 @@ msgid "Thanks for flying Vim"
 msgstr "Շնորհակալություն Vim֊ի օգտագործման համար"
 
 msgid "E518: Unknown option"
-msgstr "E518: Անծանոթ ֆունկցիա"
+msgstr "E518: Անծանոթ կարգանշում"
 
 msgid "E519: Option not supported"
-msgstr "E519: Ֆունկցիան չի աջակցվում"
+msgstr "E519: Կարգանշումը չի աջակցվում"
 
 msgid "E520: Not allowed in a modeline"
 msgstr "E520: Չի թույլատրվում տողային ռեժիմում"
@@ -3947,7 +3949,7 @@ msgid "E594: Need at least %d columns"
 msgstr "E594: Անհրաժեշտ են գոնե %d սյուններ"
 
 msgid "E355: Unknown option: %s"
-msgstr "E355: Անծանոթ ֆունկցիա: %s"
+msgstr "E355: Անծանոթ կարգանշում: %s"
 
 msgid "E521: Number required: &%s = '%s'"
 msgstr "E521: Պահանջվում է թիվ: &%s = '%s'"
@@ -3964,21 +3966,21 @@ msgid ""
 "--- Global option values ---"
 msgstr ""
 "\n"
-"--- Գլոբալ ֆունկցիաների արժեքները ---"
+"--- Գլոբալ կարգանշման արժեքները ---"
 
 msgid ""
 "\n"
 "--- Local option values ---"
 msgstr ""
 "\n"
-"---  Լոկալ ֆունկցիաների արժեքները ---"
+"---  Լոկալ կարգանշման արժեքները ---"
 
 msgid ""
 "\n"
 "--- Options ---"
 msgstr ""
 "\n"
-"--- Ֆունկցիաներ ---"
+"--- Կարգանշումներ ---"
 
 msgid "E356: get_varp ERROR"
 msgstr "E356: get_varp ՍԽԱԼ"
@@ -4017,7 +4019,7 @@ msgid "mch_get_shellsize: not a console??\n"
 msgstr "mch_get_shellsize: не в консоли??\n"
 
 msgid "E360: Cannot execute shell with -f option"
-msgstr "E360: Հնարավոր չէ կատարել թաղանթը -f արգումենտով"
+msgstr "E360: Հնարավոր չէ կատարել թաղանթը -f կարգանշմամբ"
 
 msgid "Cannot execute "
 msgstr "Անհնար է կատարել "
@@ -4249,7 +4251,7 @@ msgid "error list %d of %d; %d errors"
 msgstr "список ошибок %d из %d; %d ошибок"
 
 msgid "E382: Cannot write, 'buftype' option is set"
-msgstr "E382: Պահպանումը անհնար է, 'buftype' ֆունկցիան միացված է"
+msgstr "E382: Պահպանումն անհնար է, 'buftype' կարգանշումը միացված է"
 
 msgid "Error file"
 msgstr "Ֆայլի սխալ"
@@ -4996,7 +4998,7 @@ msgid "E423: Illegal argument: %s"
 msgstr "E423: Չթույլատրված պարամետեր: %s"
 
 msgid "E424: Too many different highlighting attributes in use"
-msgstr "E424: Տրված են մի քանի գունանշման ատտրիբուտներ"
+msgstr "E424: Տրված են մի քանի գունանշման բնորոշիչներ"
 
 msgid "E669: Unprintable character in group name"
 msgstr "E669: Непечатный символ в имени группы"
@@ -5524,10 +5526,10 @@ msgid "Become a registered Vim user!"
 msgstr "Դարձեք Vim֊ի ռեգիստրացված օգտատեր"
 
 msgid "type  :help sponsor<Enter>    for information "
-msgstr "տեղեկատվություն ստանալու համար տալ :help sponsor<Enter> հրամանը"
+msgstr "հավելյալ տեղեկատվություն ստանալու համար տալ :help sponsor<Enter> հրամանը"
 
 msgid "type  :help register<Enter>   for information "
-msgstr "տեղեկատվություն ստանալու համար տալ :help register<Enter> հրամանը"
+msgstr "հավելյալ տեղեկատվություն ստանալու համար տալ :help register<Enter> հրամանը"
 
 msgid "menu  Help->Sponsor/Register  for information    "
 msgstr "меню Справка->Помощь/Регистрация для получения информации       "
@@ -5821,7 +5823,7 @@ msgid "E44: Corrupted regexp program"
 msgstr "E44: Программа обработки регулярных выражений повреждена"
 
 msgid "E45: 'readonly' option is set (add ! to override)"
-msgstr "E45: 'readonly' ֆունկցիան միացված է (անցման համար ավելացնել !)"
+msgstr "E45: 'readonly' կարգանշումը միացված է (անցման համար ավելացնել !)"
 
 msgid "E46: Cannot change read-only variable \"%s\""
 msgstr "E46: Невозможно изменить переменную только для чтения \"%s\""
@@ -5845,7 +5847,7 @@ msgid "E49: Invalid scroll size"
 msgstr "E49: Недопустимый размер прокрутки"
 
 msgid "E91: 'shell' option is empty"
-msgstr "E91: Значением опции 'shell' является пустая строка"
+msgstr "E91: 'shell' կարգանշումը դատարկ է"
 
 msgid "E255: Couldn't read in sign data!"
 msgstr "E255: Հնարավոր չէ կարդալ նշանի տվյալներից!"
@@ -5921,7 +5923,7 @@ msgid "E139: File is loaded in another buffer"
 msgstr "E139: Ֆայլը բեռնված է այլ բուֆերում"
 
 msgid "E764: Option '%s' is not set"
-msgstr "E764: '%s' տարբերակը սահմանված չէ"
+msgstr "E764: '%s' կարգանշումը սահմանված չէ"
 
 msgid "E850: Invalid register name"
 msgstr "E850: Սխալ ռեգիստր"
@@ -5976,10 +5978,10 @@ msgid "number must be greater or equal to zero"
 msgstr "Номер должен быть больше или равен нулю"
 
 msgid "can't delete OutputObject attributes"
-msgstr "Невозможно удалить атрибуты OutputObject"
+msgstr "հնարավոր չէ ջնջել OutputObject բնորոշիչները"
 
 msgid "invalid attribute: %s"
-msgstr "Неправильный атрибут: %s"
+msgstr "սխալ բնորոշիչ: %s"
 
 msgid "E264: Python: Error initialising I/O objects"
 msgstr "E264: Python: Օբյեկտի սկզբնարժեքավորման սխալ I/O"
@@ -5999,13 +6001,13 @@ msgid "internal error: imp.find_module returned tuple with NULL"
 msgstr " Ներքին համակարգային սխալ: imp.find_module֊ը վերադարձրել է NULL կորտեժ"
 
 msgid "cannot delete vim.Dictionary attributes"
-msgstr "Невозможно удалить атрибуты vim.Dictionary"
+msgstr "հնարավոր չէ ջնջել vim.Dictionary բնորոշիչները"
 
 msgid "cannot modify fixed dictionary"
 msgstr "Невозможно изменить фиксированный словарь"
 
 msgid "cannot set attribute %s"
-msgstr "Невозможно установить атрибут %s"
+msgstr "հնարավոր չէ կարգավորել %s բնորոշիչը"
 
 msgid "hashtab changed during iteration"
 msgstr "Хэш-таблица изменилась при итерации"
@@ -6034,7 +6036,7 @@ msgid "internal error: failed to add item to list"
 msgstr " Ներքին համակարգային սխալ: հանարավոր չէ ցանկին էլեմենտ ավելացնել"
 
 msgid "cannot delete vim.List attributes"
-msgstr "Невозможно удалить атрибуты vim.List"
+msgstr "հնարավոր չէ ջնջել vim.List բնորոշիչները"
 
 msgid "cannot modify fixed list"
 msgstr "Невозможно изменить фиксированный список"
@@ -6052,19 +6054,19 @@ msgid "failed to run function %s"
 msgstr "Невозможно выполнить функцию %s"
 
 msgid "unable to get option value"
-msgstr "Невозможно получить значение опции"
+msgstr "հնարավոր չէ ստանալ կարգանշման արժեքը"
 
 msgid "internal error: unknown option type"
-msgstr " Ներքին համակարգային սխալ: անծանոթ տարբերակման տիպ"
+msgstr " Ներքին համակարգային սխալ: անծանոթ կարգանշման տիպ"
 
 msgid "problem while switching windows"
 msgstr "Проблема при переключении окон"
 
 msgid "unable to unset global option %s"
-msgstr "Невозможно сбросить глобальную опцию %s"
+msgstr "հնարավոր չէ չեղարկել %s կարգանշման արժեքը"
 
 msgid "unable to unset option %s which does not have global value"
-msgstr "Невозможно сбросить опцию %s без глобального значения"
+msgstr "հնարավոր չէ չեղարկել %s կարգանշման արժեքը, որը չունի գլոբալ արժեք"
 
 msgid "attempt to refer to deleted tab page"
 msgstr "Попытка сослаться на удалённую вкладку"
@@ -6076,7 +6078,7 @@ msgid "attempt to refer to deleted window"
 msgstr "Попытка сослаться на закрытое окно"
 
 msgid "readonly attribute: buffer"
-msgstr "ատրիբուտը միայն կարդալու համար է: buffer"
+msgstr "բնորոշիչը միայն կարդալու համար է: buffer"
 
 msgid "cursor position outside buffer"
 msgstr "Позиция курсора находится вне буфера"
