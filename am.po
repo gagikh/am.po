@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: vim_7.4_am\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-14 16:42+0400\n"
-"PO-Revision-Date: 2015-02-22 18:49+0400\n"
+"PO-Revision-Date: 2015-03-14 21:51+0400\n"
 "Last-Translator: Gagik Hakobyan <hakgagik@yahoo.com>\n"
 "Language-Team: \n"
 "Language: Armenian\n"
@@ -2061,7 +2061,7 @@ msgid "Printing page %d (%d%%)"
 msgstr "Էջի տպագրում։ %d (%d%%)"
 
 msgid " Copy %d of %d"
-msgstr " Պատճենել %d из %d"
+msgstr " Պատճենել %d-ը %d֊ից"
 
 msgid "Printed: %s"
 msgstr "Պատճենված: %s"
@@ -2942,7 +2942,7 @@ msgstr ""
 "--echo-wid\t\tԹույլատրել gvim֊ին արտածել պատուհանի համարը ստանդարտ ելքում"
 
 msgid "-P <parent title>\tOpen Vim inside parent application"
-msgstr "-P <заголовок родителя>\tԲացել Vim֊ը ծնող ծրագրի ներսում"
+msgstr "-P <ծնողի անուն>\tԲացել Vim֊ը ծնող ծրագրի ներսում"
 
 msgid "--windowid <HWND>\tOpen Vim inside another win32 widget"
 msgstr "--windowid <HWND>\tԲացել Vim֊ը այլ win32 ծրագրի ներսում"
@@ -4924,28 +4924,28 @@ msgstr "E402: Աղբ՝ օրինակից հետո: %s"
 
 msgid "E403: syntax sync: line continuations pattern specified twice"
 msgstr ""
-"E403: Синхронизация синтаксиса: шаблон продолжений строки указан дважды"
+"E403: Ուղղագրման համաժամանակեցում: տողի համալրման նշումը կրկնակի է տրված"
 
 msgid "E404: Illegal arguments: %s"
-msgstr "E404: Недопустимые параметры: %s"
+msgstr "E404: Չթույլատրված պարամետրեր: %s"
 
 msgid "E405: Missing equal sign: %s"
-msgstr "E405: Пропущен знак равенства: %s"
+msgstr "E405: Բացակայող վերագրման նշան: %s"
 
 msgid "E406: Empty argument: %s"
-msgstr "E406: Пустой параметр: %s"
+msgstr "E406: Դատարկ պարամետեր: %s"
 
 msgid "E407: %s not allowed here"
-msgstr "E407: %s не допускается в этом месте"
+msgstr "E407: %s֊ը չի թույլատրվում այստեղ"
 
 msgid "E408: %s must be first in contains list"
-msgstr "E408: %s должно быть первым в списке contains"
+msgstr "E408: %s֊ը պետք է լինի contains ցուցակի սկզբում"
 
 msgid "E409: Unknown group name: %s"
-msgstr "E409: Неизвестная группа: %s"
+msgstr "E409: Անծանոթ խումբ: %s"
 
 msgid "E410: Invalid :syntax subcommand: %s"
-msgstr "E410: Неправильная подкоманда :syntax: %s"
+msgstr "E410: Սխալ ենթահրաման :syntax: %s"
 
 msgid ""
 "  TOTAL      COUNT  MATCH   SLOWEST     AVERAGE   NAME               PATTERN"
@@ -4957,46 +4957,46 @@ msgid "E679: recursive loop loading syncolor.vim"
 msgstr "E679: Рекурсивная петля при загрузке syncolor.vim"
 
 msgid "E411: highlight group not found: %s"
-msgstr "E411: Группа подсветки синтаксиса %s не найдена"
+msgstr "E411: %s գունանշման խումբը չի գտնվել"
 
 msgid "E412: Not enough arguments: \":highlight link %s\""
-msgstr "E412: Не хватает параметров: \":highlight link %s\""
+msgstr "E412: Անբավարար քանակությամբ պարամետրեր: \":highlight link %s\""
 
 msgid "E413: Too many arguments: \":highlight link %s\""
-msgstr "E413: Слишком много параметров: \":highlight link %s\""
+msgstr "E413: Շատ քանակությամ պարամետրեր: \":highlight link %s\""
 
 msgid "E414: group has settings, highlight link ignored"
-msgstr "E414: У группы есть настройки, пропускается highlight link"
+msgstr "E414: Խումբն ունի պարամետրեր, գունանծման հղումն անտեսված է"
 
 msgid "E415: unexpected equal sign: %s"
-msgstr "E415: Неожиданный знак равенства: %s"
+msgstr "E415: Չսպասված հավասարման նշան: %s"
 
 msgid "E416: missing equal sign: %s"
-msgstr "E416: Пропущен знак равенства: %s"
+msgstr "E416: Բացակայող հավասարման նշան: %s"
 
 msgid "E417: missing argument: %s"
-msgstr "E417: Пропущен параметр: %s"
+msgstr "E417: Բացակայող արգումենտ: %s"
 
 msgid "E418: Illegal value: %s"
-msgstr "E418: Недопустимое значение: %s"
+msgstr "E418: Չթույլատրված արժեք: %s"
 
 msgid "E419: FG color unknown"
-msgstr "E419: Неизвестный цвет текста"
+msgstr "E419: Տողի անծանոթ գույն"
 
 msgid "E420: BG color unknown"
-msgstr "E420: Неизвестный цвет фона"
+msgstr "E420: ֆոնի անծանոթ գույն"
 
 msgid "E421: Color name or number not recognized: %s"
-msgstr "E421: Имя или номер цвета не известно: %s"
+msgstr "E421: Անծանոթ գույնի անուն կամ համար։ %s"
 
 msgid "E422: terminal code too long: %s"
-msgstr "E422: Слишком длинный код терминала: %s"
+msgstr "E422: Շատ երկար տերմինալի հրաման: %s"
 
 msgid "E423: Illegal argument: %s"
-msgstr "E423: Недопустимый параметр: %s"
+msgstr "E423: Չթույլատրված պարամետեր: %s"
 
 msgid "E424: Too many different highlighting attributes in use"
-msgstr "E424: Используется слишком много разных атрибутов подсветки синтаксиса"
+msgstr "E424: Տրված են մի քանի գունանշման ատտրիբուտներ"
 
 msgid "E669: Unprintable character in group name"
 msgstr "E669: Непечатный символ в имени группы"
@@ -5014,7 +5014,7 @@ msgid "E556: at top of tag stack"
 msgstr "E556: Наверху стека меток"
 
 msgid "E425: Cannot go before first matching tag"
-msgstr "E425: Невозможно перейти в позицию до первой совпадающей метки"
+msgstr "E425: Հնարավոր չէ անցնել առաջին գտնված  նշմանը"
 
 msgid "E426: tag not found: %s"
 msgstr "E426: Նշումը չի գտնվել: %s"
@@ -5023,10 +5023,10 @@ msgid "file\n"
 msgstr "ֆայլ\n"
 
 msgid "E427: There is only one matching tag"
-msgstr "E427: Есть только одна совпадающая метка"
+msgstr "E427: Կա միայն մի համընկնում"
 
 msgid "E428: Cannot go beyond last matching tag"
-msgstr "E428: Невозможно перейти в позицию за последней совпадающей меткой"
+msgstr "E428: Հնարավոր չէ անցնել վերջին գտնված  նշմանը"
 
 msgid "File \"%s\" does not exist"
 msgstr "Файл \"%s\" не существует"
@@ -5041,13 +5041,13 @@ msgid "  Using tag with different case!"
 msgstr " Օգտագործվում է նշում այլ ռեգիստրի սիմվոլներով!"
 
 msgid "E429: File \"%s\" does not exist"
-msgstr "E429: Файл \"%s\" не существует"
+msgstr "E429: \"%s\" ֆայլը չի գտնվել"
 
 msgid "Searching tags file %s"
 msgstr "Поиск в файле меток %s"
 
 msgid "E430: Tag file path truncated for %s\n"
-msgstr "E430: Путь к файлу меток %s обрезан\n"
+msgstr "E430: Նշումների ֆայլի ճանապարհը կարճվել է։ %s\n"
 
 msgid "Ignoring long line in tags file"
 msgstr "Игнорирование длинной строки в файле tags"
@@ -5619,7 +5619,7 @@ msgstr "E10: \\֊ից հետո պետք է լինի /, ? կամ &"
 
 msgid "E11: Invalid in command-line window; <CR> executes, CTRL-C quits"
 msgstr ""
-"E11: Недопустимо в окне командной строки; <CR> выполнение, CTRL-C выход"
+"E11: հրամանային տոի պատուհանում թույլատրված չէ; <CR> կատարում, CTRL-C ելք"
 
 msgid "E12: Command not allowed from exrc/vimrc in current dir or tag search"
 msgstr ""
@@ -5764,7 +5764,7 @@ msgid "E36: Not enough room"
 msgstr "E36: Անբավարար տարածություն"
 
 msgid "E247: no registered server named \"%s\""
-msgstr "E247: Сервер \"%s\" не зарегистрирован"
+msgstr "E247:  \"%s\" սերվերը ռեգիստրացված չէ"
 
 msgid "E482: Can't create file %s"
 msgstr "E482: Հնարավոր չէ ստեղծել %s ֆայլը"
@@ -5788,13 +5788,13 @@ msgid "E39: Number expected"
 msgstr "E39: Սպասվում է թիվ"
 
 msgid "E40: Can't open errorfile %s"
-msgstr "E40: Не удалось открыть файл ошибок %s"
+msgstr "E40: Հնարավոր չէ բացել սխալների ֆայլը %s"
 
 msgid "E233: cannot open display"
-msgstr "E233: Невозможно открыть էկրան"
+msgstr "E233: Հնարավոր չի բացել էկրանը"
 
 msgid "E41: Out of memory!"
-msgstr "E41: Не хватает памяти!"
+msgstr "E41: Հիշողությունը չի բավականացնում"
 
 msgid "Pattern not found"
 msgstr "Նմուշը չի գտնվել"
@@ -5809,7 +5809,7 @@ msgid "E459: Cannot go back to previous directory"
 msgstr "E459: Возврат в предыдущий каталог невозможен"
 
 msgid "E42: No Errors"
-msgstr "E42: Нет ошибок"
+msgstr "E42: Սխալներ չկան"
 
 msgid "E776: No location list"
 msgstr "E776: Տեղակայման ցանկը բացակայում է"
