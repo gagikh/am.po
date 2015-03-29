@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: vim_7.4_am\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-14 16:42+0400\n"
-"PO-Revision-Date: 2015-03-14 22:37+0400\n"
+"PO-Revision-Date: 2015-03-29 15:51+0400\n"
 "Last-Translator: Gagik Hakobyan <hakgagik@yahoo.com>\n"
 "Language-Team: \n"
 "Language: Armenian\n"
@@ -4233,7 +4233,7 @@ msgid "E379: Missing or empty directory name"
 msgstr "E379: Գոյություն չունեցող կամ դատարկ թղթապանակ"
 
 msgid "E553: No more items"
-msgstr "E553: Больше нет элементов"
+msgstr "E553: Այլևս էլեմենտներ չկան"
 
 msgid "(%d of %d)%s%s: "
 msgstr "(%d %d֊ից)%s%s: "
@@ -5546,16 +5546,16 @@ msgid "Already only one window"
 msgstr "На экране всего одно окно"
 
 msgid "E441: There is no preview window"
-msgstr "E441: Окно предпросмотра отсутствует"
+msgstr "E441: Նախադիտման պատուհանը բացակայում է"
 
 msgid "E442: Can't split topleft and botright at the same time"
-msgstr "E442: Окно не может быть одновременно слева вверху и справа внизу"
+msgstr "E442: Հնարավոր չէ միաժամանակ կատարել վերևից ձախ և ներքևից աջ բաժանում"
 
 msgid "E443: Cannot rotate when another window is split"
-msgstr "E443: Невозможно поменять местами, пока другое окно разделено"
+msgstr "E443: Հնարավոր չէ տեղափոխել քանի դեռ մեկ այլ պատուհան բաժանված է"
 
 msgid "E444: Cannot close last window"
-msgstr "E444: Нельзя закрыть последнее окно"
+msgstr "E444: Հնարավոր չէ փակել պատուհանը"
 
 msgid "E813: Cannot close autocmd window"
 msgstr "E813: Нельзя закрыть окно автокоманд"
@@ -5564,7 +5564,7 @@ msgid "E814: Cannot close window, only autocmd window would remain"
 msgstr "E814: Нельзя закрыть окно, останется только окно автокоманд"
 
 msgid "E445: Other window contains changes"
-msgstr "E445: В другом окне есть несохранённые изменения"
+msgstr "E445: Մեկ այլ պատուհանում կան փոփոխություններ"
 
 msgid "E446: No file name under cursor"
 msgstr "E446: Կուրսորի դիրքում չկա ֆայլի անուն"
@@ -5694,7 +5694,7 @@ msgid "E364: Library call failed for \"%s()\""
 msgstr "E364: Անհաջող կանչ \"%s()\""
 
 msgid "E448: Could not load library function %s"
-msgstr "E448: Не удалось загрузить функцию %s из библиотеки"
+msgstr "E448: Հնարավոր չէ բեռնել %s գրադարանային ֆունկցիան"
 
 msgid "E19: Mark has invalid line number"
 msgstr "E19: Նշումն ունի սխալ տողի համար"
@@ -5899,7 +5899,7 @@ msgid "E81: Using <SID> not in a script context"
 msgstr "E81: Использование <SID> вне контекста сценария"
 
 msgid "E449: Invalid expression received"
-msgstr "E449: Получено недопустимое выражение"
+msgstr "E449: Ստացվել է սխալ արտահայտություն"
 
 msgid "E463: Region is guarded, cannot modify"
 msgstr "E463: Невозможно изменить охраняемую область"
