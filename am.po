@@ -43,12 +43,26 @@
 # owner -
 # failed -
 # list
+# match - համընկնում
+# autocommand -
+# case - depq,
+# fatal - օրհասական
+# mark -
+# key - banali
+# character - ??
+# demage - վնասված
+# abort
+# event -
+# read-only
+# option
+# preview - Նախադիտում
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: vim_7.4_am\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-14 16:42+0400\n"
-"PO-Revision-Date: 2015-05-02 21:48+0400\n"
+"PO-Revision-Date: 2015-05-02 22:25+0400\n"
 "Last-Translator: Gagik Hakobyan <hakgagik@yahoo.com>\n"
 "Language-Team: \n"
 "Language: Armenian\n"
@@ -709,7 +723,7 @@ msgid "E127: Cannot redefine function %s: It is in use"
 msgstr "E127: Հնարավոր չէ վերասահմանել %s ֆունկցիան, այն կատարման փուլում է"
 
 msgid "E746: Function name does not match script file name: %s"
-msgstr "E746: Ֆունկցիայի անունը չի համընկնում սկրիպ ֆայլի անվան հետ: %s"
+msgstr "E746: Ֆունկցիայի անունը չի համընկնում սկրիպտային ֆայլի անվան հետ: %s"
 
 msgid "E129: Function name required"
 msgstr "E129: Ֆունկցիայի անունը պարտադիր է"
@@ -1513,7 +1527,7 @@ msgid "E821: File is encrypted with unknown method"
 msgstr "E821: Ֆայլը կոդավորված է անծանոթ մեթոդներով"
 
 msgid "E676: No matching autocommands for acwrite buffer"
-msgstr "E676: Ինքնահրաման չի գտնվել acwrite֊ի համար"
+msgstr "E676: acwrite֊ի համար չկա համապատասխան ինքնահրաման"
 
 msgid "E203: Autocommands deleted or unloaded buffer to be written"
 msgstr "E203: Բուֆֆերը կամ ջնջվել է կամ բեռնաթափվել է ինքնահրամաննների միջոցով"
@@ -1853,7 +1867,7 @@ msgid "E254: Cannot allocate color %s"
 msgstr "E254: Հնարավոր չէ առաջացնել %s գույնը"
 
 msgid "No match at cursor, finding next"
-msgstr "Համապատասխանոցում չկա կուրսորի դիրքում, գտնել հաջորդը"
+msgstr "Կուրսորի դիրքում չկա համընկնում, հաջորդի որոնում"
 
 msgid "<cannot open> "
 msgstr "<հանարավոր չէ բացել> "
@@ -1911,10 +1925,10 @@ msgid "Replace with:"
 msgstr "Փոխարինել:"
 
 msgid "Match whole word only"
-msgstr "համապատասխանեցնել ամբողջ բառը"
+msgstr "համապատասխանեցնել միայն ամբողջ բառը"
 
 msgid "Match case"
-msgstr "համապատասխանեցում"
+msgstr "համընկնման դեպք"
 
 msgid "Direction"
 msgstr "Ուղղություն"
@@ -2057,7 +2071,7 @@ msgid "&Dismiss"
 msgstr "Թաքցնել"
 
 msgid "no specific match"
-msgstr "համապատասխանեցում չկա"
+msgstr "հատուկ համընկնում չկա"
 
 msgid "Vim - Font Selector"
 msgstr "Vim — տառատեսակի ընտրող"
@@ -2241,7 +2255,7 @@ msgid "E469: invalid cscopequickfix flag %c for %c"
 msgstr "E469: Սխալ cscopequickfix %c դրոշմանիշ %c֊ի համար"
 
 msgid "E259: no matches found for cscope query %s of %s"
-msgstr "E259: cscope %s համընկնում չի հայտնաբերվել %s֊ի համար"
+msgstr "E259: cscope %s համընկնումներ չեն հայտնաբերվել %s֊ի համար"
 
 msgid "cscope commands:\n"
 msgstr "cscope հրամանները:\n"
@@ -2553,7 +2567,7 @@ msgid ""
 "E280: TCL FATAL ERROR: reflist corrupt!? Please report this to vim-dev@vim."
 "org"
 msgstr ""
-"E280: TCL֊ի ճակատագրական սխալ: հղումների ցանկի սխա՞լ! խնդրում ենք տեղեկացնել "
+"E280: TCL֊ի օրհասական սխալ: հղումների ցանկի սխա՞լ! խնդրում ենք տեղեկացնել "
 "vim-dev@vim.org֊ին"
 
 msgid "cannot register callback command: buffer/window reference not found"
@@ -3011,7 +3025,7 @@ msgid "No marks set"
 msgstr "Նշումներ չկան"
 
 msgid "E283: No marks matching \"%s\""
-msgstr "E283: Չկան համանման նշումներ \"%s\""
+msgstr "E283: Չկան համընկնող նշումներ \"%s\""
 
 msgid ""
 "\n"
@@ -3708,7 +3722,7 @@ msgid "Enter same key again: "
 msgstr "Կրկնեք գաղտնաբառը: "
 
 msgid "Keys don't match!"
-msgstr "Մուտքագրված գաղտնաբառերը տարբեր են!"
+msgstr "Բանալիները տարբեր են!"
 
 msgid "E854: path too long for completion"
 msgstr "E854: Ճանապարհն անսխասելի երկար է ինքնահամալրման համար"
@@ -3899,13 +3913,13 @@ msgid "E539: Illegal character <%s>"
 msgstr "E539: Չթույլատրված նշան <%s>"
 
 msgid "E529: Cannot set 'term' to empty string"
-msgstr "E529: Значение опции 'term' не может быть пустой строкой"
+msgstr "E529: Հնարավոր չէ 'term'֊ին վերագրել դատարկ արժեք"
 
 msgid "E530: Cannot change term in GUI"
-msgstr "E530: В графическом интерфейсе изменять терминал невозможно"
+msgstr "E530: Գրաֆիկական ռեժիմում հնարավոր չէ փոխել տերմինալը"
 
 msgid "E531: Use \":gui\" to start the GUI"
-msgstr "E531: Для запуска графического интерфейса используйте \":gui\""
+msgstr "E531: Գրաֆիկական ինտերֆեյսին անցնելու համար կատարել \":gui\" հրամանը"
 
 msgid "E589: 'backupext' and 'patchmode' are equal"
 msgstr "E589: 'backupext'֊ը և 'patchmode'֊ը համարժեք են"
@@ -3917,7 +3931,7 @@ msgid "E835: Conflicts with value of 'fillchars'"
 msgstr "E835: Конфликтует со значением 'fillchars'"
 
 msgid "E617: Cannot be changed in the GTK+ 2 GUI"
-msgstr "E617: Не может быть изменено в графическом интерфейсе GTK+ 2"
+msgstr "E617: Չի կարող փոփոխվել GTK+ 2 գրաֆիկական ինտերֆեյսում"
 
 msgid "E524: Missing colon"
 msgstr "E524: Բացակայող վերջակետ"
@@ -3932,58 +3946,56 @@ msgid "E527: Missing comma"
 msgstr "E527: Բացակայող ստորակետ"
 
 msgid "E528: Must specify a ' value"
-msgstr "E528: Необходимо указать значение для '"
+msgstr "E528: Անհրաժեշտ է  '֊ի համար տալ արժեք"
 
 msgid "E595: contains unprintable or wide character"
-msgstr "E595: Содержит непечатный символ или символ двойной ширины"
+msgstr "E595: Պարունակում է չտպագրվող կամ երկար տառեր"
 
 msgid "E596: Invalid font(s)"
-msgstr "E596: Неправильные шрифты"
+msgstr "E596: Սխալ տառատեսակներ"
 
 msgid "E597: can't select fontset"
-msgstr "E597: Невозможно выбрать шрифтовой набор"
+msgstr "E597: Հնարավոր չէ նշել տառատեսակների խումբը"
 
 msgid "E598: Invalid fontset"
-msgstr "E598: Неправильный шрифтовой набор"
+msgstr "E598:  Սխալ տառատեսակների խումբ"
 
 msgid "E533: can't select wide font"
-msgstr "E533: Невозможно выбрать шрифт с символами двойной ширины"
+msgstr "E533: հնարավոր չէ նշել տառատեսակը"
 
 msgid "E534: Invalid wide font"
-msgstr "E534: Неправильный шрифт с символами двойной ширины"
+msgstr "E534: Սխալ երկարությամբ տառատեսակ"
 
 msgid "E535: Illegal character after <%c>"
-msgstr "E535: Неправильный символ после <%c>"
+msgstr "E535: Սխալ սիմվոլ <%c>֊ից հետո"
 
 msgid "E536: comma required"
-msgstr "E536: Требуется запятая"
+msgstr "E536: Անհրաժեշտ է ստորակետ"
 
 msgid "E537: 'commentstring' must be empty or contain %s"
-msgstr ""
-"E537: Значение опция 'commentstring' должно быть пустой строкой или "
-"содержать %s"
+msgstr "E537:  'commentstring'֊ը պետք լինի դատարկ կամ պարունակի %s"
 
 msgid "E538: No mouse support"
-msgstr "E538: Мышь не поддерживается"
+msgstr "E538: Մկնիկը չի աջակցվում"
 
 msgid "E540: Unclosed expression sequence"
-msgstr "E540: Незакрытая последовательность выражения"
+msgstr "E540: Չփակված արտահայտությունների հաջորդականություն"
 
 msgid "E541: too many items"
 msgstr "E541: Աննախադեպ շատ էլեմենտներ"
 
 msgid "E542: unbalanced groups"
-msgstr "E542: Несбалансированные группы"
+msgstr "E542: Չբալանսավորված խմբեր"
 
 msgid "E590: A preview window already exists"
-msgstr "E590: Окно предпросмотра уже есть"
+msgstr "E590: Նախադիտման պատուհանն արդեն բացված է"
 
 msgid "W17: Arabic requires UTF-8, do ':set encoding=utf-8'"
 msgstr ""
 "W17: Արաբերենը պահանջում է UTF-8, կատարել ':set encoding=utf-8' հրամանը"
 
 msgid "E593: Need at least %d lines"
-msgstr "E593: Нужно хотя бы %d строк"
+msgstr "E593: Անհրաժեշտ են գոնե %d տողեր"
 
 msgid "E594: Need at least %d columns"
 msgstr "E594: Անհրաժեշտ են գոնե %d սյուններ"
@@ -4026,7 +4038,7 @@ msgid "E356: get_varp ERROR"
 msgstr "E356: get_varp ՍԽԱԼ"
 
 msgid "E357: 'langmap': Matching character missing for %s"
-msgstr "E357: 'langmap':  %s ֊ի համար չկա համապատասխան սիմվոլ"
+msgstr "E357: 'langmap':  %s ֊ի համար չկա համընկնման սիմվոլ"
 
 msgid "E358: 'langmap': Extra characters after semicolon: %s"
 msgstr "E358: 'langmap': Ստորակետից հետո տրված են հավելյալ նշաններ: %s"
@@ -4089,7 +4101,7 @@ msgid "to %s on %s"
 msgstr "в %s на %s"
 
 msgid "E613: Unknown printer font: %s"
-msgstr "E613: Неизвестный шрифт принтера: %s"
+msgstr "E613: Անծանոթ տպագրման տառատեսակ %s"
 
 msgid "E238: Print error: %s"
 msgstr "E238: Տպագրման սխալ: %s"
@@ -4315,16 +4327,16 @@ msgid "E769: Missing ] after %s["
 msgstr "E769: Բացակայող ] после %s["
 
 msgid "E53: Unmatched %s%%("
-msgstr "E53: Нет пары для %s%%("
+msgstr "E53: Չհամընկնող %s%%("
 
 msgid "E54: Unmatched %s("
-msgstr "E54: Нет пары для %s("
+msgstr "E54: Չհամընկնող %s("
 
 msgid "E55: Unmatched %s)"
-msgstr "E55: Нет пары для %s)"
+msgstr "E55: Չհամընկնող %s)"
 
 msgid "E66: \\z( not allowed here"
-msgstr "E66: \\z( не может быть использовано здесь"
+msgstr "E66: \\z( ֊ը չի կարող օգտագործվել այստեղ"
 
 msgid "E67: \\z1 et al. not allowed here"
 msgstr "E67: \\z1 и т.п. не могут быть использованы здесь"
@@ -4345,10 +4357,10 @@ msgid "E51: Too many %s("
 msgstr "E51:Աննախադեպ շատ %s("
 
 msgid "E52: Unmatched \\z("
-msgstr "E52: Нет пары для \\z("
+msgstr "E52: Չհամընկնող \\z("
 
 msgid "E59: invalid character after %s@"
-msgstr "E59: Недопустимый символ после %s@"
+msgstr "E59: Չթույլատրված սիմվոլ՝ %s@֊ից հետո"
 
 msgid "E60: Too many complex %s{...}s"
 msgstr "E60: Աննախադեպ շատ ներդրված կառուցվածքներ %s{...}"
@@ -4360,13 +4372,13 @@ msgid "E62: Nested %s%c"
 msgstr "E62: Ներդրված %s%c"
 
 msgid "E63: invalid use of \\_"
-msgstr "E63: Недопустимое использование \\_"
+msgstr "E63: Չթույլատրված \\_ ֊ի օգտագործում"
 
 msgid "E64: %s%c follows nothing"
-msgstr "E64: %s%c ни за чем не следует"
+msgstr "E64: %s%c ֊ը հետևում է ոչնչի"
 
 msgid "E65: Illegal back reference"
-msgstr "E65: Недопустимая обратная ссылка"
+msgstr "E65: Չույլատրված հակադարձ հղում"
 
 msgid "E68: Invalid character after \\z"
 msgstr "E68: Недопустимый символ после \\z"
@@ -4378,10 +4390,10 @@ msgid "E71: Invalid character after %s%%"
 msgstr "E71: Недопустимый символ после %s%%"
 
 msgid "E554: Syntax error in %s{...}"
-msgstr "E554: Синтаксическая ошибка в %s{...}"
+msgstr "E554: Ուղղագրական սխալ %s{...}֊ում"
 
 msgid "External submatches:\n"
-msgstr "Внешние подсоответствия:\n"
+msgstr "Արտաքին ենթահամընկնում:\n"
 
 msgid "used "
 msgstr "автоматическая машина"
@@ -4521,7 +4533,7 @@ msgid "E386: Expected '?' or '/'  after ';'"
 msgstr "E386:  ';' ֊ից հետո սպասվում '?' կամ '/'"
 
 msgid " (includes previously listed match)"
-msgstr " (ընդգրկում է նախկինում ցուցադրված համապատասխանեցումը)"
+msgstr " (ընդգրկում է նախկինում ցուցադրված համընկնումը)"
 
 msgid "--- Included files "
 msgstr "--- Կցվաֆայլեր "
@@ -4545,7 +4557,7 @@ msgid "Searching included file %s"
 msgstr "%s կցաֆայլի որոնում"
 
 msgid "E387: Match is on current line"
-msgstr "E387: Համընկնում հերթական տողում"
+msgstr "E387: Համընկնումը հերթական տողում է"
 
 msgid "All included files were found"
 msgstr "Բոլոր կցաֆայլերն հայտնաբերվել են"
@@ -4860,7 +4872,7 @@ msgid "E780: .sug file is for newer version of Vim: %s"
 msgstr "E780: Файл .sug для более новой версии Vim: %s"
 
 msgid "E781: .sug file doesn't match .spl file: %s"
-msgstr "E781: Файл .sug не соответствует файлу .spl: %s"
+msgstr "E781: .sug ֆայլը չի համապատասխանում .spl: ֆայլի հետ %s"
 
 msgid "E782: error while reading .sug file: %s"
 msgstr "E782: Ошибка при чтении файла .sug: %s"
@@ -4920,7 +4932,7 @@ msgid "maximal "
 msgstr "максимум "
 
 msgid "; match "
-msgstr "; համապատասխանեցում  "
+msgstr "; համընկնում  "
 
 msgid " line breaks"
 msgstr "տողի ընդհատում"
@@ -4992,7 +5004,7 @@ msgstr "E410: Սխալ ենթահրաման :syntax: %s"
 msgid ""
 "  TOTAL      COUNT  MATCH   SLOWEST     AVERAGE   NAME               PATTERN"
 msgstr ""
-"  ԱՄԲՈՂՋ      ՔԱՆԱԿ  ՀԱՄԱՊԱՏԱՍԽԱՆ ՄՆԱՑՅԱԼ    ՄԻՋԻՆ    ԱՆՈՒՆ                "
+"  ԱՄԲՈՂՋ      ՔԱՆԱԿ  ՀԱՄԸՆԿՆՈՒՄ   ՄՆԱՑՅԱԼ    ՄԻՋԻՆ    ԱՆՈՒՆ                "
 "ՕՐԻՆԱԿ"
 
 msgid "E679: recursive loop loading syncolor.vim"
@@ -5041,7 +5053,7 @@ msgid "E424: Too many different highlighting attributes in use"
 msgstr "E424: Աննախադեպ շատ գունանշման բնորոշիչներ են օգտագործվում"
 
 msgid "E669: Unprintable character in group name"
-msgstr "E669: Непечатный символ в имени группы"
+msgstr "E669: Չտպագրելի սիմվոլ խմբի անվան մեջ"
 
 msgid "W18: Invalid character in group name"
 msgstr "W18: Սխալ նշան՝ խմբի անվանման մեջ"
@@ -5050,25 +5062,25 @@ msgid "E849: Too many highlight and syntax groups"
 msgstr "E849: Աննախադեպ շատ գունանշման բնորոշիչներ և ուղղագրական խմբեր"
 
 msgid "E555: at bottom of tag stack"
-msgstr "E555: Внизу стека меток"
+msgstr "E555: Թեգերի ստեկի ներքևում"
 
 msgid "E556: at top of tag stack"
-msgstr "E556: Наверху стека меток"
+msgstr "E556: Թեգերի ստեկի վերևում"
 
 msgid "E425: Cannot go before first matching tag"
-msgstr "E425: Հնարավոր չէ անցնել առաջին գտնված  նշմանը"
+msgstr "E425: Հնարավոր չէ անցնել առաջին համընկնման թեգին"
 
 msgid "E426: tag not found: %s"
-msgstr "E426: Նշումը չի հայտնաբերվել: %s"
+msgstr "E426: թեգը չի հայտնաբերվել: %s"
 
 msgid "file\n"
 msgstr "ֆայլ\n"
 
 msgid "E427: There is only one matching tag"
-msgstr "E427: Կա միայն մի համընկնում"
+msgstr "E427: Կա միայն մեկ համընկնման թեգ"
 
 msgid "E428: Cannot go beyond last matching tag"
-msgstr "E428: Հնարավոր չէ անցնել վերջին գտնված  նշմանը"
+msgstr "E428: Հնարավոր չէ անցնել վերջին գտնված համընկնման թեգին"
 
 msgid "File \"%s\" does not exist"
 msgstr "Файл \"%s\" не существует"
@@ -5122,7 +5134,7 @@ msgid "defaulting to '"
 msgstr "по умолчанию '"
 
 msgid "E557: Cannot open termcap file"
-msgstr "E557: Невозможно открыть файл termcap"
+msgstr "E557: Անհնար է բացել termcap ֆայլը"
 
 msgid "E558: Terminal entry not found in terminfo"
 msgstr "E558: Տերմինալի էլեմենտը չի հայտնաբերվել terminfo֊ում"
@@ -5852,7 +5864,7 @@ msgid "E487: Argument must be positive"
 msgstr "E487: Արգումենտը պետք է լինի դրականա ամբողջաթիվ"
 
 msgid "E459: Cannot go back to previous directory"
-msgstr "E459: Возврат в предыдущий каталог невозможен"
+msgstr "E459: Հնարավոր չէ վերադառնալ նախկին թղթապանակ"
 
 msgid "E42: No Errors"
 msgstr "E42: Սխալներ չկան"
@@ -5864,13 +5876,13 @@ msgid "E43: Damaged match string"
 msgstr "E43: Համընկնման տողը վնասված է"
 
 msgid "E44: Corrupted regexp program"
-msgstr "E44: Программа обработки регулярных выражений повреждена"
+msgstr "E44: Վնասված ռեգուլյար արտահայտությունների մշակման ծրագիր"
 
 msgid "E45: 'readonly' option is set (add ! to override)"
 msgstr "E45: 'readonly' կարգանշանը միացված է (անցման համար ավելացնել !)"
 
 msgid "E46: Cannot change read-only variable \"%s\""
-msgstr "E46: Невозможно изменить переменную только для чтения \"%s\""
+msgstr "E46: Հնարավոր չէ փոփխել միայն կարդալու համար տրված փոփխականը \"%s\""
 
 msgid "E794: Cannot set variable in the sandbox: \"%s\""
 msgstr "E794: Невозможно изменить переменную в песочнице: \"%s\""
@@ -5879,7 +5891,7 @@ msgid "E47: Error while reading errorfile"
 msgstr "E47: Սխալների ֆայլի ընթերցման սխալ"
 
 msgid "E48: Not allowed in sandbox"
-msgstr "E48: Не допускается в песочнице"
+msgstr "E48: Չի թույլատրվում sandbox֊ում"
 
 msgid "E523: Not allowed here"
 msgstr "E523: Այստեղ չի թույլատրվում"
@@ -5925,11 +5937,13 @@ msgstr "E79: Невозможно выполнить подстановку по
 
 msgid "E591: 'winheight' cannot be smaller than 'winminheight'"
 msgstr ""
-"E591: Значение опции 'winheight' не может быть меньше значения 'winminheight'"
+"E591: 'winheight'֊ի արժեքը չի կարող լինել ավելի փոքր քան 'winminheight'֊ի "
+"արժեքը"
 
 msgid "E592: 'winwidth' cannot be smaller than 'winminwidth'"
 msgstr ""
-"E592: Значение опции 'winwidth' не может быть меньше значения 'winminwidth'"
+"E592:  'winwidth'֊ի արժեքը չի կարող լինել ավելի փոքր քան 'winminwidth'֊ի "
+"արժեքը"
 
 msgid "E80: Error while writing"
 msgstr "E80: Սխալ գրելու ընթացում"
@@ -5944,7 +5958,7 @@ msgid "E449: Invalid expression received"
 msgstr "E449: Ստացվել է սխալ արտահայտություն"
 
 msgid "E463: Region is guarded, cannot modify"
-msgstr "E463: Невозможно изменить охраняемую область"
+msgstr "E463: Ռեգիոնը պահպանվում է, հնարավոր չէ փոփոխել"
 
 msgid "E744: NetBeans does not allow changes in read-only files"
 msgstr "E744: NetBeans не допускает изменений в файлах только для чтения"
