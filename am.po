@@ -56,13 +56,13 @@
 # read-only
 # option
 # preview - Նախադիտում
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: vim_7.4_am\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-14 16:42+0400\n"
-"PO-Revision-Date: 2015-05-02 22:25+0400\n"
+"PO-Revision-Date: 2015-10-04 19:43+0300\n"
 "Last-Translator: Gagik Hakobyan <hakgagik@yahoo.com>\n"
 "Language-Team: \n"
 "Language: Armenian\n"
@@ -334,7 +334,7 @@ msgid "Hit end of paragraph"
 msgstr "Պարագրաֆի վերջը"
 
 msgid "E839: Completion function changed window"
-msgstr "E839: Ավտոմատ լրացման ֆունկցաին փոփթխել է պատուհանը"
+msgstr "E839: Ավտոմատ լրացման ֆունկցաին փոփոխել է պատուհանը"
 
 msgid "E840: Completion function deleted text"
 msgstr "E840: Ավտոմատ լրացման գործունեությունը ջնջել է տեքստը"
@@ -367,7 +367,7 @@ msgid "-- Searching..."
 msgstr "-- Որոնում..."
 
 msgid "Back at original"
-msgstr "Վերաձարձ նախնական վիճակին"
+msgstr "Վերադարձ նախնական վիճակին"
 
 msgid "Word from other line"
 msgstr "Այլ տողի բառ"
@@ -4309,13 +4309,13 @@ msgid "Error file"
 msgstr "Ֆայլի սխալ"
 
 msgid "E683: File name missing or invalid pattern"
-msgstr "E683: Нет имени файла или неправильный шаблон"
+msgstr "E683: Ֆայլի աննունը տրված չէ կամ տրված է սխալ pattern"
 
 msgid "Cannot open file \"%s\""
 msgstr "Невозможно открыть файл \"%s\""
 
 msgid "E681: Buffer is not loaded"
-msgstr "E681: Буфер не выгружен"
+msgstr "E681: Բուֆերը չի բեռնվել"
 
 msgid "E777: String or List expected"
 msgstr "E777: Требуется строка или список"
@@ -4339,7 +4339,7 @@ msgid "E66: \\z( not allowed here"
 msgstr "E66: \\z( ֊ը չի կարող օգտագործվել այստեղ"
 
 msgid "E67: \\z1 et al. not allowed here"
-msgstr "E67: \\z1 и т.п. не могут быть использованы здесь"
+msgstr "E67: \\z1 և այլք աստեղ չեն թույլատրվում"
 
 msgid "E69: Missing ] after %s%%["
 msgstr "E69: Բացակայող ] после %s%%["
@@ -4381,13 +4381,13 @@ msgid "E65: Illegal back reference"
 msgstr "E65: Չույլատրված հակադարձ հղում"
 
 msgid "E68: Invalid character after \\z"
-msgstr "E68: Недопустимый символ после \\z"
+msgstr "E68: Չույլատրված սիմվոլ \\z֊ից հետո"
 
 msgid "E678: Invalid character after %s%%[dxouU]"
-msgstr "E678: Недопустимый символ после %s%%[dxouU]"
+msgstr "E678: Չույլատրված սիմվոլ %s%%[dxouU]֊ից հետո"
 
 msgid "E71: Invalid character after %s%%"
-msgstr "E71: Недопустимый символ после %s%%"
+msgstr "E71:Չույլատրված սիմվոլ %s%%֊ից հետո"
 
 msgid "E554: Syntax error in %s{...}"
 msgstr "E554: Ուղղագրական սխալ %s{...}֊ում"
@@ -4815,13 +4815,13 @@ msgid "Estimated runtime memory use: %d bytes"
 msgstr "Оценка использования памяти при выполнении: %d байт"
 
 msgid "E751: Output file name must not have region name"
-msgstr "E751: Имя выходного файла не должно содержать названия региона"
+msgstr "E751: Ելքային ֆայլի անունը չպետք է պարունակի ռեգիոնի անուն"
 
 msgid "E754: Only up to 8 regions supported"
-msgstr "E754: Поддерживается не более 8-ми регионов"
+msgstr "E754: Աջակցվում են ութ և ավելի քիչ ռեգիոներ"
 
 msgid "E755: Invalid region in %s"
-msgstr "E755: Недопустимый регион в %s"
+msgstr "E755: Չույլատրված ռեգիոն %s֊ում"
 
 msgid "Warning: both compounding and NOBREAK specified"
 msgstr "Զգուշացում: պարփակումն ու NOBREAK֊ը միաժամանակ են տրված"
@@ -5008,7 +5008,7 @@ msgstr ""
 "ՕՐԻՆԱԿ"
 
 msgid "E679: recursive loop loading syncolor.vim"
-msgstr "E679: Рекурсивная петля при загрузке syncolor.vim"
+msgstr "E679: Ռեկուրսիվ շրջակցային բեռնում syncolor.vim"
 
 msgid "E411: highlight group not found: %s"
 msgstr "E411: %s գունանշման խումբը չի հայտնաբերվել"
@@ -5909,7 +5909,7 @@ msgid "E255: Couldn't read in sign data!"
 msgstr "E255: Հնարավոր չէ կարդալ նշանի տվյալներից!"
 
 msgid "E72: Close error on swap file"
-msgstr "E72: Ошибка закрытия своп-файла"
+msgstr "E72: Սվեփ ֆայլի փակման սխալ"
 
 msgid "E73: tag stack empty"
 msgstr "E73: Թեգերի ստեկը դատարկ է"
@@ -5961,7 +5961,8 @@ msgid "E463: Region is guarded, cannot modify"
 msgstr "E463: Ռեգիոնը պահպանվում է, հնարավոր չէ փոփոխել"
 
 msgid "E744: NetBeans does not allow changes in read-only files"
-msgstr "E744: NetBeans не допускает изменений в файлах только для чтения"
+msgstr ""
+"E744: NetBeans֊ը չի թույլատրում փոփոխություններ միայն կարդալու ֆայլերում"
 
 msgid "E685: Internal error: %s"
 msgstr "E685:  Ներքին համակարգային սխալ: %s"
