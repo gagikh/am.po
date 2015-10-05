@@ -5,7 +5,7 @@
 #
 # Gagik Hakobyan <hakgagik@yahoo,com> 2015
 # option - կարգանշան
-# unloaded - բեռնաթափել
+# unload - բեռնաթափել
 # load - բեռնել
 # prefix - նախածանց
 # nested ֊ ներդրված
@@ -31,7 +31,7 @@
 # settings ֊
 # duplicate ֊ կրկնակի
 # find -
-# found - ՀԱՅՏՆԱԲԵՐՎԱԾ
+# found - հայտնաբերված
 # support - աջակցում
 # fold - փաթաթ
 # soundfold - ձայնափաթաթ
@@ -62,14 +62,14 @@ msgstr ""
 "Project-Id-Version: vim_7.4_am\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-14 16:42+0400\n"
-"PO-Revision-Date: 2015-10-04 19:43+0300\n"
+"PO-Revision-Date: 2015-10-05 17:24+0400\n"
 "Last-Translator: Gagik Hakobyan <hakgagik@yahoo.com>\n"
 "Language-Team: \n"
-"Language: Armenian\n"
+"Language: hy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.4\n"
 
 msgid "E831: bf_key_init() called with empty password"
 msgstr "E831: bf_key_init() դատարկ գաղտնաբառով կանչ"
@@ -1509,7 +1509,7 @@ msgid "[CONVERSION ERROR in line %ld]"
 msgstr "[ՓՈԽԱԿԵՐՊՄԱՆ ՍԽԱԼ %ld տողում]"
 
 msgid "[ILLEGAL BYTE in line %ld]"
-msgstr "[ԱՆԹՈՒՅԼԱՏՐԵԼԻ ԲԱՅՔ %ld տողում]"
+msgstr "[ԱՆԹՈՒՅԼԱՏՐԵԼԻ ԲԱՅԹ %ld տողում]"
 
 msgid "[READ ERRORS]"
 msgstr "[ԿԱՐԴԱԼՈՒ ՍԽԱԼ]"
@@ -2275,7 +2275,7 @@ msgid ""
 msgstr ""
 "\n"
 "       c: Փնտրել այս ֆունկցիան կանչող ֆունկցիանները\n"
-"       d: Փնտրեկ այս ֆունկցիայից կանչվող ֆունկցիաները\n"
+"       d: Փնտրել այս ֆունկցիայից կանչվող ֆունկցիաները\n"
 "       e: Փնտրել այս egrep նմուշը\n"
 "       f: Փնտրել այս ֆայլը\n"
 "       g: Փնտրել այս սահմանումը\n"
@@ -2870,16 +2870,16 @@ msgstr "--remote-silent <ֆայլեր>  Նույնն ինչպես, չբողոք�
 
 msgid ""
 "--remote-wait <files>  As --remote but wait for files to have been edited"
-msgstr "--remote-wait <файлы>  Նույնն ինչպես --remote, բայց ավրտման սպասումով"
+msgstr "--remote-wait <files>  Նույնն ինչպես --remote, բայց ավրտման սպասումով"
 
 msgid ""
 "--remote-wait-silent <files>  Same, don't complain if there is no server"
-msgstr "--remote-wait-silent <файлы>  Նույնն ինչպես, չբողոքել եթե սերվեր չկա"
+msgstr "--remote-wait-silent <files>  Նույնն ինչպես, չբողոքել եթե սերվեր չկա"
 
 msgid ""
 "--remote-tab[-wait][-silent] <files>  As --remote but use tab page per file"
 msgstr ""
-"--remote-tab[-wait][-silent] <файлы> Նույնն ինչպես --remote, բայց օգտագործել "
+"--remote-tab[-wait][-silent] <files> Նույնն ինչպես --remote, բայց օգտագործել "
 "թաբ ամեն մի ֆայլի համար"
 
 msgid "--remote-send <keys>\tSend <keys> to a Vim server and exit"
@@ -2905,7 +2905,7 @@ msgid "-i <viminfo>\t\tUse <viminfo> instead of .viminfo"
 msgstr "-i <viminfo>\t\tՕգտագործել <viminfo>, ․viminfo փոխարեն"
 
 msgid "-h  or  --help\tPrint Help (this message) and exit"
-msgstr "-h или --help\tԱրտածել Օգնություն (այս հաղորդագրությունը) և ավարտել"
+msgstr "-h կամ --help\tԱրտածել Օգնություն (այս հաղորդագրությունը) և ավարտել"
 
 msgid "--version\t\tPrint version information and exit"
 msgstr "--version\t\tԱրտածել տարբերակի մասին հաղորդագրություն և ավարտել"
@@ -4585,7 +4585,7 @@ msgid "E759: Format error in spell file"
 msgstr "E759: Ошибка формата в файле правописания"
 
 msgid "E758: Truncated spell file"
-msgstr "E758: Файл правописания обрезан"
+msgstr "E758: Անավարտ ուղղագրման ֆայլ"
 
 msgid "Trailing text in %s line %d: %s"
 msgstr "Лишний текст на хвосте в %s стр. %d: %s"
@@ -4603,7 +4603,7 @@ msgid "Compressing word tree..."
 msgstr "Сжатие дерева слов..."
 
 msgid "E756: Spell checking is not enabled"
-msgstr "E756: Проверка правописания выключена"
+msgstr "E756: Ուղղագրիչն անջատված է"
 
 msgid "Warning: Cannot find word list \"%s_%s.spl\" or \"%s_ascii.spl\""
 msgstr ""
@@ -4619,7 +4619,7 @@ msgid "Reading spell file \"%s\""
 msgstr "Чтение файла правописания \"%s\""
 
 msgid "E757: This does not look like a spell file"
-msgstr "E757: Это не похоже на файл правописания"
+msgstr "E757: Սա ուղղագրման ֆայլ չէ"
 
 msgid "E771: Old spell file, needs to be updated"
 msgstr "E771: Старый файл правописания, требуется его обновление"
@@ -5514,7 +5514,7 @@ msgid "Compiler: "
 msgstr "Կառուցող: "
 
 msgid "Linking: "
-msgstr "Сборка: "
+msgstr "Կցագրում: "
 
 msgid "  DEBUG BUILD"
 msgstr "  ԶՆՆՄԱՆ ԿԱՌՈՒՑՈՒՄ"
@@ -5556,7 +5556,7 @@ msgid "type  :help cp-default<Enter> for info on this"
 msgstr "հավելյալ տեղեկատվությոան համար տալ :help cp-default<Enter> հրամանը"
 
 msgid "menu  Help->Orphans           for information    "
-msgstr "Գնալ Օգնություն->Որբեր ինֆորմացիա ստանալու համար"
+msgstr "Ինֆորմացիա ստանալու համար գնալ - Օգնություն->Որբեր"
 
 msgid "Running modeless, typed text is inserted"
 msgstr "Безрежимная работа, զետեղում введённого текста"
