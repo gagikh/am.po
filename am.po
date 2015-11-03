@@ -334,7 +334,7 @@ msgid "Hit end of paragraph"
 msgstr "Պարագրաֆի վերջը"
 
 msgid "E839: Completion function changed window"
-msgstr "E839: Ավտոմատ լրացման ֆունկցաին փոփոխել է պատուհանը"
+msgstr "E839: Ավտոմատ լրացման ֆունկցիան փոփոխել է պատուհանը"
 
 msgid "E840: Completion function deleted text"
 msgstr "E840: Ավտոմատ լրացման գործունեությունը ջնջել է տեքստը"
@@ -6110,7 +6110,7 @@ msgid "function constructor does not accept keyword arguments"
 msgstr "Конструктор функции не допускает ключевые слова как аргументы"
 
 msgid "failed to run function %s"
-msgstr "Невозможно выполнить функцию %s"
+msgstr "հնարավոր չէ կատարել %s ֆունկցիան"
 
 msgid "unable to get option value"
 msgstr "հնարավոր չէ ստանալ կարգանշման արժեքը"
