@@ -56,20 +56,20 @@
 # read-only
 # option
 # preview - Նախադիտում
-#
+# spell - ուղղագրում
 msgid ""
 msgstr ""
 "Project-Id-Version: vim_7.4_am\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-14 16:42+0400\n"
-"PO-Revision-Date: 2015-10-05 17:24+0400\n"
+"PO-Revision-Date: 2016-08-25 17:53+0400\n"
 "Last-Translator: Gagik Hakobyan <hakgagik@yahoo.com>\n"
 "Language-Team: \n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 msgid "E831: bf_key_init() called with empty password"
 msgstr "E831: bf_key_init() դատարկ գաղտնաբառով կանչ"
@@ -3581,7 +3581,7 @@ msgid "Interrupt: "
 msgstr "Ընդհատում: "
 
 msgid "Press ENTER or type command to continue"
-msgstr "Շարունակելու համար սեղմել ENTER կամ տալ որևէ հրաման"
+msgstr "Շարունակելու համար սեղմել ENTER կամ տալ որևէ այլ հրաման"
 
 msgid "%s line %ld"
 msgstr "%s տող %ld"
@@ -3925,10 +3925,10 @@ msgid "E589: 'backupext' and 'patchmode' are equal"
 msgstr "E589: 'backupext'֊ը և 'patchmode'֊ը համարժեք են"
 
 msgid "E834: Conflicts with value of 'listchars'"
-msgstr "E834: Конфликтует со значением 'listchars'"
+msgstr "E834: Կոնֆլիկտ՝ 'listchars'֊ի արժեքում"
 
 msgid "E835: Conflicts with value of 'fillchars'"
-msgstr "E835: Конфликтует со значением 'fillchars'"
+msgstr "E835: Կոնֆլիկտ՝ 'fillchars'֊ի արժեքում"
 
 msgid "E617: Cannot be changed in the GTK+ 2 GUI"
 msgstr "E617: Չի կարող փոփոխվել GTK+ 2 գրաֆիկական ինտերֆեյսում"
@@ -4258,7 +4258,7 @@ msgstr ""
 "Հավելյալ տեղեկատվության համար տես :help win32-vimrun։"
 
 msgid "Vim Warning"
-msgstr "Предупреждение Vim"
+msgstr "Զգուշացում"
 
 msgid "E372: Too many %%%c in format string"
 msgstr "E372: Տողային ֆորմատին տրված են աննախադեպ շատ %%%c֊եր"
@@ -4318,7 +4318,7 @@ msgid "E681: Buffer is not loaded"
 msgstr "E681: Բուֆերը չի բեռնվել"
 
 msgid "E777: String or List expected"
-msgstr "E777: Требуется строка или список"
+msgstr "E777: Սպասվում է ցանկ կամ տեղ"
 
 msgid "E369: invalid item in %s%%[]"
 msgstr "E369: Չթույլատրված էլեմենտ %s%%[]֊ում"
@@ -4582,7 +4582,7 @@ msgstr ""
 "~"
 
 msgid "E759: Format error in spell file"
-msgstr "E759: Ошибка формата в файле правописания"
+msgstr "E759: Ֆորմատի սխալ՝ ուղղագրման ֆայլում"
 
 msgid "E758: Truncated spell file"
 msgstr "E758: Անավարտ ուղղագրման ֆայլ"
@@ -4594,10 +4594,10 @@ msgid "Affix name too long in %s line %d: %s"
 msgstr "Имя аффикса слишком длинное в %s, строка %d: %s"
 
 msgid "E761: Format error in affix file FOL, LOW or UPP"
-msgstr "E761: Ошибка формата в файле аффиксов FOL, LOW или UPP"
+msgstr "E761: Ֆորմատի սխալ FOL, LOW կամ UPP ֆայլերում"
 
 msgid "E762: Character in FOL, LOW or UPP is out of range"
-msgstr "E762: Символы в FOL, LOW или UPP за пределами диапазона"
+msgstr "E762: FOL, LOW կամ UPP ֆայլերում տրված տառը դուրս է եկել դիապազոնցի"
 
 msgid "Compressing word tree..."
 msgstr "Сжатие дерева слов..."
@@ -4616,19 +4616,19 @@ msgstr ""
 "\""
 
 msgid "Reading spell file \"%s\""
-msgstr "Чтение файла правописания \"%s\""
+msgstr "\"%s\" ուղղագրման ֆայլի ընթերցում"
 
 msgid "E757: This does not look like a spell file"
 msgstr "E757: Սա ուղղագրման ֆայլ չէ"
 
 msgid "E771: Old spell file, needs to be updated"
-msgstr "E771: Старый файл правописания, требуется его обновление"
+msgstr "E771: Ուղղագրման ֆայլը հին է, անհրաժեշտ է թարմացնել"
 
 msgid "E772: Spell file is for newer version of Vim"
-msgstr "E772: Файл правописания предназначен для более новой версии Vim"
+msgstr "E772: Ուղղագրման ֆայլը նախատեսված է ավելի թարմ Vim֊ի համար"
 
 msgid "E770: Unsupported section in spell file"
-msgstr "E770: Неподдерживаемый раздел в файле правописания"
+msgstr "E770: Անծանոթ ենթագլուխ՝ ուղղագրման ֆայլում"
 
 msgid "Warning: region %s not supported"
 msgstr "Предупреждение: регион %s не поддерживается"
@@ -4746,7 +4746,7 @@ msgid "Reading dictionary file %s ..."
 msgstr "Чтение файла словаря %s ..."
 
 msgid "E760: No word count in %s"
-msgstr "E760: Количество слов не указано в %s"
+msgstr "E760: %s ֊ ում բառաքանակը տրված չէ"
 
 msgid "line %6d, word %6d - %s"
 msgstr "строка %6d, слово %6d — %s"
@@ -4791,13 +4791,13 @@ msgid "Ignored %d words with non-ASCII characters"
 msgstr "Անտեսված %d բառեր՝ ոչ ASCII սիմվոլներով"
 
 msgid "E845: Insufficient memory, word list will be incomplete"
-msgstr "E845: Недостаточно оперативной памяти, список слов будет не полон"
+msgstr "E845: Անբավարար հիշողություն, բառալիստը կարող է անավարտ մնալ"
 
 msgid "Compressed %d of %d nodes; %d (%d%%) remaining"
 msgstr "Сжато %d из %d узлов; осталось %d (%d%%)"
 
 msgid "Reading back spell file..."
-msgstr "Чтение записанного файла правописания..."
+msgstr "Ուղղագրման ֆայլի վերականգնում..."
 
 msgid "Performing soundfolding..."
 msgstr "Կատարվում է ձայնափաթաթ..."
@@ -4827,13 +4827,13 @@ msgid "Warning: both compounding and NOBREAK specified"
 msgstr "Զգուշացում: պարփակումն ու NOBREAK֊ը միաժամանակ են տրված"
 
 msgid "Writing spell file %s ..."
-msgstr "Запись файла правописания %s ..."
+msgstr "%s ուղղագրման ֆայլի պահպանում..."
 
 msgid "Done!"
 msgstr "Ավարտված է!"
 
 msgid "E765: 'spellfile' does not have %ld entries"
-msgstr "E765: 'spellfile' не содержит %ld элементов"
+msgstr "E765: 'spellfile' չի պարունակում %ld էլեմենտներ"
 
 msgid "Word removed from %s"
 msgstr "Слово удалено из %s"
@@ -4842,7 +4842,9 @@ msgid "Word added to %s"
 msgstr "Слово добавлено в %s"
 
 msgid "E763: Word characters differ between spell files"
-msgstr "E763: Символы слов отличаются в файлах правописания"
+msgstr ""
+"E763: Տառերի քանակությունը չի համընկնում ուղղագրման ֆայլում սահմանված բառի "
+"տառերի քանակությանը"
 
 msgid "Sorry, no suggestions"
 msgstr "Извините, нет предположений"
@@ -4863,19 +4865,19 @@ msgid "E753: Not found: %s"
 msgstr "E753: Չի հայտնաբերվել: %s"
 
 msgid "E778: This does not look like a .sug file: %s"
-msgstr "E778: Это не похоже на файл .sug: %s"
+msgstr "E778: Նման չէ .sug ֆայլի․ %s"
 
 msgid "E779: Old .sug file, needs to be updated: %s"
-msgstr "E779: Старый файл .sug, требует обновления: %s"
+msgstr "E779: Հին .sug ֆայլ, անհրաժեշտ է թարմացում: %s"
 
 msgid "E780: .sug file is for newer version of Vim: %s"
-msgstr "E780: Файл .sug для более новой версии Vim: %s"
+msgstr "E780: .sug ֆայլը նախատեսված է ավելի թարմ Vim֊ի համար: %s"
 
 msgid "E781: .sug file doesn't match .spl file: %s"
 msgstr "E781: .sug ֆայլը չի համապատասխանում .spl: ֆայլի հետ %s"
 
 msgid "E782: error while reading .sug file: %s"
-msgstr "E782: Ошибка при чтении файла .sug: %s"
+msgstr "E782: .sug ֆայլի ընթերցման սխալ: %s"
 
 msgid "E783: duplicate char in MAP entry"
 msgstr "E783: կրկնակի տառ MAP֊ի էլեմենտում"
@@ -4941,7 +4943,7 @@ msgid "E395: contains argument not accepted here"
 msgstr "E395: contains արգումենտը չի թույլատրվում այստեղ"
 
 msgid "E844: invalid cchar value"
-msgstr "E844: Недопустимое значение cchar"
+msgstr "E844: cchar֊ի անթույլատրելի արժեք"
 
 msgid "E393: group[t]here not accepted here"
 msgstr "E393: group[t]֊ն չի թույլատրվում այստեղ"
@@ -5128,7 +5130,7 @@ msgid "Duplicate field name: %s"
 msgstr "Կրկնակի դաշտի անուն: %s"
 
 msgid "' not known. Available builtin terminals are:"
-msgstr "' անծանոթ է. Գոյուն ունեցող ներդրված տերմինալներն են:"
+msgstr "' անծանոթ է. Գոյութուն ունեցող ներդրված տերմինալները հետևյալն են․"
 
 msgid "defaulting to '"
 msgstr "по умолчанию '"
@@ -5165,7 +5167,7 @@ msgid "Used CUT_BUFFER0 instead of empty selection"
 msgstr "Вместо пустого выделения используется CUT_BUFFER0"
 
 msgid "E834: Line count changed unexpectedly"
-msgstr "E834: Неожиданно изменился счётчик строк"
+msgstr "E834: Տողերի քանակը անսպասելիորեն փոփոխվել է"
 
 msgid "No undo possible; continue anyway"
 msgstr "Չեղարկումն անհնար է; այնուամենայնիվ շարունակել"
@@ -5612,10 +5614,12 @@ msgid "E444: Cannot close last window"
 msgstr "E444: Հնարավոր չէ փակել պատուհանը"
 
 msgid "E813: Cannot close autocmd window"
-msgstr "E813: Нельзя закрыть окно автокоманд"
+msgstr "E813: Հնարավոր չէ փակել ինքնահրամանի պատուհանը"
 
 msgid "E814: Cannot close window, only autocmd window would remain"
-msgstr "E814: Нельзя закрыть окно, останется только окно автокоманд"
+msgstr ""
+"E814: Հնարավոր չէ փակել պատուհանը, միայն ինքնահրամանների պատուհանը կարող է "
+"մնալ"
 
 msgid "E445: Other window contains changes"
 msgstr "E445: Մեկ այլ պատուհանում կան փոփոխություններ"
@@ -5783,7 +5787,7 @@ msgstr ""
 "E27: Պարսկերենը հնարավոր չէ օգտագործել, այն անջատված է կառուցման ժամանակ\n"
 
 msgid "E800: Arabic cannot be used: Not enabled at compile time\n"
-msgstr "E800: Арабский выключен при компиляции\n"
+msgstr "E800: Արաբերենը հնարավոր չէ օգտագործել, միացված չէ կառուղման ժամանակ\n"
 
 msgid "E28: No such highlight group name: %s"
 msgstr "E28: Նման գունանշման խումբ չկա։ %s"
@@ -5885,7 +5889,7 @@ msgid "E46: Cannot change read-only variable \"%s\""
 msgstr "E46: Հնարավոր չէ փոփխել միայն կարդալու համար տրված փոփխականը \"%s\""
 
 msgid "E794: Cannot set variable in the sandbox: \"%s\""
-msgstr "E794: Невозможно изменить переменную в песочнице: \"%s\""
+msgstr "E794: Հնարավոր չէ ստեղծել փոփոխական sandbox֊ում: \"%s\""
 
 msgid "E47: Error while reading errorfile"
 msgstr "E47: Սխալների ֆայլի ընթերցման սխալ"
@@ -5933,7 +5937,7 @@ msgid "E78: Unknown mark"
 msgstr "E78: Անծանոթ նշում"
 
 msgid "E79: Cannot expand wildcards"
-msgstr "E79: Невозможно выполнить подстановку по маске"
+msgstr "E79: Հնարավոր չէ արտածել"
 
 msgid "E591: 'winheight' cannot be smaller than 'winminheight'"
 msgstr ""
@@ -5952,7 +5956,7 @@ msgid "Zero count"
 msgstr "Հաշվիչի զրոյական արժեք"
 
 msgid "E81: Using <SID> not in a script context"
-msgstr "E81: Использование <SID> вне контекста сценария"
+msgstr "E81: <SID> ֊ն օգտագործվել է սկրիպտային կոնտեքստից դուրս"
 
 msgid "E449: Invalid expression received"
 msgstr "E449: Ստացվել է սխալ արտահայտություն"
