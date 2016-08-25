@@ -62,7 +62,7 @@ msgstr ""
 "Project-Id-Version: vim_7.4_am\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-14 16:42+0400\n"
-"PO-Revision-Date: 2016-08-25 17:53+0400\n"
+"PO-Revision-Date: 2016-08-25 18:37+0400\n"
 "Last-Translator: Gagik Hakobyan <hakgagik@yahoo.com>\n"
 "Language-Team: \n"
 "Language: hy\n"
@@ -1065,7 +1065,7 @@ msgid "line %ld: sourcing \"%s\""
 msgstr "տող %ld: \"%s\"֊ի կցում"
 
 msgid "finished sourcing %s"
-msgstr "%s֊ի կցումը ավարտվել է"
+msgstr "%s֊ի կցումն ավարտվել է"
 
 msgid "modeline"
 msgstr "տողային ռեժիմ"
@@ -4098,7 +4098,7 @@ msgid "E237: Printer selection failed"
 msgstr "E237: Տպիչի անհաջող ընտրում"
 
 msgid "to %s on %s"
-msgstr "в %s на %s"
+msgstr "֊» %s ֊» %s"
 
 msgid "E613: Unknown printer font: %s"
 msgstr "E613: Անծանոթ տպագրման տառատեսակ %s"
@@ -4342,10 +4342,10 @@ msgid "E67: \\z1 et al. not allowed here"
 msgstr "E67: \\z1 և այլք աստեղ չեն թույլատրվում"
 
 msgid "E69: Missing ] after %s%%["
-msgstr "E69: Բացակայող ] после %s%%["
+msgstr "E69: Բացակայող ]  %s%%[֊ից հետո"
 
 msgid "E70: Empty %s%%[]"
-msgstr "E70: Пустое %s%%[]"
+msgstr "E70: Դատարկ %s%%[]"
 
 msgid "E339: Pattern too long"
 msgstr "E339: Անսխասելի երկար օրինակ"
@@ -4396,31 +4396,31 @@ msgid "External submatches:\n"
 msgstr "Արտաքին ենթահամընկնում:\n"
 
 msgid "used "
-msgstr "автоматическая машина"
+msgstr "օգտագործված"
 
 msgid "E866: (NFA regexp) Misplaced %c"
-msgstr "E866: (рег. выражение НКА) неожиданный %c"
+msgstr "E866: (NFA regexp) անսպասելի %c"
 
 msgid "E865: (NFA) Regexp end encountered prematurely"
-msgstr "E865: (НКА) неожиданный конец регулярного выражения"
+msgstr "E865: (NFA) Ռեգուլյար արտահայտթության անսպասելի ավարտ"
 
 msgid "E867: (NFA) Unknown operator '\\z%c'"
-msgstr "E867: (НКА) неизвестный оператор '\\z%c'"
+msgstr "E867: (NFA) անծանոթ հրաման '\\z%c'"
 
 msgid "E867: (NFA) Unknown operator '\\%%%c'"
-msgstr "E867: (НКА) неизвестный оператор '\\%%%c'"
+msgstr "E867: (NFA) անծանոթ հրաման '\\%%%c'"
 
 msgid "E868: Error building NFA with equivalence class!"
-msgstr "E868: ошибка при создании НКА с классом эквивалентности!"
+msgstr "E868: Սխալ՝ NFA կառուցման ընթացքում !"
 
 msgid "E869: (NFA) Unknown operator '\\@%c'"
-msgstr "E869: (НКА) неизвестный оператор '\\@%c'"
+msgstr "E869: (NFA) անծանոթ հրաման '\\@%c'"
 
 msgid "E870: (NFA regexp) Error reading repetition limits"
-msgstr "E870: (рег. выражение НКА) ошибка при чтении границ повторения"
+msgstr "E870: (NFA regexp) Կրկնման սահմանափակման ընթերցման սխալ"
 
 msgid "E871: (NFA regexp) Can't have a multi follow a multi !"
-msgstr "E871: (рег. выражение НКА) множество не может следовать за множеством!"
+msgstr "E871: (NFA regexp) Բազմությունը չի կարող հետևել բազմությանը!"
 
 msgid "E872: (NFA regexp) Too many '('"
 msgstr "E872: (NFA regexp) աննախադեպ շատ '('"
@@ -4429,10 +4429,10 @@ msgid "E879: (NFA regexp) Too many \\z("
 msgstr "E879: (NFA regexp) աննախադեպ շատ \\z("
 
 msgid "E873: (NFA regexp) proper termination error"
-msgstr "E873: (рег. выражение НКА) ошибка корректного завершения"
+msgstr "E873: (NFA regexp)  ավարտման սխալ"
 
 msgid "E874: (NFA) Could not pop the stack !"
-msgstr "E874: (рег. выражение НКА) невозможно взять из стека!"
+msgstr "E874: (NFA) Հնարավոր չէ ընթերցել ստեկից !"
 
 msgid ""
 "E875: (NFA regexp) (While converting from postfix to NFA), too many states "
@@ -4442,18 +4442,17 @@ msgstr ""
 "NFAփոխակերպման ընթացքում)"
 
 msgid "E876: (NFA regexp) Not enough space to store the whole NFA "
-msgstr "E876: (рег. выражение НКА) недостаточно места для хранения всего НКА"
+msgstr "E876:  (NFA regexp) Հիշողությունն անբավարար է՝ NFA֊ը պահպանելու համար"
 
 msgid "E999: (NFA regexp internal error) Should not process NOT node !"
-msgstr ""
-"E999: (erreur interne du regexp NFA) Un noeud 'NOT' ne devrait pas être "
-"traité !"
+msgstr "E999: (NFA regexp ներքին սխալ) Չպետք է այցելել NOT հանգույցը !"
 
 msgid "E877: (NFA regexp) Invalid character class "
-msgstr "E877: (regexp NFA) Classe de caractère invalide "
+msgstr "E877: (NFA regexp)  Սխալ դաս "
 
 msgid "E878: (NFA) Could not allocate memory for branch traversal!"
-msgstr "E878: (НКА) невозможно выделить память для прохода ветви!"
+msgstr ""
+"E878: (NFA) Ճյուղային այցելության համար հնարավոր չէ առանձնացնել հիշողություն!"
 
 msgid ""
 "Could not open temporary log file for writing, displaying on stderr ... "
@@ -4536,7 +4535,7 @@ msgid " (includes previously listed match)"
 msgstr " (ընդգրկում է նախկինում ցուցադրված համընկնումը)"
 
 msgid "--- Included files "
-msgstr "--- Կցվաֆայլեր "
+msgstr "--- Կցաֆայլեր "
 
 msgid "not found "
 msgstr "չի հայտնաբերվել "
@@ -4895,7 +4894,7 @@ msgid "syncing on C-style comments"
 msgstr "Синхронизация по комментариям в стиле языка C"
 
 msgid "no syncing"
-msgstr "без синхронизации"
+msgstr "առանց սինխրոնիզացման"
 
 msgid "syncing starts "
 msgstr "синхронизация начата "
@@ -5435,7 +5434,7 @@ msgstr ""
 "Փոքր տարբերակ\" "
 
 msgid "without GUI."
-msgstr "без графического интерфейса."
+msgstr "առանց գրաֆիկական ինտերֆեյսի"
 
 msgid "with GTK2-GNOME GUI."
 msgstr "с графическим интерфейсом GTK2-GNOME."
@@ -5561,7 +5560,7 @@ msgid "menu  Help->Orphans           for information    "
 msgstr "Ինֆորմացիա ստանալու համար գնալ - Օգնություն->Որբեր"
 
 msgid "Running modeless, typed text is inserted"
-msgstr "Безрежимная работа, զետեղում введённого текста"
+msgstr "Անռեժիմ վիճակ, հավաքած տեքստի զետեղում"
 
 msgid "menu  Edit->Global Settings->Toggle Insert Mode  "
 msgstr "меню Правка->Глобальные настройки->Режим Вставки                     "
@@ -6183,11 +6182,10 @@ msgid "failed to run the code"
 msgstr "Հնարավոր չեղավ կատարել կոդը"
 
 msgid "E858: Eval did not return a valid python object"
-msgstr "E858: Eval не возвратил допустимого объекта Python"
+msgstr "E858: Eval֊ը չի վերադարձրել վավեր Python օբյեկտ"
 
 msgid "E859: Failed to convert returned python object to vim value"
-msgstr ""
-"E859: Не удалось преобразовать возвращённый объект Python в значение VIM"
+msgstr "E859: Հնարավոր չէ փոխակերպել վերադարձված Python օբյեկը՝ VIM արժեքի"
 
 msgid "unable to convert %s to vim dictionary"
 msgstr "Անհնար է փոխել %s ֊ը VIM բառարանի"
